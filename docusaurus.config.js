@@ -56,9 +56,6 @@ const config = {
           alt: 'Logo',
           src: 'img/logo.png',
         },
-        items: [
-          {to: '/contact', label: 'Contact', position: 'left'},
-        ],
       },
       footer: {
         style: 'dark',
