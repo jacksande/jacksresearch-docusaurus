@@ -41,7 +41,7 @@ Click on any link below to display content in your own PDF reader.
 - [II John](/lds/bible-comparison/24-Interlinear-Inspired-Version-KJV-Greek-II-John-r6.pdf) 
 - [III John](/lds/bible-comparison/25-Interlinear-Inspired-Version-KJV-Greek-III-John-r6.pdf) 
 - [Jude](/lds/bible-comparison/26-Interlinear-Inspired-Version-KJV-Greek-Jude-r6.pdf) 
- [Revelation](/lds/bible-comparison/27-Interlinear-Inspired-Version-KJV-Greek-Revelation-r6.pdf) 
+- [Revelation](/lds/bible-comparison/27-Interlinear-Inspired-Version-KJV-Greek-Revelation-r6.pdf) 
 
 ### Inspired Version App
 
@@ -49,4 +49,4 @@ Joseph Smith's Inspired Version compared to the King James Version with Greek te
 
 [![Get it on Google Play](https://i0.wp.com/play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png?w=150)](https://play.google.com/store/apps/details?id=com.jacksresearch.ivinterlinearkjv)
 
-[![Get it on Apple App Store](https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-03-15&amp;kind=iossoftware&amp;bubble=apple_music)](https://itunes.apple.com/us/app/iv-kjv/id1456015285?mt=8)
+[![Download on App Store](https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-03-15&amp;kind=iossoftware&amp;bubble=apple_music)](https://apps.apple.com/us/app/iv-kjv/id1456015285)
