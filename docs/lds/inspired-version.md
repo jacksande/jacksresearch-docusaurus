@@ -49,4 +49,7 @@ Joseph Smith's Inspired Version compared to the King James Version with Greek te
 
 [![Get it on Google Play](https://i0.wp.com/play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png?w=150)](https://play.google.com/store/apps/details?id=com.jacksresearch.ivinterlinearkjv)
 
-[![Download on App Store](https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-03-15&amp;kind=iossoftware&amp;bubble=apple_music)](https://apps.apple.com/us/app/iv-kjv/id1456015285)
+    <a href="https://apps.apple.com/us/app/iv-kjv/id1456015285?itscg=30200&itsct=apps_box_badge&mttnsubad=1456015285" style="display: inline-block;">
+    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1552780800" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+    </a>
+    
