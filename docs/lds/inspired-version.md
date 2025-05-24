@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import Link from '@docusaurus/Link';
+
 # Inspired Version
 
 ### Comparison of Inspired Version, Greek-English, & KJV
@@ -47,9 +49,6 @@ Click on any link below to display content in your own PDF reader.
 
 Joseph Smith's Inspired Version compared to the King James Version with Greek text.
 
-[![Get it on Google Play](https://i0.wp.com/play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png?w=150)](https://play.google.com/store/apps/details?id=com.jacksresearch.ivinterlinearkjv)
+[![Download on the App Store](./img/googleplay.png)](https://play.google.com/store/apps/details?id=com.jacksresearch.ivinterlinearkjv)
 
-    <a href="https://apps.apple.com/us/app/iv-kjv/id1456015285?itscg=30200&itsct=apps_box_badge&mttnsubad=1456015285" style="display: inline-block;">
-    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1552780800" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
-    </a>
-    
+[![Download on the App Store](./img/appstore.png)](https://apps.apple.com/us/app/iv-kjv/id1456015285)

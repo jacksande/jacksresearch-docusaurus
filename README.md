@@ -5,7 +5,7 @@ This website is built using [Docusaurus 3](https://docusaurus.io/), a modern sta
 Make any edits you want to the Markdown files. Then view changes you've made:
 
 ```bash
-npx docusaurus serve
+npx docusaurus start
 ```
 
 Build the website:
