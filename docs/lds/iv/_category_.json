@@ -1,0 +1,10 @@
+{
+  "label": "IV KJV Comparison",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "The Inspired Version of the Bible by Joseph Smith."
+  }
+}
