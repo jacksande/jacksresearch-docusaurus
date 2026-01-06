@@ -4,341 +4,196 @@ hide_table_of_contents: true
 sidebar_position: 31
 ---
 
+import VerseRow from '@site/src/components/VerseRow';
+
 <div className="bible-book-container">
-  <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:1)</div>
-      <div className="verse-text">The vision of Obadiah: Thus saith the Lord God concerning Edom: We have heard a rumor from the Lord, and an ambassador is sent among the heathen. Arise ye, and let us rise up against her in battle.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:1)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/2377.htm" target="_blank" rel="noopener noreferrer">חֲז֖וֹן</a> ([This is] the vision) <a href="https://biblehub.com/hebrew/5662.htm" target="_blank" rel="noopener noreferrer">עֹֽבַדְיָ֑ה</a> (of Obadiah): <a href="https://biblehub.com/hebrew/3541.htm" target="_blank" rel="noopener noreferrer">כֹּֽה־</a> (This is what) <a href="https://biblehub.com/hebrew/559.htm" target="_blank" rel="noopener noreferrer">אָמַר֩</a> (says) <a href="https://biblehub.com/hebrew/136.htm" target="_blank" rel="noopener noreferrer">אֲדֹנָ֨י</a> (the Lord) <a href="https://biblehub.com/hebrew/3069.htm" target="_blank" rel="noopener noreferrer">יְהוִ֜ה</a> (GOD) <a href="https://biblehub.com/hebrew/123.htm" target="_blank" rel="noopener noreferrer">לֶאֱד֗וֹם</a> (about Edom)— <a href="https://biblehub.com/hebrew/8052.htm" target="_blank" rel="noopener noreferrer">שְׁמוּעָ֨ה</a> (a message) <a href="https://biblehub.com/hebrew/8085.htm" target="_blank" rel="noopener noreferrer">שָׁמַ֜עְנוּ</a> (We have heard) <a href="https://biblehub.com/hebrew/854.htm" target="_blank" rel="noopener noreferrer">מֵאֵ֤ת</a> (. . .) <a href="https://biblehub.com/hebrew/3068.htm" target="_blank" rel="noopener noreferrer">יְהוָה֙</a> (from the LORD); <a href="https://biblehub.com/hebrew/6735.htm" target="_blank" rel="noopener noreferrer">וְצִיר֙</a> (an envoy) <a href="https://biblehub.com/hebrew/1471.htm" target="_blank" rel="noopener noreferrer">בַּגּוֹיִ֣ם</a> (among the nations) <a href="https://biblehub.com/hebrew/7971.htm" target="_blank" rel="noopener noreferrer">שֻׁלָּ֔ח</a> (has been sent) <a href="https://biblehub.com/hebrew/6965.htm" target="_blank" rel="noopener noreferrer">ק֛וּמוּ</a> ([to say,] “Rise up), <a href="https://biblehub.com/hebrew/6965.htm" target="_blank" rel="noopener noreferrer">וְנָק֥וּמָה</a> (and let us go) <a href="https://biblehub.com/hebrew/5921.htm" target="_blank" rel="noopener noreferrer">עָלֶיהָ</a> (against her)!”— <a href="https://biblehub.com/hebrew/4421.htm" target="_blank" rel="noopener noreferrer">לַמִּלְחָמָֽה׃</a> (to battle) </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:1)</div>
-      <div className="verse-text">The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumor from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:2)</div>
-      <div className="verse-text">Behold, I have made thee small among the heathen; thou art greatly despised.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:2)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/2009.htm" target="_blank" rel="noopener noreferrer">הִנֵּ֥ה</a> (Behold), <a href="https://biblehub.com/hebrew/6996.htm" target="_blank" rel="noopener noreferrer">קָטֹ֛ן</a> (small) <a href="https://biblehub.com/hebrew/5414.htm" target="_blank" rel="noopener noreferrer">נְתַתִּ֖יךָ</a> (I will make you) <a href="https://biblehub.com/hebrew/1471.htm" target="_blank" rel="noopener noreferrer">בַּגּוֹיִ֑ם</a> (among the nations); <a href="https://biblehub.com/hebrew/959.htm" target="_blank" rel="noopener noreferrer">בָּז֥וּי</a> (despised). <a href="https://biblehub.com/hebrew/859.htm" target="_blank" rel="noopener noreferrer">אַתָּ֖ה</a> (you) <a href="https://biblehub.com/hebrew/3966.htm" target="_blank" rel="noopener noreferrer">מְאֹֽד׃</a> (will be deeply) </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:2)</div>
-      <div className="verse-text">Behold, I have made thee small among the heathen: thou art greatly despised.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:3)</div>
-      <div className="verse-text">The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high, that saith in his heart, Who shall bring me down to the ground?</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:3)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/2087.htm" target="_blank" rel="noopener noreferrer">זְד֤וֹן</a> (The pride) <a href="https://biblehub.com/hebrew/3820.htm" target="_blank" rel="noopener noreferrer">לִבְּךָ֙</a> (of your heart) <a href="https://biblehub.com/hebrew/5377.htm" target="_blank" rel="noopener noreferrer">הִשִּׁיאֶ֔ךָ</a> (has deceived you), <a href="https://biblehub.com/hebrew/7931.htm" target="_blank" rel="noopener noreferrer">שֹׁכְנִ֥י</a> (O dwellers) <a href="https://biblehub.com/hebrew/2288.htm" target="_blank" rel="noopener noreferrer">בְחַגְוֵי־</a> (in the clefts) <a href="https://biblehub.com/hebrew/5553.htm" target="_blank" rel="noopener noreferrer">סֶּ֖לַע</a> (of the rocks) <a href="https://biblehub.com/hebrew/4791.htm" target="_blank" rel="noopener noreferrer">מְר֣וֹם</a> (the heights), <a href="https://biblehub.com/hebrew/7675.htm" target="_blank" rel="noopener noreferrer">שִׁבְתּ֑וֹ</a> (whose habitation is) <a href="https://biblehub.com/hebrew/559.htm" target="_blank" rel="noopener noreferrer">אֹמֵ֣ר</a> (who say) <a href="https://biblehub.com/hebrew/3820.htm" target="_blank" rel="noopener noreferrer">בְּלִבּ֔וֹ</a> (in your heart), <a href="https://biblehub.com/hebrew/4310.htm" target="_blank" rel="noopener noreferrer">מִ֥י</a> (Who) <a href="https://biblehub.com/hebrew/3381.htm" target="_blank" rel="noopener noreferrer">יוֹרִדֵ֖נִי</a> (can bring me down) <a href="https://biblehub.com/hebrew/776.htm" target="_blank" rel="noopener noreferrer">אָֽרֶץ׃</a> (to the ground)? </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:3)</div>
-      <div className="verse-text">The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:4)</div>
-      <div className="verse-text">Though thou exalt thyself as the eagle and though thou set thy nest among the stars, thence will I bring thee down, saith the Lord.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:4)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/518.htm" target="_blank" rel="noopener noreferrer">אִם־</a> (Though) <a href="https://biblehub.com/hebrew/1361.htm" target="_blank" rel="noopener noreferrer">תַּגְבִּ֣יהַּ</a> (you soar) <a href="https://biblehub.com/hebrew/5404.htm" target="_blank" rel="noopener noreferrer">כַּנֶּ֔שֶׁר</a> (like the eagle) <a href="https://biblehub.com/hebrew/518.htm" target="_blank" rel="noopener noreferrer">וְאִם־</a> (. . .) <a href="https://biblehub.com/hebrew/996.htm" target="_blank" rel="noopener noreferrer">בֵּ֥ין</a> (among) <a href="https://biblehub.com/hebrew/3556.htm" target="_blank" rel="noopener noreferrer">כּֽוֹכָבִ֖ים</a> (the stars), <a href="https://biblehub.com/hebrew/7760.htm" target="_blank" rel="noopener noreferrer">שִׂ֣ים</a> (and make) <a href="https://biblehub.com/hebrew/7064.htm" target="_blank" rel="noopener noreferrer">קִנֶּ֑ךָ</a> (your nest) <a href="https://biblehub.com/hebrew/8033.htm" target="_blank" rel="noopener noreferrer">מִשָּׁ֥ם</a> (even from there) <a href="https://biblehub.com/hebrew/3381.htm" target="_blank" rel="noopener noreferrer">אוֹרִֽידְךָ֖</a> (I will bring you down), <a href="https://biblehub.com/hebrew/5002.htm" target="_blank" rel="noopener noreferrer">נְאֻם־</a> (declares) <a href="https://biblehub.com/hebrew/3068.htm" target="_blank" rel="noopener noreferrer">יְהוָֽה׃</a> (the LORD). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:4)</div>
-      <div className="verse-text">Though thou exalt thyself as the eagle, and though thou set thy nest among the stars, thence will I bring thee down, saith the LORD.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:5)</div>
-      <div className="verse-text">If thieves came to thee, if robbers by night--how art thou cut off!--would they not have stolen till they had enough? If the <b>grape-gatherers</b> came to thee, would they not leave some grapes?</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:5)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/518.htm" target="_blank" rel="noopener noreferrer">אִם־</a> (If) <a href="https://biblehub.com/hebrew/1590.htm" target="_blank" rel="noopener noreferrer">גַּנָּבִ֤ים</a> (thieves) <a href="https://biblehub.com/hebrew/935.htm" target="_blank" rel="noopener noreferrer">בָּאֽוּ־</a> (came) לְךָ֙ (to you), <a href="https://biblehub.com/hebrew/518.htm" target="_blank" rel="noopener noreferrer">אִם־</a> (if) <a href="https://biblehub.com/hebrew/7703.htm" target="_blank" rel="noopener noreferrer">שׁ֣וֹדְדֵי</a> (robbers) <a href="https://biblehub.com/hebrew/3915.htm" target="_blank" rel="noopener noreferrer">לַ֔יְלָה</a> (by night)— <a href="https://biblehub.com/hebrew/349.htm" target="_blank" rel="noopener noreferrer">אֵ֣יךְ</a> (oh, how) <a href="https://biblehub.com/hebrew/1820.htm" target="_blank" rel="noopener noreferrer">נִדְמֵ֔יתָה</a> (you will be ruined)— <a href="https://biblehub.com/hebrew/3808.htm" target="_blank" rel="noopener noreferrer">הֲל֥וֹא</a> (would they not) <a href="https://biblehub.com/hebrew/1589.htm" target="_blank" rel="noopener noreferrer">יִגְנְב֖וּ</a> (steal) <a href="https://biblehub.com/hebrew/1767.htm" target="_blank" rel="noopener noreferrer">דַּיָּ֑ם</a> ([only] what they wanted)? <a href="https://biblehub.com/hebrew/518.htm" target="_blank" rel="noopener noreferrer">אִם־</a> (If) <a href="https://biblehub.com/hebrew/1219.htm" target="_blank" rel="noopener noreferrer">בֹּֽצְרִים֙</a> (grape gatherers) <a href="https://biblehub.com/hebrew/935.htm" target="_blank" rel="noopener noreferrer">בָּ֣אוּ</a> (came) לָ֔ךְ (to you), <a href="https://biblehub.com/hebrew/3808.htm" target="_blank" rel="noopener noreferrer">הֲל֖וֹא</a> (would they not) <a href="https://biblehub.com/hebrew/7604.htm" target="_blank" rel="noopener noreferrer">יַשְׁאִ֥ירוּ</a> (leave) <a href="https://biblehub.com/hebrew/5955.htm" target="_blank" rel="noopener noreferrer">עֹלֵלֽוֹת׃</a> ([some] gleanings)? </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:5)</div>
-      <div className="verse-text">If thieves came to thee, if robbers by night, (how art thou cut off!) would they not have stolen till they had enough? if the <b>grape gatherers</b> came to thee, would they not leave some grapes?</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:6)</div>
-      <div className="verse-text">How are the things of Esau searched out! How are his hidden things sought up!</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:6)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/349.htm" target="_blank" rel="noopener noreferrer">אֵ֚יךְ</a> (But how) <a href="https://biblehub.com/hebrew/2664.htm" target="_blank" rel="noopener noreferrer">נֶחְפְּשׂ֣וּ</a> (will be pillaged), <a href="https://biblehub.com/hebrew/6215.htm" target="_blank" rel="noopener noreferrer">עֵשָׂ֔ו</a> (Esau) <a href="https://biblehub.com/hebrew/1158.htm" target="_blank" rel="noopener noreferrer">נִבְע֖וּ</a> (sought out)! <a href="https://biblehub.com/hebrew/4710.htm" target="_blank" rel="noopener noreferrer">מַצְפֻּנָֽיו׃</a> (his hidden treasures) </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:6)</div>
-      <div className="verse-text">How are the things of Esau searched out! how are his hidden things sought up!</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:7)</div>
-      <div className="verse-text">All the men of thy confederacy have brought thee even to the border; the men that were at peace with thee have deceived thee and prevailed against thee; they that eat thy bread have laid a wound under thee; there is none understanding in him.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:7)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/5704.htm" target="_blank" rel="noopener noreferrer">עַֽד־</a> (you to) <a href="https://biblehub.com/hebrew/1366.htm" target="_blank" rel="noopener noreferrer">הַגְּב֣וּל</a> (the border); <a href="https://biblehub.com/hebrew/7971.htm" target="_blank" rel="noopener noreferrer">שִׁלְּח֗וּךָ</a> (will drive) <a href="https://biblehub.com/hebrew/3605.htm" target="_blank" rel="noopener noreferrer">כֹּ֚ל</a> (All) <a href="https://biblehub.com/hebrew/582.htm" target="_blank" rel="noopener noreferrer">אַנְשֵׁ֣י</a> (the men) <a href="https://biblehub.com/hebrew/1285.htm" target="_blank" rel="noopener noreferrer">בְרִיתֶ֔ךָ</a> (allied with you) <a href="https://biblehub.com/hebrew/5377.htm" target="_blank" rel="noopener noreferrer">הִשִּׁיא֛וּךָ</a> (will deceive) <a href="https://biblehub.com/hebrew/3201.htm" target="_blank" rel="noopener noreferrer">יָכְל֥וּ</a> (and overpower) לְךָ֖ (you). <a href="https://biblehub.com/hebrew/582.htm" target="_blank" rel="noopener noreferrer">אַנְשֵׁ֣י</a> (the men) <a href="https://biblehub.com/hebrew/7965.htm" target="_blank" rel="noopener noreferrer">שְׁלֹמֶ֑ךָ</a> (at peace with you) <a href="https://biblehub.com/hebrew/3899.htm" target="_blank" rel="noopener noreferrer">לַחְמְךָ֗</a> ([Those who eat] your bread) <a href="https://biblehub.com/hebrew/7760.htm" target="_blank" rel="noopener noreferrer">יָשִׂ֤ימוּ</a> (will set) <a href="https://biblehub.com/hebrew/4204.htm" target="_blank" rel="noopener noreferrer">מָזוֹר֙</a> (a trap) <a href="https://biblehub.com/hebrew/8478.htm" target="_blank" rel="noopener noreferrer">תַּחְתֶּ֔יךָ</a> (for you) <a href="https://biblehub.com/hebrew/369.htm" target="_blank" rel="noopener noreferrer">אֵ֥ין</a> (without your) <a href="https://biblehub.com/hebrew/8394.htm" target="_blank" rel="noopener noreferrer">תְּבוּנָ֖ה</a> (awareness) <a href="https://biblehub.com/hebrew/8055.htm" target="_blank" rel="noopener noreferrer">בּֽוֹ׃</a> (of it). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:7)</div>
-      <div className="verse-text">All the men of thy confederacy have brought thee even to the border: the men that were at peace with thee have deceived thee, and prevailed against thee; they that eat thy bread have laid a wound under thee: there is none understanding in him.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:8)</div>
-      <div className="verse-text">Shall I not in that day, saith the Lord, even destroy the wise men out of Edom and understanding out of the mount of Esau?</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:8)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/3808.htm" target="_blank" rel="noopener noreferrer">הֲל֛וֹא</a> (will I not) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בַּיּ֥וֹם</a> (day), <a href="https://biblehub.com/hebrew/1931.htm" target="_blank" rel="noopener noreferrer">הַה֖וּא</a> (In that) <a href="https://biblehub.com/hebrew/5002.htm" target="_blank" rel="noopener noreferrer">נְאֻם־</a> (declares) <a href="https://biblehub.com/hebrew/3068.htm" target="_blank" rel="noopener noreferrer">יְהוָ֑ה</a> (the LORD), <a href="https://biblehub.com/hebrew/6.htm" target="_blank" rel="noopener noreferrer">וְהַאֲבַדְתִּ֤י</a> (destroy) <a href="https://biblehub.com/hebrew/2450.htm" target="_blank" rel="noopener noreferrer">חֲכָמִים֙</a> (the wise [men]) <a href="https://biblehub.com/hebrew/123.htm" target="_blank" rel="noopener noreferrer">מֵֽאֱד֔וֹם</a> (of Edom) <a href="https://biblehub.com/hebrew/8394.htm" target="_blank" rel="noopener noreferrer">וּתְבוּנָ֖ה</a> (and the men of understanding) <a href="https://biblehub.com/hebrew/2022.htm" target="_blank" rel="noopener noreferrer">מֵהַ֥ר</a> (in the mountains) <a href="https://biblehub.com/hebrew/6215.htm" target="_blank" rel="noopener noreferrer">עֵשָֽׂו׃</a> (of Esau)? </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:8)</div>
-      <div className="verse-text">Shall I not in that day, saith the LORD, even destroy the wise men out of Edom, and understanding out of the mount of Esau?</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:9)</div>
-      <div className="verse-text">And thy mighty men, O Teman, shall be dismayed, to the end that every one of the mount of Esau may be cut off by slaughter.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:9)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/2865.htm" target="_blank" rel="noopener noreferrer">וְחַתּ֥וּ</a> (will be terrified), <a href="https://biblehub.com/hebrew/1368.htm" target="_blank" rel="noopener noreferrer">גִבּוֹרֶ֖יךָ</a> (Then your mighty men), <a href="https://biblehub.com/hebrew/8487.htm" target="_blank" rel="noopener noreferrer">תֵּימָ֑ן</a> (O Teman), <a href="https://biblehub.com/hebrew/4616.htm" target="_blank" rel="noopener noreferrer">לְמַ֧עַן</a> (so that) <a href="https://biblehub.com/hebrew/3772.htm" target="_blank" rel="noopener noreferrer">יִכָּֽרֶת־</a> (will be cut down) <a href="https://biblehub.com/hebrew/376.htm" target="_blank" rel="noopener noreferrer">אִ֛ישׁ</a> (everyone) <a href="https://biblehub.com/hebrew/2022.htm" target="_blank" rel="noopener noreferrer">מֵהַ֥ר</a> (in the mountains) <a href="https://biblehub.com/hebrew/6215.htm" target="_blank" rel="noopener noreferrer">עֵשָׂ֖ו</a> (of Esau) <a href="https://biblehub.com/hebrew/6993.htm" target="_blank" rel="noopener noreferrer">מִקָּֽטֶל׃</a> (in the slaughter). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:9)</div>
-      <div className="verse-text">And thy mighty men, O Teman, shall be dismayed, to the end that every one of the mount of Esau may be cut off by slaughter.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:10)</div>
-      <div className="verse-text">For thy violence against thy brother Jacob, shame shall cover thee; and thou shalt be cut off for ever.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:10)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/2555.htm" target="_blank" rel="noopener noreferrer">מֵחֲמַ֛ס</a> (Because of the violence) <a href="https://biblehub.com/hebrew/251.htm" target="_blank" rel="noopener noreferrer">אָחִ֥יךָ</a> (against your brother) <a href="https://biblehub.com/hebrew/3290.htm" target="_blank" rel="noopener noreferrer">יַעֲקֹ֖ב</a> (Jacob), <a href="https://biblehub.com/hebrew/3680.htm" target="_blank" rel="noopener noreferrer">תְּכַסְּךָ֣</a> (you will be covered) <a href="https://biblehub.com/hebrew/955.htm" target="_blank" rel="noopener noreferrer">בוּשָׁ֑ה</a> (with shame) <a href="https://biblehub.com/hebrew/3772.htm" target="_blank" rel="noopener noreferrer">וְנִכְרַ֖תָּ</a> (and cut off) <a href="https://biblehub.com/hebrew/5769.htm" target="_blank" rel="noopener noreferrer">לְעוֹלָֽם׃</a> (forever). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:10)</div>
-      <div className="verse-text">For thy violence against thy brother Jacob shame shall cover thee, and thou shalt be cut off for ever.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:11)</div>
-      <div className="verse-text">In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates and cast lots upon Jerusalem, even thou wast as one of them.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:11)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּיוֹם֙</a> (On the day) <a href="https://biblehub.com/hebrew/5975.htm" target="_blank" rel="noopener noreferrer">עֲמָֽדְךָ֣</a> (you stood) <a href="https://biblehub.com/hebrew/5048.htm" target="_blank" rel="noopener noreferrer">מִנֶּ֔גֶד</a> (aloof) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֛וֹם</a> (while) <a href="https://biblehub.com/hebrew/7617.htm" target="_blank" rel="noopener noreferrer">שְׁב֥וֹת</a> (carried off) <a href="https://biblehub.com/hebrew/2114.htm" target="_blank" rel="noopener noreferrer">זָרִ֖ים</a> (strangers) <a href="https://biblehub.com/hebrew/2428.htm" target="_blank" rel="noopener noreferrer">חֵיל֑וֹ</a> (his wealth) <a href="https://biblehub.com/hebrew/5237.htm" target="_blank" rel="noopener noreferrer">וְנָכְרִ֞ים</a> (and foreigners) <a href="https://biblehub.com/hebrew/935.htm" target="_blank" rel="noopener noreferrer">בָּ֣אוּ</a> (entered) <a href="https://biblehub.com/hebrew/8179.htm" target="_blank" rel="noopener noreferrer">שַׁעֲרוֹ</a> (his gate) <a href="https://biblehub.com/hebrew/5921.htm" target="_blank" rel="noopener noreferrer">וְעַל־</a> (for) <a href="https://biblehub.com/hebrew/3389.htm" target="_blank" rel="noopener noreferrer">יְרוּשָׁלִַ֙ם֙</a> (Jerusalem), <a href="https://biblehub.com/hebrew/3032.htm" target="_blank" rel="noopener noreferrer">יַדּ֣וּ</a> (and cast) <a href="https://biblehub.com/hebrew/1486.htm" target="_blank" rel="noopener noreferrer">גוֹרָ֔ל</a> (lots) <a href="https://biblehub.com/hebrew/1571.htm" target="_blank" rel="noopener noreferrer">גַּם־</a> (. . .) <a href="https://biblehub.com/hebrew/859.htm" target="_blank" rel="noopener noreferrer">אַתָּ֖ה</a> (you) <a href="https://biblehub.com/hebrew/259.htm" target="_blank" rel="noopener noreferrer">כְּאַחַ֥ד</a> (were just like one) מֵהֶֽם׃ (of them). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:11)</div>
-      <div className="verse-text">In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates, and cast lots upon Jerusalem, even thou wast as one of them.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:12)</div>
-      <div className="verse-text">But thou shouldest not have looked on the day of thy brother in the day that he became a stranger; neither shouldest thou have rejoiced over the children of Judah in the day of their destruction; neither shouldest thou have spoken proudly in the day of distress.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:12)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">וְאַל־</a> (But you should not) <a href="https://biblehub.com/hebrew/7200.htm" target="_blank" rel="noopener noreferrer">תֵּ֤רֶא</a> (gloat) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְיוֹם־</a> (in that day), <a href="https://biblehub.com/hebrew/251.htm" target="_blank" rel="noopener noreferrer">אָחִ֙יךָ֙</a> (your brother’s) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֣וֹם</a> (day) <a href="https://biblehub.com/hebrew/5235.htm" target="_blank" rel="noopener noreferrer">נָכְר֔וֹ</a> (of misfortune), <a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">וְאַל־</a> (nor) <a href="https://biblehub.com/hebrew/8055.htm" target="_blank" rel="noopener noreferrer">תִּשְׂמַ֥ח</a> (rejoice) <a href="https://biblehub.com/hebrew/1121.htm" target="_blank" rel="noopener noreferrer">לִבְנֵֽי־</a> (over the people) <a href="https://biblehub.com/hebrew/3063.htm" target="_blank" rel="noopener noreferrer">יְהוּדָ֖ה</a> (of Judah) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֣וֹם</a> (in the day) <a href="https://biblehub.com/hebrew/6.htm" target="_blank" rel="noopener noreferrer">אָבְדָ֑ם</a> (of their destruction), <a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">וְאַל־</a> (nor) <a href="https://biblehub.com/hebrew/1431.htm" target="_blank" rel="noopener noreferrer">תַּגְדֵּ֥ל</a> (boast proudly) <a href="https://biblehub.com/hebrew/6310.htm" target="_blank" rel="noopener noreferrer">פִּ֖יךָ</a> (. . .) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֥וֹם</a> (in the day) <a href="https://biblehub.com/hebrew/6869.htm" target="_blank" rel="noopener noreferrer">צָרָֽה׃</a> (of their distress). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:12)</div>
-      <div className="verse-text">But thou shouldest not have looked on the day of thy brother in the day that he became a stranger; neither shouldest thou have rejoiced over the children of Judah in the day of their destruction; neither shouldest thou have spoken proudly in the day of distress.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:13)</div>
-      <div className="verse-text">Thou shouldest not have entered into the gate of my people in the day of their calamity; yea, thou shouldest not have looked on their affliction in the day of their calamity nor have laid hands on their substance in the day of their calamity;</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:13)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">אַל־</a> (You should not) <a href="https://biblehub.com/hebrew/935.htm" target="_blank" rel="noopener noreferrer">תָּב֤וֹא</a> (enter) <a href="https://biblehub.com/hebrew/8179.htm" target="_blank" rel="noopener noreferrer">בְשַֽׁעַר־</a> (the gate) <a href="https://biblehub.com/hebrew/5971.htm" target="_blank" rel="noopener noreferrer">עַמִּי֙</a> (of My people) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֣וֹם</a> (in the day) <a href="https://biblehub.com/hebrew/343.htm" target="_blank" rel="noopener noreferrer">אֵידָ֔ם</a> (of their disaster), <a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">אַל־</a> (nor) <a href="https://biblehub.com/hebrew/7200.htm" target="_blank" rel="noopener noreferrer">תֵּ֧רֶא</a> (gloat) <a href="https://biblehub.com/hebrew/1571.htm" target="_blank" rel="noopener noreferrer">גַם־</a> (over) <a href="https://biblehub.com/hebrew/859.htm" target="_blank" rel="noopener noreferrer">אַתָּ֛ה</a> (-) <a href="https://biblehub.com/hebrew/7451.htm" target="_blank" rel="noopener noreferrer">בְּרָעָת֖וֹ</a> (their affliction) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֣וֹם</a> (in the day) <a href="https://biblehub.com/hebrew/343.htm" target="_blank" rel="noopener noreferrer">אֵיד֑וֹ</a> (of their disaster), <a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">וְאַל־</a> (nor) <a href="https://biblehub.com/hebrew/7971.htm" target="_blank" rel="noopener noreferrer">תִּשְׁלַ֥חְנָה</a> (loot) <a href="https://biblehub.com/hebrew/2428.htm" target="_blank" rel="noopener noreferrer">בְחֵיל֖וֹ</a> (their wealth) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֥וֹם</a> (in the day) <a href="https://biblehub.com/hebrew/343.htm" target="_blank" rel="noopener noreferrer">אֵידֽוֹ׃</a> (of their disaster). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:13)</div>
-      <div className="verse-text">Thou shouldest not have entered into the gate of my people in the day of their calamity; yea, thou shouldest not have looked on their affliction in the day of their calamity, nor have laid hands on their substance in the day of their calamity;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:14)</div>
-      <div className="verse-text">Neither shouldest thou have stood in the crossway, to cut off those of his that did escape; neither shouldest thou have delivered up those of his that did remain in the day of distress.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:14)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">וְאַֽל־</a> (Nor should you) <a href="https://biblehub.com/hebrew/5975.htm" target="_blank" rel="noopener noreferrer">תַּעֲמֹד֙</a> (stand) <a href="https://biblehub.com/hebrew/5921.htm" target="_blank" rel="noopener noreferrer">עַל־</a> (at) <a href="https://biblehub.com/hebrew/6563.htm" target="_blank" rel="noopener noreferrer">הַפֶּ֔רֶק</a> (the crossroads) <a href="https://biblehub.com/hebrew/3772.htm" target="_blank" rel="noopener noreferrer">לְהַכְרִ֖ית</a> (to cut off) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֶת־</a> (-) <a href="https://biblehub.com/hebrew/6412.htm" target="_blank" rel="noopener noreferrer">פְּלִיטָ֑יו</a> (their fugitives), <a href="https://biblehub.com/hebrew/408.htm" target="_blank" rel="noopener noreferrer">וְאַל־</a> (nor) <a href="https://biblehub.com/hebrew/5462.htm" target="_blank" rel="noopener noreferrer">תַּסְגֵּ֥ר</a> (deliver up) <a href="https://biblehub.com/hebrew/8300.htm" target="_blank" rel="noopener noreferrer">שְׂרִידָ֖יו</a> (their survivors) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">בְּי֥וֹם</a> (in the day) <a href="https://biblehub.com/hebrew/6869.htm" target="_blank" rel="noopener noreferrer">צָרָֽה׃</a> (of their distress). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:14)</div>
-      <div className="verse-text">Neither shouldest thou have stood in the crossway, to cut off those of his that did escape; neither shouldest thou have delivered up those of his that did remain in the day of distress.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:15)</div>
-      <div className="verse-text">For the day of the Lord is near upon all the heathen; as thou hast done, it shall be done unto thee; thy reward shall return upon thine own head.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:15)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/3588.htm" target="_blank" rel="noopener noreferrer">כִּֽי־</a> (For) <a href="https://biblehub.com/hebrew/7138.htm" target="_blank" rel="noopener noreferrer">קָר֥וֹב</a> (is near) <a href="https://biblehub.com/hebrew/3117.htm" target="_blank" rel="noopener noreferrer">יוֹם־</a> (the Day) <a href="https://biblehub.com/hebrew/3068.htm" target="_blank" rel="noopener noreferrer">יְהוָ֖ה</a> (of the LORD) <a href="https://biblehub.com/hebrew/5921.htm" target="_blank" rel="noopener noreferrer">עַל־</a> (for) <a href="https://biblehub.com/hebrew/3605.htm" target="_blank" rel="noopener noreferrer">כָּל־</a> (all) <a href="https://biblehub.com/hebrew/1471.htm" target="_blank" rel="noopener noreferrer">הַגּוֹיִ֑ם</a> (the nations). <a href="https://biblehub.com/hebrew/834.htm" target="_blank" rel="noopener noreferrer">כַּאֲשֶׁ֤ר</a> (As) <a href="https://biblehub.com/hebrew/6213.htm" target="_blank" rel="noopener noreferrer">עָשִׂ֙יתָ֙</a> (you have done), <a href="https://biblehub.com/hebrew/6213.htm" target="_blank" rel="noopener noreferrer">יֵעָ֣שֶׂה</a> (it will be done) לָּ֔ךְ (to you); <a href="https://biblehub.com/hebrew/1576.htm" target="_blank" rel="noopener noreferrer">גְּמֻלְךָ֖</a> (your recompense) <a href="https://biblehub.com/hebrew/7725.htm" target="_blank" rel="noopener noreferrer">יָשׁ֥וּב</a> (will return) <a href="https://biblehub.com/hebrew/7218.htm" target="_blank" rel="noopener noreferrer">בְּרֹאשֶֽׁךָ׃</a> (upon your own head). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:15)</div>
-      <div className="verse-text">For the day of the LORD is near upon all the heathen: as thou hast done, it shall be done unto thee: thy reward shall return upon thine own head.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:16)</div>
-      <div className="verse-text">For as ye have drunk upon my holy mountain, so shall all the heathen drink continually; yea, they shall drink, and they shall swallow down, and they shall be as though they had not been.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:16)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/3588.htm" target="_blank" rel="noopener noreferrer">כִּ֗י</a> (For) <a href="https://biblehub.com/hebrew/834.htm" target="_blank" rel="noopener noreferrer">כַּֽאֲשֶׁ֤ר</a> (as) <a href="https://biblehub.com/hebrew/8354.htm" target="_blank" rel="noopener noreferrer">שְׁתִיתֶם֙</a> (you drank) <a href="https://biblehub.com/hebrew/5921.htm" target="_blank" rel="noopener noreferrer">עַל־</a> (on) <a href="https://biblehub.com/hebrew/2022.htm" target="_blank" rel="noopener noreferrer">הַ֣ר</a> (mountain), <a href="https://biblehub.com/hebrew/6944.htm" target="_blank" rel="noopener noreferrer">קָדְשִׁ֔י</a> (My holy) <a href="https://biblehub.com/hebrew/8354.htm" target="_blank" rel="noopener noreferrer">יִשְׁתּ֥וּ</a> (will drink) <a href="https://biblehub.com/hebrew/3605.htm" target="_blank" rel="noopener noreferrer">כָֽל־</a> (so all) <a href="https://biblehub.com/hebrew/1471.htm" target="_blank" rel="noopener noreferrer">הַגּוֹיִ֖ם</a> (the nations) <a href="https://biblehub.com/hebrew/8548.htm" target="_blank" rel="noopener noreferrer">תָּמִ֑יד</a> (continually). <a href="https://biblehub.com/hebrew/8354.htm" target="_blank" rel="noopener noreferrer">וְשָׁת֣וּ</a> (They will drink) <a href="https://biblehub.com/hebrew/3886.htm" target="_blank" rel="noopener noreferrer">וְלָע֔וּ</a> (and gulp [it] down); <a href="https://biblehub.com/hebrew/1961.htm" target="_blank" rel="noopener noreferrer">וְהָי֖וּ</a> (they will be) <a href="https://biblehub.com/hebrew/3808.htm" target="_blank" rel="noopener noreferrer">כְּל֥וֹא</a> (as if they had never) <a href="https://biblehub.com/hebrew/1961.htm" target="_blank" rel="noopener noreferrer">הָיֽוּ׃</a> (existed). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:16)</div>
-      <div className="verse-text">For as ye have drunk upon my holy mountain, so shall all the heathen drink continually, yea, they shall drink, and they shall swallow down, and they shall be as though they had not been.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:17)</div>
-      <div className="verse-text">But upon Mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:17)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/2022.htm" target="_blank" rel="noopener noreferrer">וּבְהַ֥ר</a> (But on Mount) <a href="https://biblehub.com/hebrew/6726.htm" target="_blank" rel="noopener noreferrer">צִיּ֛וֹן</a> (Zion) <a href="https://biblehub.com/hebrew/1961.htm" target="_blank" rel="noopener noreferrer">תִּהְיֶ֥ה</a> (there will be) <a href="https://biblehub.com/hebrew/6413.htm" target="_blank" rel="noopener noreferrer">פְלֵיטָ֖ה</a> (deliverance), <a href="https://biblehub.com/hebrew/1961.htm" target="_blank" rel="noopener noreferrer">וְהָ֣יָה</a> (and it will be) <a href="https://biblehub.com/hebrew/6944.htm" target="_blank" rel="noopener noreferrer">קֹ֑דֶשׁ</a> (holy), <a href="https://biblehub.com/hebrew/3423.htm" target="_blank" rel="noopener noreferrer">וְיָֽרְשׁוּ֙</a> (will reclaim) <a href="https://biblehub.com/hebrew/1004.htm" target="_blank" rel="noopener noreferrer">בֵּ֣ית</a> (and the house) <a href="https://biblehub.com/hebrew/3290.htm" target="_blank" rel="noopener noreferrer">יַֽעֲקֹ֔ב</a> (of Jacob) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֵ֖ת</a> (-) <a href="https://biblehub.com/hebrew/4180.htm" target="_blank" rel="noopener noreferrer">מוֹרָֽשֵׁיהֶם׃</a> (their possession). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:17)</div>
-      <div className="verse-text">But upon mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:18)</div>
-      <div className="verse-text">And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble; and they shall kindle in them and devour them; and there shall not be any remaining of the house of Esau, for the Lord hath spoken it.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:18)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/1961.htm" target="_blank" rel="noopener noreferrer">וְהָיָה֩</a> (will be) <a href="https://biblehub.com/hebrew/1004.htm" target="_blank" rel="noopener noreferrer">בֵית־</a> (Then the house) <a href="https://biblehub.com/hebrew/3290.htm" target="_blank" rel="noopener noreferrer">יַעֲקֹ֨ב</a> (of Jacob) <a href="https://biblehub.com/hebrew/784.htm" target="_blank" rel="noopener noreferrer">אֵ֜שׁ</a> (a blazing fire), <a href="https://biblehub.com/hebrew/1004.htm" target="_blank" rel="noopener noreferrer">וּבֵ֧ית</a> (and the house) <a href="https://biblehub.com/hebrew/3130.htm" target="_blank" rel="noopener noreferrer">יוֹסֵ֣ף</a> (of Joseph) <a href="https://biblehub.com/hebrew/3852.htm" target="_blank" rel="noopener noreferrer">לֶהָבָ֗ה</a> (a burning flame); <a href="https://biblehub.com/hebrew/1004.htm" target="_blank" rel="noopener noreferrer">וּבֵ֤ית</a> (but the house) <a href="https://biblehub.com/hebrew/6215.htm" target="_blank" rel="noopener noreferrer">עֵשָׂו֙</a> (of Esau) <a href="https://biblehub.com/hebrew/7179.htm" target="_blank" rel="noopener noreferrer">לְקַ֔שׁ</a> (will be stubble)— <a href="https://biblehub.com/hebrew/1814.htm" target="_blank" rel="noopener noreferrer">וְדָלְק֥וּ</a> (Jacob will set it ablaze) בָהֶ֖ם () <a href="https://biblehub.com/hebrew/398.htm" target="_blank" rel="noopener noreferrer">וַאֲכָל֑וּם</a> (and consume it). <a href="https://biblehub.com/hebrew/3808.htm" target="_blank" rel="noopener noreferrer">וְלֹֽא־</a> (Therefore no) <a href="https://biblehub.com/hebrew/1961.htm" target="_blank" rel="noopener noreferrer">יִֽהְיֶ֤ה</a> (will remain) <a href="https://biblehub.com/hebrew/8300.htm" target="_blank" rel="noopener noreferrer">שָׂרִיד֙</a> (survivor) <a href="https://biblehub.com/hebrew/1004.htm" target="_blank" rel="noopener noreferrer">לְבֵ֣ית</a> (from the house) <a href="https://biblehub.com/hebrew/6215.htm" target="_blank" rel="noopener noreferrer">עֵשָׂ֔ו</a> (of Esau). <a href="https://biblehub.com/hebrew/3588.htm" target="_blank" rel="noopener noreferrer">כִּ֥י</a> (For) <a href="https://biblehub.com/hebrew/3068.htm" target="_blank" rel="noopener noreferrer">יְהוָ֖ה</a> (the LORD) <a href="https://biblehub.com/hebrew/1696.htm" target="_blank" rel="noopener noreferrer">דִּבֵּֽר׃</a> (has spoken). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:18)</div>
-      <div className="verse-text">And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble, and they shall kindle in them, and devour them; and there shall not be any remaining of the house of Esau; for the LORD hath spoken it.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:19)</div>
-      <div className="verse-text">And they of the south shall possess the mount of Esau; and they of the plain, the Philistines; and they shall possess the fields of Ephraim and the fields of Samaria; and Benjamin shall possess Gilead.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:19)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/3423.htm" target="_blank" rel="noopener noreferrer">וְיָרְשׁ֨וּ</a> (will possess) <a href="https://biblehub.com/hebrew/5045.htm" target="_blank" rel="noopener noreferrer">הַנֶּ֜גֶב</a> (Those from the Negev) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֶת־</a> (-) <a href="https://biblehub.com/hebrew/2022.htm" target="_blank" rel="noopener noreferrer">הַ֣ר</a> (the mountains) <a href="https://biblehub.com/hebrew/6215.htm" target="_blank" rel="noopener noreferrer">עֵשָׂ֗ו</a> (of Esau); <a href="https://biblehub.com/hebrew/8219.htm" target="_blank" rel="noopener noreferrer">וְהַשְּׁפֵלָה֙</a> (those from the foothills) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֶת־</a> (-) <a href="https://biblehub.com/hebrew/6430.htm" target="_blank" rel="noopener noreferrer">פְּלִשְׁתִּ֔ים</a> ([will possess the land] of the Philistines). <a href="https://biblehub.com/hebrew/3423.htm" target="_blank" rel="noopener noreferrer">וְיָרְשׁוּ֙</a> (They will occupy) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֶת־</a> (-) <a href="https://biblehub.com/hebrew/7704.htm" target="_blank" rel="noopener noreferrer">שְׂדֵ֣ה</a> (the fields) <a href="https://biblehub.com/hebrew/669.htm" target="_blank" rel="noopener noreferrer">אֶפְרַ֔יִם</a> (of Ephraim) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">וְאֵ֖ת</a> (-) <a href="https://biblehub.com/hebrew/7704.htm" target="_blank" rel="noopener noreferrer">שְׂדֵ֣ה</a> (-) <a href="https://biblehub.com/hebrew/8111.htm" target="_blank" rel="noopener noreferrer">שֹׁמְר֑וֹן</a> (and Samaria), <a href="https://biblehub.com/hebrew/1144.htm" target="_blank" rel="noopener noreferrer">וּבִנְיָמִ֖ן</a> (and Benjamin [will possess]) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֶת־</a> (-) <a href="https://biblehub.com/hebrew/1568.htm" target="_blank" rel="noopener noreferrer">הַגִּלְעָֽד׃</a> (Gilead). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:19)</div>
-      <div className="verse-text">And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:20)</div>
-      <div className="verse-text">And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:20)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/1546.htm" target="_blank" rel="noopener noreferrer">וְגָלֻ֣ת</a> (And the exiles) <a href="https://biblehub.com/hebrew/2426.htm" target="_blank" rel="noopener noreferrer">הַֽחֵל־</a> (host) <a href="https://biblehub.com/hebrew/2088.htm" target="_blank" rel="noopener noreferrer">הַ֠זֶּה</a> (of this) <a href="https://biblehub.com/hebrew/1121.htm" target="_blank" rel="noopener noreferrer">לִבְנֵ֨י</a> (vvv) <a href="https://biblehub.com/hebrew/3478.htm" target="_blank" rel="noopener noreferrer">יִשְׂרָאֵ֤ל</a> (of the Israelites) <a href="https://biblehub.com/hebrew/834.htm" target="_blank" rel="noopener noreferrer">אֲשֶֽׁר־</a> () <a href="https://biblehub.com/hebrew/3669.htm" target="_blank" rel="noopener noreferrer">כְּנַעֲנִים֙</a> ([will possess the land] of the Canaanites) <a href="https://biblehub.com/hebrew/5704.htm" target="_blank" rel="noopener noreferrer">עַד־</a> (as) <a href="https://biblehub.com/hebrew/6886.htm" target="_blank" rel="noopener noreferrer">צָ֣רְפַ֔ת</a> (far as Zarephath); <a href="https://biblehub.com/hebrew/1546.htm" target="_blank" rel="noopener noreferrer">וְגָלֻ֥ת</a> (and the exiles) <a href="https://biblehub.com/hebrew/3389.htm" target="_blank" rel="noopener noreferrer">יְרוּשָׁלִַ֖ם</a> (from Jerusalem) <a href="https://biblehub.com/hebrew/834.htm" target="_blank" rel="noopener noreferrer">אֲשֶׁ֣ר</a> (who) <a href="https://biblehub.com/hebrew/5614.htm" target="_blank" rel="noopener noreferrer">בִּסְפָרַ֑ד</a> (are in Sepharad) <a href="https://biblehub.com/hebrew/3423.htm" target="_blank" rel="noopener noreferrer">יִֽרְשׁ֕וּ</a> (will possess) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֵ֖ת</a> (-) <a href="https://biblehub.com/hebrew/5892.htm" target="_blank" rel="noopener noreferrer">עָרֵ֥י</a> (the cities) <a href="https://biblehub.com/hebrew/5045.htm" target="_blank" rel="noopener noreferrer">הַנֶּֽגֶב׃</a> (of the Negev). </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:20)</div>
-      <div className="verse-text">And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:21)</div>
-      <div className="verse-text">And <b>saviors</b> shall come up on Mount Zion to judge the mount of Esau; and the kingdom shall be the Lord's.</div>
-    </div>
-    
-    <div className="column original hebrew">
-      <div className="verse-ref">Hebrew (1:21)</div>
-      <div className="verse-text"><a href="https://biblehub.com/hebrew/5927.htm" target="_blank" rel="noopener noreferrer">וְעָל֤וּ</a> (will ascend) <a href="https://biblehub.com/hebrew/3467.htm" target="_blank" rel="noopener noreferrer">מֽוֹשִׁעִים֙</a> (The deliverers) <a href="https://biblehub.com/hebrew/2022.htm" target="_blank" rel="noopener noreferrer">בְּהַ֣ר</a> (Mount) <a href="https://biblehub.com/hebrew/6726.htm" target="_blank" rel="noopener noreferrer">צִיּ֔וֹן</a> (Zion) <a href="https://biblehub.com/hebrew/8199.htm" target="_blank" rel="noopener noreferrer">לִשְׁפֹּ֖ט</a> (to rule over) <a href="https://biblehub.com/hebrew/853.htm" target="_blank" rel="noopener noreferrer">אֶת־</a> (-) <a href="https://biblehub.com/hebrew/2022.htm" target="_blank" rel="noopener noreferrer">הַ֣ר</a> (the mountains) <a href="https://biblehub.com/hebrew/6215.htm" target="_blank" rel="noopener noreferrer">עֵשָׂ֑ו</a> (of Esau). <a href="https://biblehub.com/hebrew/1961.htm" target="_blank" rel="noopener noreferrer">וְהָיְתָ֥ה</a> (will belong to) <a href="https://biblehub.com/hebrew/3068.htm" target="_blank" rel="noopener noreferrer">לַֽיהוָ֖ה</a> (the LORD). <a href="https://biblehub.com/hebrew/4410.htm" target="_blank" rel="noopener noreferrer">הַמְּלוּכָֽה׃</a> (And the kingdom) </div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:21)</div>
-      <div className="verse-text">And <b>saviours</b> shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD's.</div>
-    </div>
-  </div>
-  </div>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:1)"
+  ivText="The vision of Obadiah: Thus saith the Lord God concerning Edom: We have heard a rumor from the Lord, and an ambassador is sent among the heathen. Arise ye, and let us rise up against her in battle."
+  origRef="Hebrew (1:1)"
+  origText="<a href='https://biblehub.com/hebrew/2377.htm' target='_blank' rel='noopener noreferrer'>חֲז֖וֹן</a> ([This is] the vision) <a href='https://biblehub.com/hebrew/5662.htm' target='_blank' rel='noopener noreferrer'>עֹֽבַדְיָ֑ה</a> (of Obadiah): <a href='https://biblehub.com/hebrew/3541.htm' target='_blank' rel='noopener noreferrer'>כֹּֽה־</a> (This is what) <a href='https://biblehub.com/hebrew/559.htm' target='_blank' rel='noopener noreferrer'>אָמַר֩</a> (says) <a href='https://biblehub.com/hebrew/136.htm' target='_blank' rel='noopener noreferrer'>אֲדֹנָ֨י</a> (the Lord) <a href='https://biblehub.com/hebrew/3069.htm' target='_blank' rel='noopener noreferrer'>יְהוִ֜ה</a> (GOD) <a href='https://biblehub.com/hebrew/123.htm' target='_blank' rel='noopener noreferrer'>לֶאֱד֗וֹם</a> (about Edom)— <a href='https://biblehub.com/hebrew/8052.htm' target='_blank' rel='noopener noreferrer'>שְׁמוּעָ֨ה</a> (a message) <a href='https://biblehub.com/hebrew/8085.htm' target='_blank' rel='noopener noreferrer'>שָׁמַ֜עְנוּ</a> (We have heard) <a href='https://biblehub.com/hebrew/854.htm' target='_blank' rel='noopener noreferrer'>מֵאֵ֤ת</a> (. . .) <a href='https://biblehub.com/hebrew/3068.htm' target='_blank' rel='noopener noreferrer'>יְהוָה֙</a> (from the LORD); <a href='https://biblehub.com/hebrew/6735.htm' target='_blank' rel='noopener noreferrer'>וְצִיר֙</a> (an envoy) <a href='https://biblehub.com/hebrew/1471.htm' target='_blank' rel='noopener noreferrer'>בַּגּוֹיִ֣ם</a> (among the nations) <a href='https://biblehub.com/hebrew/7971.htm' target='_blank' rel='noopener noreferrer'>שֻׁלָּ֔ח</a> (has been sent) <a href='https://biblehub.com/hebrew/6965.htm' target='_blank' rel='noopener noreferrer'>ק֛וּמוּ</a> ([to say,] “Rise up), <a href='https://biblehub.com/hebrew/6965.htm' target='_blank' rel='noopener noreferrer'>וְנָק֥וּמָה</a> (and let us go) <a href='https://biblehub.com/hebrew/5921.htm' target='_blank' rel='noopener noreferrer'>עָלֶיהָ</a> (against her)!”— <a href='https://biblehub.com/hebrew/4421.htm' target='_blank' rel='noopener noreferrer'>לַמִּלְחָמָֽה׃</a> (to battle) "
+  kjvRef="KJV (1:1)"
+  kjvText="The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumor from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:2)"
+  ivText="Behold, I have made thee small among the heathen; thou art greatly despised."
+  origRef="Hebrew (1:2)"
+  origText="<a href='https://biblehub.com/hebrew/2009.htm' target='_blank' rel='noopener noreferrer'>הִנֵּ֥ה</a> (Behold), <a href='https://biblehub.com/hebrew/6996.htm' target='_blank' rel='noopener noreferrer'>קָטֹ֛ן</a> (small) <a href='https://biblehub.com/hebrew/5414.htm' target='_blank' rel='noopener noreferrer'>נְתַתִּ֖יךָ</a> (I will make you) <a href='https://biblehub.com/hebrew/1471.htm' target='_blank' rel='noopener noreferrer'>בַּגּוֹיִ֑ם</a> (among the nations); <a href='https://biblehub.com/hebrew/959.htm' target='_blank' rel='noopener noreferrer'>בָּז֥וּי</a> (despised). <a href='https://biblehub.com/hebrew/859.htm' target='_blank' rel='noopener noreferrer'>אַתָּ֖ה</a> (you) <a href='https://biblehub.com/hebrew/3966.htm' target='_blank' rel='noopener noreferrer'>מְאֹֽד׃</a> (will be deeply) "
+  kjvRef="KJV (1:2)"
+  kjvText="Behold, I have made thee small among the heathen: thou art greatly despised."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:3)"
+  ivText="The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high, that saith in his heart, Who shall bring me down to the ground?"
+  origRef="Hebrew (1:3)"
+  origText="<a href='https://biblehub.com/hebrew/2087.htm' target='_blank' rel='noopener noreferrer'>זְד֤וֹן</a> (The pride) <a href='https://biblehub.com/hebrew/3820.htm' target='_blank' rel='noopener noreferrer'>לִבְּךָ֙</a> (of your heart) <a href='https://biblehub.com/hebrew/5377.htm' target='_blank' rel='noopener noreferrer'>הִשִּׁיאֶ֔ךָ</a> (has deceived you), <a href='https://biblehub.com/hebrew/7931.htm' target='_blank' rel='noopener noreferrer'>שֹׁכְנִ֥י</a> (O dwellers) <a href='https://biblehub.com/hebrew/2288.htm' target='_blank' rel='noopener noreferrer'>בְחַגְוֵי־</a> (in the clefts) <a href='https://biblehub.com/hebrew/5553.htm' target='_blank' rel='noopener noreferrer'>סֶּ֖לַע</a> (of the rocks) <a href='https://biblehub.com/hebrew/4791.htm' target='_blank' rel='noopener noreferrer'>מְר֣וֹם</a> (the heights), <a href='https://biblehub.com/hebrew/7675.htm' target='_blank' rel='noopener noreferrer'>שִׁבְתּ֑וֹ</a> (whose habitation is) <a href='https://biblehub.com/hebrew/559.htm' target='_blank' rel='noopener noreferrer'>אֹמֵ֣ר</a> (who say) <a href='https://biblehub.com/hebrew/3820.htm' target='_blank' rel='noopener noreferrer'>בְּלִבּ֔וֹ</a> (in your heart), <a href='https://biblehub.com/hebrew/4310.htm' target='_blank' rel='noopener noreferrer'>מִ֥י</a> (Who) <a href='https://biblehub.com/hebrew/3381.htm' target='_blank' rel='noopener noreferrer'>יוֹרִדֵ֖נִי</a> (can bring me down) <a href='https://biblehub.com/hebrew/776.htm' target='_blank' rel='noopener noreferrer'>אָֽרֶץ׃</a> (to the ground)? "
+  kjvRef="KJV (1:3)"
+  kjvText="The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?"
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:4)"
+  ivText="Though thou exalt thyself as the eagle and though thou set thy nest among the stars, thence will I bring thee down, saith the Lord."
+  origRef="Hebrew (1:4)"
+  origText="<a href='https://biblehub.com/hebrew/518.htm' target='_blank' rel='noopener noreferrer'>אִם־</a> (Though) <a href='https://biblehub.com/hebrew/1361.htm' target='_blank' rel='noopener noreferrer'>תַּגְבִּ֣יהַּ</a> (you soar) <a href='https://biblehub.com/hebrew/5404.htm' target='_blank' rel='noopener noreferrer'>כַּנֶּ֔שֶׁר</a> (like the eagle) <a href='https://biblehub.com/hebrew/518.htm' target='_blank' rel='noopener noreferrer'>וְאִם־</a> (. . .) <a href='https://biblehub.com/hebrew/996.htm' target='_blank' rel='noopener noreferrer'>בֵּ֥ין</a> (among) <a href='https://biblehub.com/hebrew/3556.htm' target='_blank' rel='noopener noreferrer'>כּֽוֹכָבִ֖ים</a> (the stars), <a href='https://biblehub.com/hebrew/7760.htm' target='_blank' rel='noopener noreferrer'>שִׂ֣ים</a> (and make) <a href='https://biblehub.com/hebrew/7064.htm' target='_blank' rel='noopener noreferrer'>קִנֶּ֑ךָ</a> (your nest) <a href='https://biblehub.com/hebrew/8033.htm' target='_blank' rel='noopener noreferrer'>מִשָּׁ֥ם</a> (even from there) <a href='https://biblehub.com/hebrew/3381.htm' target='_blank' rel='noopener noreferrer'>אוֹרִֽידְךָ֖</a> (I will bring you down), <a href='https://biblehub.com/hebrew/5002.htm' target='_blank' rel='noopener noreferrer'>נְאֻם־</a> (declares) <a href='https://biblehub.com/hebrew/3068.htm' target='_blank' rel='noopener noreferrer'>יְהוָֽה׃</a> (the LORD). "
+  kjvRef="KJV (1:4)"
+  kjvText="Though thou exalt thyself as the eagle, and though thou set thy nest among the stars, thence will I bring thee down, saith the LORD."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:5)"
+  ivText="If thieves came to thee, if robbers by night--how art thou cut off!--would they not have stolen till they had enough? If the <b>grape-gatherers</b> came to thee, would they not leave some grapes?"
+  origRef="Hebrew (1:5)"
+  origText="<a href='https://biblehub.com/hebrew/518.htm' target='_blank' rel='noopener noreferrer'>אִם־</a> (If) <a href='https://biblehub.com/hebrew/1590.htm' target='_blank' rel='noopener noreferrer'>גַּנָּבִ֤ים</a> (thieves) <a href='https://biblehub.com/hebrew/935.htm' target='_blank' rel='noopener noreferrer'>בָּאֽוּ־</a> (came) לְךָ֙ (to you), <a href='https://biblehub.com/hebrew/518.htm' target='_blank' rel='noopener noreferrer'>אִם־</a> (if) <a href='https://biblehub.com/hebrew/7703.htm' target='_blank' rel='noopener noreferrer'>שׁ֣וֹדְדֵי</a> (robbers) <a href='https://biblehub.com/hebrew/3915.htm' target='_blank' rel='noopener noreferrer'>לַ֔יְלָה</a> (by night)— <a href='https://biblehub.com/hebrew/349.htm' target='_blank' rel='noopener noreferrer'>אֵ֣יךְ</a> (oh, how) <a href='https://biblehub.com/hebrew/1820.htm' target='_blank' rel='noopener noreferrer'>נִדְמֵ֔יתָה</a> (you will be ruined)— <a href='https://biblehub.com/hebrew/3808.htm' target='_blank' rel='noopener noreferrer'>הֲל֥וֹא</a> (would they not) <a href='https://biblehub.com/hebrew/1589.htm' target='_blank' rel='noopener noreferrer'>יִגְנְב֖וּ</a> (steal) <a href='https://biblehub.com/hebrew/1767.htm' target='_blank' rel='noopener noreferrer'>דַּיָּ֑ם</a> ([only] what they wanted)? <a href='https://biblehub.com/hebrew/518.htm' target='_blank' rel='noopener noreferrer'>אִם־</a> (If) <a href='https://biblehub.com/hebrew/1219.htm' target='_blank' rel='noopener noreferrer'>בֹּֽצְרִים֙</a> (grape gatherers) <a href='https://biblehub.com/hebrew/935.htm' target='_blank' rel='noopener noreferrer'>בָּ֣אוּ</a> (came) לָ֔ךְ (to you), <a href='https://biblehub.com/hebrew/3808.htm' target='_blank' rel='noopener noreferrer'>הֲל֖וֹא</a> (would they not) <a href='https://biblehub.com/hebrew/7604.htm' target='_blank' rel='noopener noreferrer'>יַשְׁאִ֥ירוּ</a> (leave) <a href='https://biblehub.com/hebrew/5955.htm' target='_blank' rel='noopener noreferrer'>עֹלֵלֽוֹת׃</a> ([some] gleanings)? "
+  kjvRef="KJV (1:5)"
+  kjvText="If thieves came to thee, if robbers by night, (how art thou cut off!) would they not have stolen till they had enough? if the <b>grape gatherers</b> came to thee, would they not leave some grapes?"
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:6)"
+  ivText="How are the things of Esau searched out! How are his hidden things sought up!"
+  origRef="Hebrew (1:6)"
+  origText="<a href='https://biblehub.com/hebrew/349.htm' target='_blank' rel='noopener noreferrer'>אֵ֚יךְ</a> (But how) <a href='https://biblehub.com/hebrew/2664.htm' target='_blank' rel='noopener noreferrer'>נֶחְפְּשׂ֣וּ</a> (will be pillaged), <a href='https://biblehub.com/hebrew/6215.htm' target='_blank' rel='noopener noreferrer'>עֵשָׂ֔ו</a> (Esau) <a href='https://biblehub.com/hebrew/1158.htm' target='_blank' rel='noopener noreferrer'>נִבְע֖וּ</a> (sought out)! <a href='https://biblehub.com/hebrew/4710.htm' target='_blank' rel='noopener noreferrer'>מַצְפֻּנָֽיו׃</a> (his hidden treasures) "
+  kjvRef="KJV (1:6)"
+  kjvText="How are the things of Esau searched out! how are his hidden things sought up!"
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:7)"
+  ivText="All the men of thy confederacy have brought thee even to the border; the men that were at peace with thee have deceived thee and prevailed against thee; they that eat thy bread have laid a wound under thee; there is none understanding in him."
+  origRef="Hebrew (1:7)"
+  origText="<a href='https://biblehub.com/hebrew/5704.htm' target='_blank' rel='noopener noreferrer'>עַֽד־</a> (you to) <a href='https://biblehub.com/hebrew/1366.htm' target='_blank' rel='noopener noreferrer'>הַגְּב֣וּל</a> (the border); <a href='https://biblehub.com/hebrew/7971.htm' target='_blank' rel='noopener noreferrer'>שִׁלְּח֗וּךָ</a> (will drive) <a href='https://biblehub.com/hebrew/3605.htm' target='_blank' rel='noopener noreferrer'>כֹּ֚ל</a> (All) <a href='https://biblehub.com/hebrew/582.htm' target='_blank' rel='noopener noreferrer'>אַנְשֵׁ֣י</a> (the men) <a href='https://biblehub.com/hebrew/1285.htm' target='_blank' rel='noopener noreferrer'>בְרִיתֶ֔ךָ</a> (allied with you) <a href='https://biblehub.com/hebrew/5377.htm' target='_blank' rel='noopener noreferrer'>הִשִּׁיא֛וּךָ</a> (will deceive) <a href='https://biblehub.com/hebrew/3201.htm' target='_blank' rel='noopener noreferrer'>יָכְל֥וּ</a> (and overpower) לְךָ֖ (you). <a href='https://biblehub.com/hebrew/582.htm' target='_blank' rel='noopener noreferrer'>אַנְשֵׁ֣י</a> (the men) <a href='https://biblehub.com/hebrew/7965.htm' target='_blank' rel='noopener noreferrer'>שְׁלֹמֶ֑ךָ</a> (at peace with you) <a href='https://biblehub.com/hebrew/3899.htm' target='_blank' rel='noopener noreferrer'>לַחְמְךָ֗</a> ([Those who eat] your bread) <a href='https://biblehub.com/hebrew/7760.htm' target='_blank' rel='noopener noreferrer'>יָשִׂ֤ימוּ</a> (will set) <a href='https://biblehub.com/hebrew/4204.htm' target='_blank' rel='noopener noreferrer'>מָזוֹר֙</a> (a trap) <a href='https://biblehub.com/hebrew/8478.htm' target='_blank' rel='noopener noreferrer'>תַּחְתֶּ֔יךָ</a> (for you) <a href='https://biblehub.com/hebrew/369.htm' target='_blank' rel='noopener noreferrer'>אֵ֥ין</a> (without your) <a href='https://biblehub.com/hebrew/8394.htm' target='_blank' rel='noopener noreferrer'>תְּבוּנָ֖ה</a> (awareness) <a href='https://biblehub.com/hebrew/8055.htm' target='_blank' rel='noopener noreferrer'>בּֽוֹ׃</a> (of it). "
+  kjvRef="KJV (1:7)"
+  kjvText="All the men of thy confederacy have brought thee even to the border: the men that were at peace with thee have deceived thee, and prevailed against thee; they that eat thy bread have laid a wound under thee: there is none understanding in him."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:8)"
+  ivText="Shall I not in that day, saith the Lord, even destroy the wise men out of Edom and understanding out of the mount of Esau?"
+  origRef="Hebrew (1:8)"
+  origText="<a href='https://biblehub.com/hebrew/3808.htm' target='_blank' rel='noopener noreferrer'>הֲל֛וֹא</a> (will I not) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בַּיּ֥וֹם</a> (day), <a href='https://biblehub.com/hebrew/1931.htm' target='_blank' rel='noopener noreferrer'>הַה֖וּא</a> (In that) <a href='https://biblehub.com/hebrew/5002.htm' target='_blank' rel='noopener noreferrer'>נְאֻם־</a> (declares) <a href='https://biblehub.com/hebrew/3068.htm' target='_blank' rel='noopener noreferrer'>יְהוָ֑ה</a> (the LORD), <a href='https://biblehub.com/hebrew/6.htm' target='_blank' rel='noopener noreferrer'>וְהַאֲבַדְתִּ֤י</a> (destroy) <a href='https://biblehub.com/hebrew/2450.htm' target='_blank' rel='noopener noreferrer'>חֲכָמִים֙</a> (the wise [men]) <a href='https://biblehub.com/hebrew/123.htm' target='_blank' rel='noopener noreferrer'>מֵֽאֱד֔וֹם</a> (of Edom) <a href='https://biblehub.com/hebrew/8394.htm' target='_blank' rel='noopener noreferrer'>וּתְבוּנָ֖ה</a> (and the men of understanding) <a href='https://biblehub.com/hebrew/2022.htm' target='_blank' rel='noopener noreferrer'>מֵהַ֥ר</a> (in the mountains) <a href='https://biblehub.com/hebrew/6215.htm' target='_blank' rel='noopener noreferrer'>עֵשָֽׂו׃</a> (of Esau)? "
+  kjvRef="KJV (1:8)"
+  kjvText="Shall I not in that day, saith the LORD, even destroy the wise men out of Edom, and understanding out of the mount of Esau?"
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:9)"
+  ivText="And thy mighty men, O Teman, shall be dismayed, to the end that every one of the mount of Esau may be cut off by slaughter."
+  origRef="Hebrew (1:9)"
+  origText="<a href='https://biblehub.com/hebrew/2865.htm' target='_blank' rel='noopener noreferrer'>וְחַתּ֥וּ</a> (will be terrified), <a href='https://biblehub.com/hebrew/1368.htm' target='_blank' rel='noopener noreferrer'>גִבּוֹרֶ֖יךָ</a> (Then your mighty men), <a href='https://biblehub.com/hebrew/8487.htm' target='_blank' rel='noopener noreferrer'>תֵּימָ֑ן</a> (O Teman), <a href='https://biblehub.com/hebrew/4616.htm' target='_blank' rel='noopener noreferrer'>לְמַ֧עַן</a> (so that) <a href='https://biblehub.com/hebrew/3772.htm' target='_blank' rel='noopener noreferrer'>יִכָּֽרֶת־</a> (will be cut down) <a href='https://biblehub.com/hebrew/376.htm' target='_blank' rel='noopener noreferrer'>אִ֛ישׁ</a> (everyone) <a href='https://biblehub.com/hebrew/2022.htm' target='_blank' rel='noopener noreferrer'>מֵהַ֥ר</a> (in the mountains) <a href='https://biblehub.com/hebrew/6215.htm' target='_blank' rel='noopener noreferrer'>עֵשָׂ֖ו</a> (of Esau) <a href='https://biblehub.com/hebrew/6993.htm' target='_blank' rel='noopener noreferrer'>מִקָּֽטֶל׃</a> (in the slaughter). "
+  kjvRef="KJV (1:9)"
+  kjvText="And thy mighty men, O Teman, shall be dismayed, to the end that every one of the mount of Esau may be cut off by slaughter."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:10)"
+  ivText="For thy violence against thy brother Jacob, shame shall cover thee; and thou shalt be cut off for ever."
+  origRef="Hebrew (1:10)"
+  origText="<a href='https://biblehub.com/hebrew/2555.htm' target='_blank' rel='noopener noreferrer'>מֵחֲמַ֛ס</a> (Because of the violence) <a href='https://biblehub.com/hebrew/251.htm' target='_blank' rel='noopener noreferrer'>אָחִ֥יךָ</a> (against your brother) <a href='https://biblehub.com/hebrew/3290.htm' target='_blank' rel='noopener noreferrer'>יַעֲקֹ֖ב</a> (Jacob), <a href='https://biblehub.com/hebrew/3680.htm' target='_blank' rel='noopener noreferrer'>תְּכַסְּךָ֣</a> (you will be covered) <a href='https://biblehub.com/hebrew/955.htm' target='_blank' rel='noopener noreferrer'>בוּשָׁ֑ה</a> (with shame) <a href='https://biblehub.com/hebrew/3772.htm' target='_blank' rel='noopener noreferrer'>וְנִכְרַ֖תָּ</a> (and cut off) <a href='https://biblehub.com/hebrew/5769.htm' target='_blank' rel='noopener noreferrer'>לְעוֹלָֽם׃</a> (forever). "
+  kjvRef="KJV (1:10)"
+  kjvText="For thy violence against thy brother Jacob shame shall cover thee, and thou shalt be cut off for ever."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:11)"
+  ivText="In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates and cast lots upon Jerusalem, even thou wast as one of them."
+  origRef="Hebrew (1:11)"
+  origText="<a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּיוֹם֙</a> (On the day) <a href='https://biblehub.com/hebrew/5975.htm' target='_blank' rel='noopener noreferrer'>עֲמָֽדְךָ֣</a> (you stood) <a href='https://biblehub.com/hebrew/5048.htm' target='_blank' rel='noopener noreferrer'>מִנֶּ֔גֶד</a> (aloof) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֛וֹם</a> (while) <a href='https://biblehub.com/hebrew/7617.htm' target='_blank' rel='noopener noreferrer'>שְׁב֥וֹת</a> (carried off) <a href='https://biblehub.com/hebrew/2114.htm' target='_blank' rel='noopener noreferrer'>זָרִ֖ים</a> (strangers) <a href='https://biblehub.com/hebrew/2428.htm' target='_blank' rel='noopener noreferrer'>חֵיל֑וֹ</a> (his wealth) <a href='https://biblehub.com/hebrew/5237.htm' target='_blank' rel='noopener noreferrer'>וְנָכְרִ֞ים</a> (and foreigners) <a href='https://biblehub.com/hebrew/935.htm' target='_blank' rel='noopener noreferrer'>בָּ֣אוּ</a> (entered) <a href='https://biblehub.com/hebrew/8179.htm' target='_blank' rel='noopener noreferrer'>שַׁעֲרוֹ</a> (his gate) <a href='https://biblehub.com/hebrew/5921.htm' target='_blank' rel='noopener noreferrer'>וְעַל־</a> (for) <a href='https://biblehub.com/hebrew/3389.htm' target='_blank' rel='noopener noreferrer'>יְרוּשָׁלִַ֙ם֙</a> (Jerusalem), <a href='https://biblehub.com/hebrew/3032.htm' target='_blank' rel='noopener noreferrer'>יַדּ֣וּ</a> (and cast) <a href='https://biblehub.com/hebrew/1486.htm' target='_blank' rel='noopener noreferrer'>גוֹרָ֔ל</a> (lots) <a href='https://biblehub.com/hebrew/1571.htm' target='_blank' rel='noopener noreferrer'>גַּם־</a> (. . .) <a href='https://biblehub.com/hebrew/859.htm' target='_blank' rel='noopener noreferrer'>אַתָּ֖ה</a> (you) <a href='https://biblehub.com/hebrew/259.htm' target='_blank' rel='noopener noreferrer'>כְּאַחַ֥ד</a> (were just like one) מֵהֶֽם׃ (of them). "
+  kjvRef="KJV (1:11)"
+  kjvText="In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates, and cast lots upon Jerusalem, even thou wast as one of them."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:12)"
+  ivText="But thou shouldest not have looked on the day of thy brother in the day that he became a stranger; neither shouldest thou have rejoiced over the children of Judah in the day of their destruction; neither shouldest thou have spoken proudly in the day of distress."
+  origRef="Hebrew (1:12)"
+  origText="<a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>וְאַל־</a> (But you should not) <a href='https://biblehub.com/hebrew/7200.htm' target='_blank' rel='noopener noreferrer'>תֵּ֤רֶא</a> (gloat) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְיוֹם־</a> (in that day), <a href='https://biblehub.com/hebrew/251.htm' target='_blank' rel='noopener noreferrer'>אָחִ֙יךָ֙</a> (your brother’s) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֣וֹם</a> (day) <a href='https://biblehub.com/hebrew/5235.htm' target='_blank' rel='noopener noreferrer'>נָכְר֔וֹ</a> (of misfortune), <a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>וְאַל־</a> (nor) <a href='https://biblehub.com/hebrew/8055.htm' target='_blank' rel='noopener noreferrer'>תִּשְׂמַ֥ח</a> (rejoice) <a href='https://biblehub.com/hebrew/1121.htm' target='_blank' rel='noopener noreferrer'>לִבְנֵֽי־</a> (over the people) <a href='https://biblehub.com/hebrew/3063.htm' target='_blank' rel='noopener noreferrer'>יְהוּדָ֖ה</a> (of Judah) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֣וֹם</a> (in the day) <a href='https://biblehub.com/hebrew/6.htm' target='_blank' rel='noopener noreferrer'>אָבְדָ֑ם</a> (of their destruction), <a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>וְאַל־</a> (nor) <a href='https://biblehub.com/hebrew/1431.htm' target='_blank' rel='noopener noreferrer'>תַּגְדֵּ֥ל</a> (boast proudly) <a href='https://biblehub.com/hebrew/6310.htm' target='_blank' rel='noopener noreferrer'>פִּ֖יךָ</a> (. . .) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֥וֹם</a> (in the day) <a href='https://biblehub.com/hebrew/6869.htm' target='_blank' rel='noopener noreferrer'>צָרָֽה׃</a> (of their distress). "
+  kjvRef="KJV (1:12)"
+  kjvText="But thou shouldest not have looked on the day of thy brother in the day that he became a stranger; neither shouldest thou have rejoiced over the children of Judah in the day of their destruction; neither shouldest thou have spoken proudly in the day of distress."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:13)"
+  ivText="Thou shouldest not have entered into the gate of my people in the day of their calamity; yea, thou shouldest not have looked on their affliction in the day of their calamity nor have laid hands on their substance in the day of their calamity;"
+  origRef="Hebrew (1:13)"
+  origText="<a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>אַל־</a> (You should not) <a href='https://biblehub.com/hebrew/935.htm' target='_blank' rel='noopener noreferrer'>תָּב֤וֹא</a> (enter) <a href='https://biblehub.com/hebrew/8179.htm' target='_blank' rel='noopener noreferrer'>בְשַֽׁעַר־</a> (the gate) <a href='https://biblehub.com/hebrew/5971.htm' target='_blank' rel='noopener noreferrer'>עַמִּי֙</a> (of My people) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֣וֹם</a> (in the day) <a href='https://biblehub.com/hebrew/343.htm' target='_blank' rel='noopener noreferrer'>אֵידָ֔ם</a> (of their disaster), <a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>אַל־</a> (nor) <a href='https://biblehub.com/hebrew/7200.htm' target='_blank' rel='noopener noreferrer'>תֵּ֧רֶא</a> (gloat) <a href='https://biblehub.com/hebrew/1571.htm' target='_blank' rel='noopener noreferrer'>גַם־</a> (over) <a href='https://biblehub.com/hebrew/859.htm' target='_blank' rel='noopener noreferrer'>אַתָּ֛ה</a> (-) <a href='https://biblehub.com/hebrew/7451.htm' target='_blank' rel='noopener noreferrer'>בְּרָעָת֖וֹ</a> (their affliction) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֣וֹם</a> (in the day) <a href='https://biblehub.com/hebrew/343.htm' target='_blank' rel='noopener noreferrer'>אֵיד֑וֹ</a> (of their disaster), <a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>וְאַל־</a> (nor) <a href='https://biblehub.com/hebrew/7971.htm' target='_blank' rel='noopener noreferrer'>תִּשְׁלַ֥חְנָה</a> (loot) <a href='https://biblehub.com/hebrew/2428.htm' target='_blank' rel='noopener noreferrer'>בְחֵיל֖וֹ</a> (their wealth) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֥וֹם</a> (in the day) <a href='https://biblehub.com/hebrew/343.htm' target='_blank' rel='noopener noreferrer'>אֵידֽוֹ׃</a> (of their disaster). "
+  kjvRef="KJV (1:13)"
+  kjvText="Thou shouldest not have entered into the gate of my people in the day of their calamity; yea, thou shouldest not have looked on their affliction in the day of their calamity, nor have laid hands on their substance in the day of their calamity;"
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:14)"
+  ivText="Neither shouldest thou have stood in the crossway, to cut off those of his that did escape; neither shouldest thou have delivered up those of his that did remain in the day of distress."
+  origRef="Hebrew (1:14)"
+  origText="<a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>וְאַֽל־</a> (Nor should you) <a href='https://biblehub.com/hebrew/5975.htm' target='_blank' rel='noopener noreferrer'>תַּעֲמֹד֙</a> (stand) <a href='https://biblehub.com/hebrew/5921.htm' target='_blank' rel='noopener noreferrer'>עַל־</a> (at) <a href='https://biblehub.com/hebrew/6563.htm' target='_blank' rel='noopener noreferrer'>הַפֶּ֔רֶק</a> (the crossroads) <a href='https://biblehub.com/hebrew/3772.htm' target='_blank' rel='noopener noreferrer'>לְהַכְרִ֖ית</a> (to cut off) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֶת־</a> (-) <a href='https://biblehub.com/hebrew/6412.htm' target='_blank' rel='noopener noreferrer'>פְּלִיטָ֑יו</a> (their fugitives), <a href='https://biblehub.com/hebrew/408.htm' target='_blank' rel='noopener noreferrer'>וְאַל־</a> (nor) <a href='https://biblehub.com/hebrew/5462.htm' target='_blank' rel='noopener noreferrer'>תַּסְגֵּ֥ר</a> (deliver up) <a href='https://biblehub.com/hebrew/8300.htm' target='_blank' rel='noopener noreferrer'>שְׂרִידָ֖יו</a> (their survivors) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>בְּי֥וֹם</a> (in the day) <a href='https://biblehub.com/hebrew/6869.htm' target='_blank' rel='noopener noreferrer'>צָרָֽה׃</a> (of their distress). "
+  kjvRef="KJV (1:14)"
+  kjvText="Neither shouldest thou have stood in the crossway, to cut off those of his that did escape; neither shouldest thou have delivered up those of his that did remain in the day of distress."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:15)"
+  ivText="For the day of the Lord is near upon all the heathen; as thou hast done, it shall be done unto thee; thy reward shall return upon thine own head."
+  origRef="Hebrew (1:15)"
+  origText="<a href='https://biblehub.com/hebrew/3588.htm' target='_blank' rel='noopener noreferrer'>כִּֽי־</a> (For) <a href='https://biblehub.com/hebrew/7138.htm' target='_blank' rel='noopener noreferrer'>קָר֥וֹב</a> (is near) <a href='https://biblehub.com/hebrew/3117.htm' target='_blank' rel='noopener noreferrer'>יוֹם־</a> (the Day) <a href='https://biblehub.com/hebrew/3068.htm' target='_blank' rel='noopener noreferrer'>יְהוָ֖ה</a> (of the LORD) <a href='https://biblehub.com/hebrew/5921.htm' target='_blank' rel='noopener noreferrer'>עַל־</a> (for) <a href='https://biblehub.com/hebrew/3605.htm' target='_blank' rel='noopener noreferrer'>כָּל־</a> (all) <a href='https://biblehub.com/hebrew/1471.htm' target='_blank' rel='noopener noreferrer'>הַגּוֹיִ֑ם</a> (the nations). <a href='https://biblehub.com/hebrew/834.htm' target='_blank' rel='noopener noreferrer'>כַּאֲשֶׁ֤ר</a> (As) <a href='https://biblehub.com/hebrew/6213.htm' target='_blank' rel='noopener noreferrer'>עָשִׂ֙יתָ֙</a> (you have done), <a href='https://biblehub.com/hebrew/6213.htm' target='_blank' rel='noopener noreferrer'>יֵעָ֣שֶׂה</a> (it will be done) לָּ֔ךְ (to you); <a href='https://biblehub.com/hebrew/1576.htm' target='_blank' rel='noopener noreferrer'>גְּמֻלְךָ֖</a> (your recompense) <a href='https://biblehub.com/hebrew/7725.htm' target='_blank' rel='noopener noreferrer'>יָשׁ֥וּב</a> (will return) <a href='https://biblehub.com/hebrew/7218.htm' target='_blank' rel='noopener noreferrer'>בְּרֹאשֶֽׁךָ׃</a> (upon your own head). "
+  kjvRef="KJV (1:15)"
+  kjvText="For the day of the LORD is near upon all the heathen: as thou hast done, it shall be done unto thee: thy reward shall return upon thine own head."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:16)"
+  ivText="For as ye have drunk upon my holy mountain, so shall all the heathen drink continually; yea, they shall drink, and they shall swallow down, and they shall be as though they had not been."
+  origRef="Hebrew (1:16)"
+  origText="<a href='https://biblehub.com/hebrew/3588.htm' target='_blank' rel='noopener noreferrer'>כִּ֗י</a> (For) <a href='https://biblehub.com/hebrew/834.htm' target='_blank' rel='noopener noreferrer'>כַּֽאֲשֶׁ֤ר</a> (as) <a href='https://biblehub.com/hebrew/8354.htm' target='_blank' rel='noopener noreferrer'>שְׁתִיתֶם֙</a> (you drank) <a href='https://biblehub.com/hebrew/5921.htm' target='_blank' rel='noopener noreferrer'>עַל־</a> (on) <a href='https://biblehub.com/hebrew/2022.htm' target='_blank' rel='noopener noreferrer'>הַ֣ר</a> (mountain), <a href='https://biblehub.com/hebrew/6944.htm' target='_blank' rel='noopener noreferrer'>קָדְשִׁ֔י</a> (My holy) <a href='https://biblehub.com/hebrew/8354.htm' target='_blank' rel='noopener noreferrer'>יִשְׁתּ֥וּ</a> (will drink) <a href='https://biblehub.com/hebrew/3605.htm' target='_blank' rel='noopener noreferrer'>כָֽל־</a> (so all) <a href='https://biblehub.com/hebrew/1471.htm' target='_blank' rel='noopener noreferrer'>הַגּוֹיִ֖ם</a> (the nations) <a href='https://biblehub.com/hebrew/8548.htm' target='_blank' rel='noopener noreferrer'>תָּמִ֑יד</a> (continually). <a href='https://biblehub.com/hebrew/8354.htm' target='_blank' rel='noopener noreferrer'>וְשָׁת֣וּ</a> (They will drink) <a href='https://biblehub.com/hebrew/3886.htm' target='_blank' rel='noopener noreferrer'>וְלָע֔וּ</a> (and gulp [it] down); <a href='https://biblehub.com/hebrew/1961.htm' target='_blank' rel='noopener noreferrer'>וְהָי֖וּ</a> (they will be) <a href='https://biblehub.com/hebrew/3808.htm' target='_blank' rel='noopener noreferrer'>כְּל֥וֹא</a> (as if they had never) <a href='https://biblehub.com/hebrew/1961.htm' target='_blank' rel='noopener noreferrer'>הָיֽוּ׃</a> (existed). "
+  kjvRef="KJV (1:16)"
+  kjvText="For as ye have drunk upon my holy mountain, so shall all the heathen drink continually, yea, they shall drink, and they shall swallow down, and they shall be as though they had not been."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:17)"
+  ivText="But upon Mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions."
+  origRef="Hebrew (1:17)"
+  origText="<a href='https://biblehub.com/hebrew/2022.htm' target='_blank' rel='noopener noreferrer'>וּבְהַ֥ר</a> (But on Mount) <a href='https://biblehub.com/hebrew/6726.htm' target='_blank' rel='noopener noreferrer'>צִיּ֛וֹן</a> (Zion) <a href='https://biblehub.com/hebrew/1961.htm' target='_blank' rel='noopener noreferrer'>תִּהְיֶ֥ה</a> (there will be) <a href='https://biblehub.com/hebrew/6413.htm' target='_blank' rel='noopener noreferrer'>פְלֵיטָ֖ה</a> (deliverance), <a href='https://biblehub.com/hebrew/1961.htm' target='_blank' rel='noopener noreferrer'>וְהָ֣יָה</a> (and it will be) <a href='https://biblehub.com/hebrew/6944.htm' target='_blank' rel='noopener noreferrer'>קֹ֑דֶשׁ</a> (holy), <a href='https://biblehub.com/hebrew/3423.htm' target='_blank' rel='noopener noreferrer'>וְיָֽרְשׁוּ֙</a> (will reclaim) <a href='https://biblehub.com/hebrew/1004.htm' target='_blank' rel='noopener noreferrer'>בֵּ֣ית</a> (and the house) <a href='https://biblehub.com/hebrew/3290.htm' target='_blank' rel='noopener noreferrer'>יַֽעֲקֹ֔ב</a> (of Jacob) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֵ֖ת</a> (-) <a href='https://biblehub.com/hebrew/4180.htm' target='_blank' rel='noopener noreferrer'>מוֹרָֽשֵׁיהֶם׃</a> (their possession). "
+  kjvRef="KJV (1:17)"
+  kjvText="But upon mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:18)"
+  ivText="And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble; and they shall kindle in them and devour them; and there shall not be any remaining of the house of Esau, for the Lord hath spoken it."
+  origRef="Hebrew (1:18)"
+  origText="<a href='https://biblehub.com/hebrew/1961.htm' target='_blank' rel='noopener noreferrer'>וְהָיָה֩</a> (will be) <a href='https://biblehub.com/hebrew/1004.htm' target='_blank' rel='noopener noreferrer'>בֵית־</a> (Then the house) <a href='https://biblehub.com/hebrew/3290.htm' target='_blank' rel='noopener noreferrer'>יַעֲקֹ֨ב</a> (of Jacob) <a href='https://biblehub.com/hebrew/784.htm' target='_blank' rel='noopener noreferrer'>אֵ֜שׁ</a> (a blazing fire), <a href='https://biblehub.com/hebrew/1004.htm' target='_blank' rel='noopener noreferrer'>וּבֵ֧ית</a> (and the house) <a href='https://biblehub.com/hebrew/3130.htm' target='_blank' rel='noopener noreferrer'>יוֹסֵ֣ף</a> (of Joseph) <a href='https://biblehub.com/hebrew/3852.htm' target='_blank' rel='noopener noreferrer'>לֶהָבָ֗ה</a> (a burning flame); <a href='https://biblehub.com/hebrew/1004.htm' target='_blank' rel='noopener noreferrer'>וּבֵ֤ית</a> (but the house) <a href='https://biblehub.com/hebrew/6215.htm' target='_blank' rel='noopener noreferrer'>עֵשָׂו֙</a> (of Esau) <a href='https://biblehub.com/hebrew/7179.htm' target='_blank' rel='noopener noreferrer'>לְקַ֔שׁ</a> (will be stubble)— <a href='https://biblehub.com/hebrew/1814.htm' target='_blank' rel='noopener noreferrer'>וְדָלְק֥וּ</a> (Jacob will set it ablaze) בָהֶ֖ם () <a href='https://biblehub.com/hebrew/398.htm' target='_blank' rel='noopener noreferrer'>וַאֲכָל֑וּם</a> (and consume it). <a href='https://biblehub.com/hebrew/3808.htm' target='_blank' rel='noopener noreferrer'>וְלֹֽא־</a> (Therefore no) <a href='https://biblehub.com/hebrew/1961.htm' target='_blank' rel='noopener noreferrer'>יִֽהְיֶ֤ה</a> (will remain) <a href='https://biblehub.com/hebrew/8300.htm' target='_blank' rel='noopener noreferrer'>שָׂרִיד֙</a> (survivor) <a href='https://biblehub.com/hebrew/1004.htm' target='_blank' rel='noopener noreferrer'>לְבֵ֣ית</a> (from the house) <a href='https://biblehub.com/hebrew/6215.htm' target='_blank' rel='noopener noreferrer'>עֵשָׂ֔ו</a> (of Esau). <a href='https://biblehub.com/hebrew/3588.htm' target='_blank' rel='noopener noreferrer'>כִּ֥י</a> (For) <a href='https://biblehub.com/hebrew/3068.htm' target='_blank' rel='noopener noreferrer'>יְהוָ֖ה</a> (the LORD) <a href='https://biblehub.com/hebrew/1696.htm' target='_blank' rel='noopener noreferrer'>דִּבֵּֽר׃</a> (has spoken). "
+  kjvRef="KJV (1:18)"
+  kjvText="And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble, and they shall kindle in them, and devour them; and there shall not be any remaining of the house of Esau; for the LORD hath spoken it."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:19)"
+  ivText="And they of the south shall possess the mount of Esau; and they of the plain, the Philistines; and they shall possess the fields of Ephraim and the fields of Samaria; and Benjamin shall possess Gilead."
+  origRef="Hebrew (1:19)"
+  origText="<a href='https://biblehub.com/hebrew/3423.htm' target='_blank' rel='noopener noreferrer'>וְיָרְשׁ֨וּ</a> (will possess) <a href='https://biblehub.com/hebrew/5045.htm' target='_blank' rel='noopener noreferrer'>הַנֶּ֜גֶב</a> (Those from the Negev) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֶת־</a> (-) <a href='https://biblehub.com/hebrew/2022.htm' target='_blank' rel='noopener noreferrer'>הַ֣ר</a> (the mountains) <a href='https://biblehub.com/hebrew/6215.htm' target='_blank' rel='noopener noreferrer'>עֵשָׂ֗ו</a> (of Esau); <a href='https://biblehub.com/hebrew/8219.htm' target='_blank' rel='noopener noreferrer'>וְהַשְּׁפֵלָה֙</a> (those from the foothills) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֶת־</a> (-) <a href='https://biblehub.com/hebrew/6430.htm' target='_blank' rel='noopener noreferrer'>פְּלִשְׁתִּ֔ים</a> ([will possess the land] of the Philistines). <a href='https://biblehub.com/hebrew/3423.htm' target='_blank' rel='noopener noreferrer'>וְיָרְשׁוּ֙</a> (They will occupy) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֶת־</a> (-) <a href='https://biblehub.com/hebrew/7704.htm' target='_blank' rel='noopener noreferrer'>שְׂדֵ֣ה</a> (the fields) <a href='https://biblehub.com/hebrew/669.htm' target='_blank' rel='noopener noreferrer'>אֶפְרַ֔יִם</a> (of Ephraim) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>וְאֵ֖ת</a> (-) <a href='https://biblehub.com/hebrew/7704.htm' target='_blank' rel='noopener noreferrer'>שְׂדֵ֣ה</a> (-) <a href='https://biblehub.com/hebrew/8111.htm' target='_blank' rel='noopener noreferrer'>שֹׁמְר֑וֹן</a> (and Samaria), <a href='https://biblehub.com/hebrew/1144.htm' target='_blank' rel='noopener noreferrer'>וּבִנְיָמִ֖ן</a> (and Benjamin [will possess]) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֶת־</a> (-) <a href='https://biblehub.com/hebrew/1568.htm' target='_blank' rel='noopener noreferrer'>הַגִּלְעָֽד׃</a> (Gilead). "
+  kjvRef="KJV (1:19)"
+  kjvText="And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:20)"
+  ivText="And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south."
+  origRef="Hebrew (1:20)"
+  origText="<a href='https://biblehub.com/hebrew/1546.htm' target='_blank' rel='noopener noreferrer'>וְגָלֻ֣ת</a> (And the exiles) <a href='https://biblehub.com/hebrew/2426.htm' target='_blank' rel='noopener noreferrer'>הַֽחֵל־</a> (host) <a href='https://biblehub.com/hebrew/2088.htm' target='_blank' rel='noopener noreferrer'>הַ֠זֶּה</a> (of this) <a href='https://biblehub.com/hebrew/1121.htm' target='_blank' rel='noopener noreferrer'>לִבְנֵ֨י</a> (vvv) <a href='https://biblehub.com/hebrew/3478.htm' target='_blank' rel='noopener noreferrer'>יִשְׂרָאֵ֤ל</a> (of the Israelites) <a href='https://biblehub.com/hebrew/834.htm' target='_blank' rel='noopener noreferrer'>אֲשֶֽׁר־</a> () <a href='https://biblehub.com/hebrew/3669.htm' target='_blank' rel='noopener noreferrer'>כְּנַעֲנִים֙</a> ([will possess the land] of the Canaanites) <a href='https://biblehub.com/hebrew/5704.htm' target='_blank' rel='noopener noreferrer'>עַד־</a> (as) <a href='https://biblehub.com/hebrew/6886.htm' target='_blank' rel='noopener noreferrer'>צָ֣רְפַ֔ת</a> (far as Zarephath); <a href='https://biblehub.com/hebrew/1546.htm' target='_blank' rel='noopener noreferrer'>וְגָלֻ֥ת</a> (and the exiles) <a href='https://biblehub.com/hebrew/3389.htm' target='_blank' rel='noopener noreferrer'>יְרוּשָׁלִַ֖ם</a> (from Jerusalem) <a href='https://biblehub.com/hebrew/834.htm' target='_blank' rel='noopener noreferrer'>אֲשֶׁ֣ר</a> (who) <a href='https://biblehub.com/hebrew/5614.htm' target='_blank' rel='noopener noreferrer'>בִּסְפָרַ֑ד</a> (are in Sepharad) <a href='https://biblehub.com/hebrew/3423.htm' target='_blank' rel='noopener noreferrer'>יִֽרְשׁ֕וּ</a> (will possess) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֵ֖ת</a> (-) <a href='https://biblehub.com/hebrew/5892.htm' target='_blank' rel='noopener noreferrer'>עָרֵ֥י</a> (the cities) <a href='https://biblehub.com/hebrew/5045.htm' target='_blank' rel='noopener noreferrer'>הַנֶּֽגֶב׃</a> (of the Negev). "
+  kjvRef="KJV (1:20)"
+  kjvText="And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south."
+/>
+<VerseRow
+  isOt={true}
+  ivRef="Inspired Version (1:21)"
+  ivText="And <b>saviors</b> shall come up on Mount Zion to judge the mount of Esau; and the kingdom shall be the Lord's."
+  origRef="Hebrew (1:21)"
+  origText="<a href='https://biblehub.com/hebrew/5927.htm' target='_blank' rel='noopener noreferrer'>וְעָל֤וּ</a> (will ascend) <a href='https://biblehub.com/hebrew/3467.htm' target='_blank' rel='noopener noreferrer'>מֽוֹשִׁעִים֙</a> (The deliverers) <a href='https://biblehub.com/hebrew/2022.htm' target='_blank' rel='noopener noreferrer'>בְּהַ֣ר</a> (Mount) <a href='https://biblehub.com/hebrew/6726.htm' target='_blank' rel='noopener noreferrer'>צִיּ֔וֹן</a> (Zion) <a href='https://biblehub.com/hebrew/8199.htm' target='_blank' rel='noopener noreferrer'>לִשְׁפֹּ֖ט</a> (to rule over) <a href='https://biblehub.com/hebrew/853.htm' target='_blank' rel='noopener noreferrer'>אֶת־</a> (-) <a href='https://biblehub.com/hebrew/2022.htm' target='_blank' rel='noopener noreferrer'>הַ֣ר</a> (the mountains) <a href='https://biblehub.com/hebrew/6215.htm' target='_blank' rel='noopener noreferrer'>עֵשָׂ֑ו</a> (of Esau). <a href='https://biblehub.com/hebrew/1961.htm' target='_blank' rel='noopener noreferrer'>וְהָיְתָ֥ה</a> (will belong to) <a href='https://biblehub.com/hebrew/3068.htm' target='_blank' rel='noopener noreferrer'>לַֽיהוָ֖ה</a> (the LORD). <a href='https://biblehub.com/hebrew/4410.htm' target='_blank' rel='noopener noreferrer'>הַמְּלוּכָֽה׃</a> (And the kingdom) "
+  kjvRef="KJV (1:21)"
+  kjvText="And <b>saviours</b> shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD's."
+/>
+</div>

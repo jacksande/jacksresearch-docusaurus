@@ -4,1525 +4,862 @@ hide_table_of_contents: true
 sidebar_position: 52
 ---
 
+import VerseRow from '@site/src/components/VerseRow';
+
 <div className="bible-book-container">
-  <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:1)</div>
-      <div className="verse-text">Paul, an apostle of Jesus Christ, by the will of God, and Timotheus, our brother,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:1)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3972.htm" target="_blank" rel="noopener noreferrer">Παῦλος</a> (Paul) <a href="https://biblehub.com/greek/652.htm" target="_blank" rel="noopener noreferrer">ἀπόστολος</a> (an apostle) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ) <a href="https://biblehub.com/greek/2424.htm" target="_blank" rel="noopener noreferrer">Ἰησοῦ</a> (Jesus) <a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">διὰ</a> (by) <a href="https://biblehub.com/greek/2307.htm" target="_blank" rel="noopener noreferrer">θελήματος</a> (the will) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/5095.htm" target="_blank" rel="noopener noreferrer">Τιμόθεος</a> (Timothy) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (the) <a href="https://biblehub.com/greek/80.htm" target="_blank" rel="noopener noreferrer">ἀδελφὸς</a> (brother),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:1)</div>
-      <div className="verse-text">Paul, an apostle of Jesus Christ by the will of God, and Timotheus our brother,</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:2)</div>
-      <div className="verse-text">To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you and peace, from God our Father and the Lord Jesus Christ.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:2)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Τοῖς</a> (To the) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2857.htm" target="_blank" rel="noopener noreferrer">Κολοσσαῖς</a> (Colossae) <a href="https://biblehub.com/greek/40.htm" target="_blank" rel="noopener noreferrer">ἁγίοις</a> (saints) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/4103.htm" target="_blank" rel="noopener noreferrer">πιστοῖς</a> (faithful) <a href="https://biblehub.com/greek/80.htm" target="_blank" rel="noopener noreferrer">ἀδελφοῖς</a> (brothers) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστῷ</a> (Christ): <a href="https://biblehub.com/greek/5485.htm" target="_blank" rel="noopener noreferrer">Χάρις</a> (Grace) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (to you) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1515.htm" target="_blank" rel="noopener noreferrer">εἰρήνη</a> (peace) <a href="https://biblehub.com/greek/575.htm" target="_blank" rel="noopener noreferrer">ἀπὸ</a> (from) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (God) <a href="https://biblehub.com/greek/3962.htm" target="_blank" rel="noopener noreferrer">Πατρὸς</a> (the Father) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῶν</a> (of us).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:2)</div>
-      <div className="verse-text">To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and peace, from God our Father and the Lord Jesus Christ.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:3)</div>
-      <div className="verse-text">We give thanks to God and the Father of our Lord Jesus Christ, praying always for you,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:3)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2168.htm" target="_blank" rel="noopener noreferrer">Εὐχαριστοῦμεν</a> (We give thanks) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (to the) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεῷ</a> (God) <a href="https://biblehub.com/greek/3962.htm" target="_blank" rel="noopener noreferrer">Πατρὶ</a> (and Father) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίου</a> (Lord) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῶν</a> (of us) <a href="https://biblehub.com/greek/2424.htm" target="_blank" rel="noopener noreferrer">Ἰησοῦ</a> (Jesus) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (Christ), <a href="https://biblehub.com/greek/3842.htm" target="_blank" rel="noopener noreferrer">πάντοτε</a> (continually) <a href="https://biblehub.com/greek/4012.htm" target="_blank" rel="noopener noreferrer">περὶ</a> (for) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you) <a href="https://biblehub.com/greek/4336.htm" target="_blank" rel="noopener noreferrer">προσευχόμενοι</a> (praying),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:3)</div>
-      <div className="verse-text">We give thanks to God and the Father of our Lord Jesus Christ, praying always for you,</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:4)</div>
-      <div className="verse-text">Since we heard of your faith in Christ Jesus and of <b>your</b> love to all the saints,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:4)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/191.htm" target="_blank" rel="noopener noreferrer">ἀκούσαντες</a> (having heard of) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/4102.htm" target="_blank" rel="noopener noreferrer">πίστιν</a> (faith) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστῷ</a> (Christ) <a href="https://biblehub.com/greek/2424.htm" target="_blank" rel="noopener noreferrer">Ἰησοῦ</a> (Jesus) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/26.htm" target="_blank" rel="noopener noreferrer">ἀγάπην</a> (love) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἣν</a> (that) <a href="https://biblehub.com/greek/2192.htm" target="_blank" rel="noopener noreferrer">ἔχετε</a> (you have) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (toward) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντας</a> (all) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοὺς</a> (the) <a href="https://biblehub.com/greek/40.htm" target="_blank" rel="noopener noreferrer">ἁγίους</a> (saints),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:4)</div>
-      <div className="verse-text">Since we heard of your faith in Christ Jesus, and of <b>the</b> love <b>which ye have</b> to all the saints,</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:5)</div>
-      <div className="verse-text">For the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:5)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">διὰ</a> (because of) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/1680.htm" target="_blank" rel="noopener noreferrer">ἐλπίδα</a> (hope) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (‑) <a href="https://biblehub.com/greek/606.htm" target="_blank" rel="noopener noreferrer">ἀποκειμένην</a> (being laid up) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (for you) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/3772.htm" target="_blank" rel="noopener noreferrer">οὐρανοῖς</a> (heavens), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἣν</a> (which) <a href="https://biblehub.com/greek/4257.htm" target="_blank" rel="noopener noreferrer">προηκούσατε</a> (you heard of before) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (the) <a href="https://biblehub.com/greek/3056.htm" target="_blank" rel="noopener noreferrer">λόγῳ</a> (word) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of) <a href="https://biblehub.com/greek/225.htm" target="_blank" rel="noopener noreferrer">ἀληθείας</a> (truth), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the) <a href="https://biblehub.com/greek/2098.htm" target="_blank" rel="noopener noreferrer">εὐαγγελίου</a> (gospel),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:5)</div>
-      <div className="verse-text">For the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:6)</div>
-      <div className="verse-text">Which is come unto you, as in all <b>generations of</b> the world, and bringeth forth fruit, as it doth also in you since the day ye heard of it and knew the grace of God in truth,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:6)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the one) <a href="https://biblehub.com/greek/3918.htm" target="_blank" rel="noopener noreferrer">παρόντος</a> (being present) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (unto) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you), <a href="https://biblehub.com/greek/2531.htm" target="_blank" rel="noopener noreferrer">καθὼς</a> (just as) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">παντὶ</a> (all) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (the) <a href="https://biblehub.com/greek/2889.htm" target="_blank" rel="noopener noreferrer">κόσμῳ</a> (world) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστὶν</a> (it is) <a href="https://biblehub.com/greek/2592.htm" target="_blank" rel="noopener noreferrer">καρποφορούμενον</a> (bearing fruit) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/837.htm" target="_blank" rel="noopener noreferrer">αὐξανόμενον</a> (increasing), <a href="https://biblehub.com/greek/2531.htm" target="_blank" rel="noopener noreferrer">καθὼς</a> (just as) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (among) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (you), ἀφ’ (from) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἧς</a> (the) <a href="https://biblehub.com/greek/2250.htm" target="_blank" rel="noopener noreferrer">ἡμέρας</a> (day) <a href="https://biblehub.com/greek/191.htm" target="_blank" rel="noopener noreferrer">ἠκούσατε</a> (you heard) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1921.htm" target="_blank" rel="noopener noreferrer">ἐπέγνωτε</a> (knew) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/5484.htm" target="_blank" rel="noopener noreferrer">χάριν</a> (grace) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/225.htm" target="_blank" rel="noopener noreferrer">ἀληθείᾳ</a> (truth),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:6)</div>
-      <div className="verse-text">Which is come unto you, as <b>it is</b> in all the world; and bringeth forth fruit, as it doth also in you, since the day ye heard of it, and knew the grace of God in truth:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:7)</div>
-      <div className="verse-text">As ye also learned of Epaphras, our dear fellow servant, who is for you a faithful minister of Christ,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:7)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2531.htm" target="_blank" rel="noopener noreferrer">καθὼς</a> (just as) <a href="https://biblehub.com/greek/3129.htm" target="_blank" rel="noopener noreferrer">ἐμάθετε</a> (you learned) <a href="https://biblehub.com/greek/575.htm" target="_blank" rel="noopener noreferrer">ἀπὸ</a> (from) <a href="https://biblehub.com/greek/1889.htm" target="_blank" rel="noopener noreferrer">Ἐπαφρᾶ</a> (Epaphras), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the) <a href="https://biblehub.com/greek/27.htm" target="_blank" rel="noopener noreferrer">ἀγαπητοῦ</a> (beloved) <a href="https://biblehub.com/greek/4889.htm" target="_blank" rel="noopener noreferrer">συνδούλου</a> (fellow bond‑servant) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῶν</a> (of us), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅς</a> (who) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/4103.htm" target="_blank" rel="noopener noreferrer">πιστὸς</a> (faithful) <a href="https://biblehub.com/greek/5228.htm" target="_blank" rel="noopener noreferrer">ὑπὲρ</a> (on behalf of) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῶν</a>* (us), <a href="https://biblehub.com/greek/1249.htm" target="_blank" rel="noopener noreferrer">διάκονος</a> (a servant) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:7)</div>
-      <div className="verse-text">As ye also learned of Epaphras our dear fellow servant, who is for you a faithful minister of Christ;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:8)</div>
-      <div className="verse-text">Who also declared unto us your love in the Spirit.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:8)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (the one) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/1213.htm" target="_blank" rel="noopener noreferrer">δηλώσας</a> (having made known) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῖν</a> (to us) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (‑) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (your) <a href="https://biblehub.com/greek/26.htm" target="_blank" rel="noopener noreferrer">ἀγάπην</a> (love) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/4151.htm" target="_blank" rel="noopener noreferrer">Πνεύματι</a> (the Spirit).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:8)</div>
-      <div className="verse-text">Who also declared unto us your love in the Spirit.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:9)</div>
-      <div className="verse-text">For this cause we also, since the day we heard it, do not cease to pray for you and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:9)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">Διὰ</a> (Because of) <a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">τοῦτο</a> (this) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμεῖς</a> (we) ἀφ’ (from) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἧς</a> (the) <a href="https://biblehub.com/greek/2250.htm" target="_blank" rel="noopener noreferrer">ἡμέρας</a> (day) <a href="https://biblehub.com/greek/191.htm" target="_blank" rel="noopener noreferrer">ἠκούσαμεν</a> (we heard), <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐ</a> (not) <a href="https://biblehub.com/greek/3973.htm" target="_blank" rel="noopener noreferrer">παυόμεθα</a> (cease) <a href="https://biblehub.com/greek/5228.htm" target="_blank" rel="noopener noreferrer">ὑπὲρ</a> (for) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you) <a href="https://biblehub.com/greek/4336.htm" target="_blank" rel="noopener noreferrer">προσευχόμενοι</a> (praying) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/154.htm" target="_blank" rel="noopener noreferrer">αἰτούμενοι</a> (asking) <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/4137.htm" target="_blank" rel="noopener noreferrer">πληρωθῆτε</a> (you may be filled with) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/1922.htm" target="_blank" rel="noopener noreferrer">ἐπίγνωσιν</a> (knowledge) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2307.htm" target="_blank" rel="noopener noreferrer">θελήματος</a> (will) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάσῃ</a> (all) <a href="https://biblehub.com/greek/4678.htm" target="_blank" rel="noopener noreferrer">σοφίᾳ</a> (wisdom) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/4907.htm" target="_blank" rel="noopener noreferrer">συνέσει</a> (understanding) <a href="https://biblehub.com/greek/4152.htm" target="_blank" rel="noopener noreferrer">πνευματικῇ</a> (spiritual),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:9)</div>
-      <div className="verse-text">For this cause we also, since the day we heard it, do not cease to pray for you, and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:10)</div>
-      <div className="verse-text">That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work and increasing in the knowledge of God,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:10)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/4043.htm" target="_blank" rel="noopener noreferrer">περιπατῆσαι</a> (to walk) <a href="https://biblehub.com/greek/516.htm" target="_blank" rel="noopener noreferrer">ἀξίως</a> (worthily) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίου</a> (Lord): <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶσαν</a> (all) <a href="https://biblehub.com/greek/699.htm" target="_blank" rel="noopener noreferrer">ἀρεσκείαν</a> (pleasing), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">παντὶ</a> (every) <a href="https://biblehub.com/greek/2041.htm" target="_blank" rel="noopener noreferrer">ἔργῳ</a> (work) <a href="https://biblehub.com/greek/18.htm" target="_blank" rel="noopener noreferrer">ἀγαθῷ</a> (good), <a href="https://biblehub.com/greek/2592.htm" target="_blank" rel="noopener noreferrer">καρποφοροῦντες</a> (bringing forth fruit) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/837.htm" target="_blank" rel="noopener noreferrer">αὐξανόμενοι</a> (growing) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (in the) <a href="https://biblehub.com/greek/1922.htm" target="_blank" rel="noopener noreferrer">ἐπιγνώσει</a> (knowledge) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:10)</div>
-      <div className="verse-text">That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work, and increasing in the knowledge of God;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:11)</div>
-      <div className="verse-text">Strengthened with all might, according to his glorious power, unto all patience and long-suffering with joyfulness,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:11)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (with) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάσῃ</a> (all) <a href="https://biblehub.com/greek/1411.htm" target="_blank" rel="noopener noreferrer">δυνάμει</a> (power) <a href="https://biblehub.com/greek/1412.htm" target="_blank" rel="noopener noreferrer">δυναμούμενοι</a> (being strengthened) <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/2904.htm" target="_blank" rel="noopener noreferrer">κράτος</a> (might) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (‑) <a href="https://biblehub.com/greek/1391.htm" target="_blank" rel="noopener noreferrer">δόξης</a> (glorious) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (unto) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶσαν</a> (all) <a href="https://biblehub.com/greek/5281.htm" target="_blank" rel="noopener noreferrer">ὑπομονὴν</a> (endurance) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3115.htm" target="_blank" rel="noopener noreferrer">μακροθυμίαν</a> (patience) <a href="https://biblehub.com/greek/3326.htm" target="_blank" rel="noopener noreferrer">μετὰ</a> (with) <a href="https://biblehub.com/greek/5479.htm" target="_blank" rel="noopener noreferrer">χαρᾶς</a> (joy),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:11)</div>
-      <div className="verse-text">Strengthened with all might, according to his glorious power, unto all patience and long-suffering with joyfulness;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:12)</div>
-      <div className="verse-text">Giving thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:12)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2168.htm" target="_blank" rel="noopener noreferrer">εὐχαριστοῦντες</a> (giving thanks) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (to the) <a href="https://biblehub.com/greek/3962.htm" target="_blank" rel="noopener noreferrer">Πατρὶ</a> (Father), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (the One) <a href="https://biblehub.com/greek/2427.htm" target="_blank" rel="noopener noreferrer">ἱκανώσαντι</a> (having qualified) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (for) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/3310.htm" target="_blank" rel="noopener noreferrer">μερίδα</a> (share) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2819.htm" target="_blank" rel="noopener noreferrer">κλήρου</a> (inheritance) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (of the) <a href="https://biblehub.com/greek/40.htm" target="_blank" rel="noopener noreferrer">ἁγίων</a> (saints) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (the) <a href="https://biblehub.com/greek/5457.htm" target="_blank" rel="noopener noreferrer">φωτί</a> (light),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:12)</div>
-      <div className="verse-text">Giving thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:13)</div>
-      <div className="verse-text">Who hath delivered us from the power of darkness and hath translated us into the kingdom of his dear Son,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:13)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὃς</a> (who) <a href="https://biblehub.com/greek/4506.htm" target="_blank" rel="noopener noreferrer">ἐρρύσατο</a> (has delivered) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμᾶς</a> (us) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (from) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/1849.htm" target="_blank" rel="noopener noreferrer">ἐξουσίας</a> (dominion) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/4655.htm" target="_blank" rel="noopener noreferrer">σκότους</a> (of darkness) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3179.htm" target="_blank" rel="noopener noreferrer">μετέστησεν</a> (transferred us) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (into) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/932.htm" target="_blank" rel="noopener noreferrer">βασιλείαν</a> (kingdom) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/5207.htm" target="_blank" rel="noopener noreferrer">Υἱοῦ</a> (Son) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (‑) <a href="https://biblehub.com/greek/26.htm" target="_blank" rel="noopener noreferrer">ἀγάπης</a> (beloved) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:13)</div>
-      <div className="verse-text">Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:14)</div>
-      <div className="verse-text">In whom we have redemption through his blood, even the forgiveness of sins,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:14)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ᾧ</a> (whom) <a href="https://biblehub.com/greek/2192.htm" target="_blank" rel="noopener noreferrer">ἔχομεν</a> (we have) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (‑) <a href="https://biblehub.com/greek/629.htm" target="_blank" rel="noopener noreferrer">ἀπολύτρωσιν</a> (redemption), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/859.htm" target="_blank" rel="noopener noreferrer">ἄφεσιν</a> (forgiveness) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (‑) <a href="https://biblehub.com/greek/266.htm" target="_blank" rel="noopener noreferrer">ἁμαρτιῶν</a> (of sins).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:14)</div>
-      <div className="verse-text">In whom we have redemption through his blood, even the forgiveness of sins:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:15)</div>
-      <div className="verse-text">Who is the image of the invisible God, the firstborn of every creature.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:15)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">Ὅς</a> (He) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/1504.htm" target="_blank" rel="noopener noreferrer">εἰκὼν</a> (the image) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (God) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/517.htm" target="_blank" rel="noopener noreferrer">ἀοράτου</a> (invisible), <a href="https://biblehub.com/greek/4416.htm" target="_blank" rel="noopener noreferrer">πρωτότοκος</a> (the firstborn) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάσης</a> (over all) <a href="https://biblehub.com/greek/2937.htm" target="_blank" rel="noopener noreferrer">κτίσεως</a> (creation),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:15)</div>
-      <div className="verse-text">Who is the image of the invisible God, the firstborn of every creature:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:16)</div>
-      <div className="verse-text">For by him were all things created that are in heaven and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers; all things were created by him and for him;</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:16)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3754.htm" target="_blank" rel="noopener noreferrer">ὅτι</a> (because) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/2936.htm" target="_blank" rel="noopener noreferrer">ἐκτίσθη</a> (were created) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (‑) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all things) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/3772.htm" target="_blank" rel="noopener noreferrer">οὐρανοῖς</a> (heavens) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1909.htm" target="_blank" rel="noopener noreferrer">ἐπὶ</a> (upon) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/1093.htm" target="_blank" rel="noopener noreferrer">γῆς</a> (earth), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the) <a href="https://biblehub.com/greek/3707.htm" target="_blank" rel="noopener noreferrer">ὁρατὰ</a> (visible) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the) <a href="https://biblehub.com/greek/517.htm" target="_blank" rel="noopener noreferrer">ἀόρατα</a> (invisible), <a href="https://biblehub.com/greek/1535.htm" target="_blank" rel="noopener noreferrer">εἴτε</a> (whether) <a href="https://biblehub.com/greek/2362.htm" target="_blank" rel="noopener noreferrer">θρόνοι</a> (thrones) <a href="https://biblehub.com/greek/1535.htm" target="_blank" rel="noopener noreferrer">εἴτε</a> (or) <a href="https://biblehub.com/greek/2963.htm" target="_blank" rel="noopener noreferrer">κυριότητες</a> (dominions) <a href="https://biblehub.com/greek/1535.htm" target="_blank" rel="noopener noreferrer">εἴτε</a> (or) <a href="https://biblehub.com/greek/746.htm" target="_blank" rel="noopener noreferrer">ἀρχαὶ</a> (rulers) <a href="https://biblehub.com/greek/1535.htm" target="_blank" rel="noopener noreferrer">εἴτε</a> (or) <a href="https://biblehub.com/greek/1849.htm" target="_blank" rel="noopener noreferrer">ἐξουσίαι</a> (authorities); <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (‑) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all things) δι’ (through) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (Him) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (unto) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὸν</a> (Him) <a href="https://biblehub.com/greek/2936.htm" target="_blank" rel="noopener noreferrer">ἔκτισται</a> (have been created).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:16)</div>
-      <div className="verse-text">For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:17)</div>
-      <div className="verse-text">And he is before all things, and by him all things consist.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:17)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">Καὶ</a> (And) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτός</a> (He) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/4253.htm" target="_blank" rel="noopener noreferrer">πρὸ</a> (before) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντων</a> (all things), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (‑) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all things) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/4921.htm" target="_blank" rel="noopener noreferrer">συνέστηκεν</a> (hold together).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:17)</div>
-      <div className="verse-text">And he is before all things, and by him all things consist.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:18)</div>
-      <div className="verse-text">And he is the head of the body, the church, who is the beginning, the firstborn from the dead, that in all things he might have the pre-eminence.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:18)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (And) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτός</a> (He) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/2776.htm" target="_blank" rel="noopener noreferrer">κεφαλὴ</a> (head) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σώματος</a> (body), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/1577.htm" target="_blank" rel="noopener noreferrer">ἐκκλησίας</a> (church), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅς</a> (who) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) (<a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a>) (the) <a href="https://biblehub.com/greek/746.htm" target="_blank" rel="noopener noreferrer">ἀρχή</a> (beginning), <a href="https://biblehub.com/greek/4416.htm" target="_blank" rel="noopener noreferrer">πρωτότοκος</a> (firstborn) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (out from) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (the) <a href="https://biblehub.com/greek/3498.htm" target="_blank" rel="noopener noreferrer">νεκρῶν</a> (dead), <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (so that) <a href="https://biblehub.com/greek/1096.htm" target="_blank" rel="noopener noreferrer">γένηται</a> (might be) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶσιν</a> (all things) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὸς</a> (He) <a href="https://biblehub.com/greek/4409.htm" target="_blank" rel="noopener noreferrer">πρωτεύων</a> (holding preeminence),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:18)</div>
-      <div className="verse-text">And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the pre-eminence.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:19)</div>
-      <div className="verse-text">For it pleased the Father that in him should all fullness dwell,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:19)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3754.htm" target="_blank" rel="noopener noreferrer">ὅτι</a> (because) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/2106.htm" target="_blank" rel="noopener noreferrer">εὐδόκησεν</a> (was pleased) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶν</a> (all) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/4138.htm" target="_blank" rel="noopener noreferrer">πλήρωμα</a> (fullness) <a href="https://biblehub.com/greek/2730.htm" target="_blank" rel="noopener noreferrer">κατοικῆσαι</a> (to dwell),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:19)</div>
-      <div className="verse-text">For it pleased the Father that in him should all fullness dwell;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:20)</div>
-      <div className="verse-text">And, having made peace through the blood of his cross, by him to reconcile all things unto himself--by him, I say, whether they be things in earth or things in heaven.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:20)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) δι’ (by) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (Him) <a href="https://biblehub.com/greek/604.htm" target="_blank" rel="noopener noreferrer">ἀποκαταλλάξαι</a> (to reconcile) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (‑) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all things) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (to) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτόν</a> (Himself), <a href="https://biblehub.com/greek/1517.htm" target="_blank" rel="noopener noreferrer">εἰρηνοποιήσας</a> (having made peace) <a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">διὰ</a> (by) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the) <a href="https://biblehub.com/greek/129.htm" target="_blank" rel="noopener noreferrer">αἵματος</a> (blood) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/4716.htm" target="_blank" rel="noopener noreferrer">σταυροῦ</a> (cross) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him), δι’ (through) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (Him), <a href="https://biblehub.com/greek/1535.htm" target="_blank" rel="noopener noreferrer">εἴτε</a> (whether) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the things) <a href="https://biblehub.com/greek/1909.htm" target="_blank" rel="noopener noreferrer">ἐπὶ</a> (on) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/1093.htm" target="_blank" rel="noopener noreferrer">γῆς</a> (earth), <a href="https://biblehub.com/greek/1535.htm" target="_blank" rel="noopener noreferrer">εἴτε</a> (or) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the things) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/3772.htm" target="_blank" rel="noopener noreferrer">οὐρανοῖς</a> (heavens).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:20)</div>
-      <div className="verse-text">And, having made peace through the blood of his cross, by him to reconcile all things unto himself; by him, I say, whether they be things in earth, or things in heaven.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:21)</div>
-      <div className="verse-text">And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:21)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">Καὶ</a> (And) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you), <a href="https://biblehub.com/greek/4218.htm" target="_blank" rel="noopener noreferrer">ποτε</a> (once) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ὄντας</a> (being) <a href="https://biblehub.com/greek/526.htm" target="_blank" rel="noopener noreferrer">ἀπηλλοτριωμένους</a> (alienated) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/2190.htm" target="_blank" rel="noopener noreferrer">ἐχθροὺς</a> (hostile) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (‑) <a href="https://biblehub.com/greek/1271.htm" target="_blank" rel="noopener noreferrer">διανοίᾳ</a> (in mind) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/2041.htm" target="_blank" rel="noopener noreferrer">ἔργοις</a> (deeds) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (‑) <a href="https://biblehub.com/greek/4190.htm" target="_blank" rel="noopener noreferrer">πονηροῖς</a> (evil),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:21)</div>
-      <div className="verse-text">And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:22)</div>
-      <div className="verse-text">In the body of his flesh through death, to present you holy and unblamable and unreprovable in his sight,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:22)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3570.htm" target="_blank" rel="noopener noreferrer">νυνὶ</a> (now) <a href="https://biblehub.com/greek/1161.htm" target="_blank" rel="noopener noreferrer">δὲ</a> (however) <a href="https://biblehub.com/greek/604.htm" target="_blank" rel="noopener noreferrer">ἀποκατήλλαξεν</a> (He has reconciled You) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (the) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σώματι</a> (body) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκὸς</a> (flesh) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him) <a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">διὰ</a> (through) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2288.htm" target="_blank" rel="noopener noreferrer">θανάτου</a> (death), <a href="https://biblehub.com/greek/3936.htm" target="_blank" rel="noopener noreferrer">παραστῆσαι</a> (to present) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/40.htm" target="_blank" rel="noopener noreferrer">ἁγίους</a> (holy) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/299.htm" target="_blank" rel="noopener noreferrer">ἀμώμους</a> (unblemished) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/410.htm" target="_blank" rel="noopener noreferrer">ἀνεγκλήτους</a> (blameless) <a href="https://biblehub.com/greek/2714.htm" target="_blank" rel="noopener noreferrer">κατενώπιον</a> (before) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (Him),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:22)</div>
-      <div className="verse-text">In the body of his flesh through death, to present you holy and unblamable and unreprovable in his sight:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:23)</div>
-      <div className="verse-text">If ye continue in the faith grounded and settled and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven, whereof I, Paul, am made a minister,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:23)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1487.htm" target="_blank" rel="noopener noreferrer">εἴ</a> (if) <a href="https://biblehub.com/greek/1065.htm" target="_blank" rel="noopener noreferrer">γε</a> (indeed) <a href="https://biblehub.com/greek/1961.htm" target="_blank" rel="noopener noreferrer">ἐπιμένετε</a> (you continue) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (‑) <a href="https://biblehub.com/greek/4102.htm" target="_blank" rel="noopener noreferrer">πίστει</a> (in the faith), <a href="https://biblehub.com/greek/2311.htm" target="_blank" rel="noopener noreferrer">τεθεμελιωμένοι</a> (established) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1476.htm" target="_blank" rel="noopener noreferrer">ἑδραῖοι</a> (firm), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">μὴ</a> (not) <a href="https://biblehub.com/greek/3334.htm" target="_blank" rel="noopener noreferrer">μετακινούμενοι</a> (being moved away) <a href="https://biblehub.com/greek/575.htm" target="_blank" rel="noopener noreferrer">ἀπὸ</a> (from) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/1680.htm" target="_blank" rel="noopener noreferrer">ἐλπίδος</a> (hope) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2098.htm" target="_blank" rel="noopener noreferrer">εὐαγγελίου</a> (gospel) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">οὗ</a> (that) <a href="https://biblehub.com/greek/191.htm" target="_blank" rel="noopener noreferrer">ἠκούσατε</a> (you have heard), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2784.htm" target="_blank" rel="noopener noreferrer">κηρυχθέντος</a> (having been proclaimed) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάσῃ</a> (all) <a href="https://biblehub.com/greek/2937.htm" target="_blank" rel="noopener noreferrer">κτίσει</a> (creation) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (‑) <a href="https://biblehub.com/greek/5259.htm" target="_blank" rel="noopener noreferrer">ὑπὸ</a> (under) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (‑) <a href="https://biblehub.com/greek/3772.htm" target="_blank" rel="noopener noreferrer">οὐρανόν</a> (heaven), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">οὗ</a> (of which) <a href="https://biblehub.com/greek/1096.htm" target="_blank" rel="noopener noreferrer">ἐγενόμην</a> (have become) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἐγὼ</a> (I) <a href="https://biblehub.com/greek/3972.htm" target="_blank" rel="noopener noreferrer">Παῦλος</a> (Paul) <a href="https://biblehub.com/greek/1249.htm" target="_blank" rel="noopener noreferrer">διάκονος</a> (a minister).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:23)</div>
-      <div className="verse-text">If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven; whereof I Paul am made a minister;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:24)</div>
-      <div className="verse-text">Who now rejoice in my sufferings for you and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:24)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3568.htm" target="_blank" rel="noopener noreferrer">Νῦν</a> (Now) <a href="https://biblehub.com/greek/5463.htm" target="_blank" rel="noopener noreferrer">χαίρω</a> (I rejoice) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/3804.htm" target="_blank" rel="noopener noreferrer">παθήμασιν</a> (sufferings) <a href="https://biblehub.com/greek/5228.htm" target="_blank" rel="noopener noreferrer">ὑπὲρ</a> (for) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/466.htm" target="_blank" rel="noopener noreferrer">ἀνταναπληρῶ</a> (I am filling up) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (that which) <a href="https://biblehub.com/greek/5303.htm" target="_blank" rel="noopener noreferrer">ὑστερήματα</a> (is lacking) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (of the) <a href="https://biblehub.com/greek/2347.htm" target="_blank" rel="noopener noreferrer">θλίψεων</a> (tribulations) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (the) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκί</a> (flesh) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">μου</a> (of me) <a href="https://biblehub.com/greek/5228.htm" target="_blank" rel="noopener noreferrer">ὑπὲρ</a> (for) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σώματος</a> (body) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅ</a> (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/1577.htm" target="_blank" rel="noopener noreferrer">ἐκκλησία</a> (church),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:24)</div>
-      <div className="verse-text">Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:25)</div>
-      <div className="verse-text">Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfill the word of God,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:25)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἧς</a> (of which) <a href="https://biblehub.com/greek/1096.htm" target="_blank" rel="noopener noreferrer">ἐγενόμην</a> (became) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἐγὼ</a> (I) <a href="https://biblehub.com/greek/1249.htm" target="_blank" rel="noopener noreferrer">διάκονος</a> (a minister), <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/3622.htm" target="_blank" rel="noopener noreferrer">οἰκονομίαν</a> (administration) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (‑) <a href="https://biblehub.com/greek/1325.htm" target="_blank" rel="noopener noreferrer">δοθεῖσάν</a> (having been given) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">μοι</a> (me) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (toward) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you), <a href="https://biblehub.com/greek/4137.htm" target="_blank" rel="noopener noreferrer">πληρῶσαι</a> (to complete) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (the) <a href="https://biblehub.com/greek/3056.htm" target="_blank" rel="noopener noreferrer">λόγον</a> (word) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:25)</div>
-      <div className="verse-text">Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfill the word of God;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:26)</div>
-      <div className="verse-text">Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:26)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/3466.htm" target="_blank" rel="noopener noreferrer">μυστήριον</a> (mystery) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (‑) <a href="https://biblehub.com/greek/613.htm" target="_blank" rel="noopener noreferrer">ἀποκεκρυμμένον</a> (having been hidden) <a href="https://biblehub.com/greek/575.htm" target="_blank" rel="noopener noreferrer">ἀπὸ</a> (from) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (the) <a href="https://biblehub.com/greek/165.htm" target="_blank" rel="noopener noreferrer">αἰώνων</a> (ages) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/575.htm" target="_blank" rel="noopener noreferrer">ἀπὸ</a> (from) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (the) <a href="https://biblehub.com/greek/1074.htm" target="_blank" rel="noopener noreferrer">γενεῶν</a> (generations), <a href="https://biblehub.com/greek/3568.htm" target="_blank" rel="noopener noreferrer">νῦν</a> (now) <a href="https://biblehub.com/greek/1161.htm" target="_blank" rel="noopener noreferrer">δὲ</a> (however) <a href="https://biblehub.com/greek/5319.htm" target="_blank" rel="noopener noreferrer">ἐφανερώθη</a> (having been manifested) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (to the) <a href="https://biblehub.com/greek/40.htm" target="_blank" rel="noopener noreferrer">ἁγίοις</a> (saints) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:26)</div>
-      <div className="verse-text">Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:27)</div>
-      <div className="verse-text">To whom God would make known what is the riches of the glory of this mystery among the Gentiles, which is Christ in you, the hope of glory,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:27)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">οἷς</a> (to whom) <a href="https://biblehub.com/greek/2309.htm" target="_blank" rel="noopener noreferrer">ἠθέλησεν</a> (has willed) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεὸς</a> (God) <a href="https://biblehub.com/greek/1107.htm" target="_blank" rel="noopener noreferrer">γνωρίσαι</a> (to make known) <a href="https://biblehub.com/greek/5101.htm" target="_blank" rel="noopener noreferrer">τί</a> (what is) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/4149.htm" target="_blank" rel="noopener noreferrer">πλοῦτος</a> (riches) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/1391.htm" target="_blank" rel="noopener noreferrer">δόξης</a> (glory) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/3466.htm" target="_blank" rel="noopener noreferrer">μυστηρίου</a> (mystery) <a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">τούτου</a> (this) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (among) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/1484.htm" target="_blank" rel="noopener noreferrer">ἔθνεσιν</a> (Gentiles), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅ</a>* (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστὸς</a> (Christ) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (you), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/1680.htm" target="_blank" rel="noopener noreferrer">ἐλπὶς</a> (hope) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (‑) <a href="https://biblehub.com/greek/1391.htm" target="_blank" rel="noopener noreferrer">δόξης</a> (of glory),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:27)</div>
-      <div className="verse-text">To whom God would make known what is the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:28)</div>
-      <div className="verse-text">Whom we preach, warning every man and teaching every man in all wisdom, that we may present every man perfect in Christ Jesus,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:28)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὃν</a> (whom) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμεῖς</a> (we) <a href="https://biblehub.com/greek/2605.htm" target="_blank" rel="noopener noreferrer">καταγγέλλομεν</a> (preach), <a href="https://biblehub.com/greek/3560.htm" target="_blank" rel="noopener noreferrer">νουθετοῦντες</a> (admonishing) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (every) <a href="https://biblehub.com/greek/444.htm" target="_blank" rel="noopener noreferrer">ἄνθρωπον</a> (man) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1321.htm" target="_blank" rel="noopener noreferrer">διδάσκοντες</a> (teaching) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (every) <a href="https://biblehub.com/greek/444.htm" target="_blank" rel="noopener noreferrer">ἄνθρωπον</a> (man) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάσῃ</a> (all) <a href="https://biblehub.com/greek/4678.htm" target="_blank" rel="noopener noreferrer">σοφίᾳ</a> (wisdom), <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (so that) <a href="https://biblehub.com/greek/3936.htm" target="_blank" rel="noopener noreferrer">παραστήσωμεν</a> (we may present) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (every) <a href="https://biblehub.com/greek/444.htm" target="_blank" rel="noopener noreferrer">ἄνθρωπον</a> (man) <a href="https://biblehub.com/greek/5046.htm" target="_blank" rel="noopener noreferrer">τέλειον</a> (perfect) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστῷ</a> (Christ).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:28)</div>
-      <div className="verse-text">Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (1:29)</div>
-      <div className="verse-text">Whereunto I also labor, striving according to his working, which worketh in me mightily.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (1:29)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">Εἰς</a> (Unto) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὃ</a> (this) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/2872.htm" target="_blank" rel="noopener noreferrer">κοπιῶ</a> (I toil), <a href="https://biblehub.com/greek/75.htm" target="_blank" rel="noopener noreferrer">ἀγωνιζόμενος</a> (striving) <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/1753.htm" target="_blank" rel="noopener noreferrer">ἐνέργειαν</a> (energy) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of Him) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (‑) <a href="https://biblehub.com/greek/1754.htm" target="_blank" rel="noopener noreferrer">ἐνεργουμένην</a> (working) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἐμοὶ</a> (me) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/1411.htm" target="_blank" rel="noopener noreferrer">δυνάμει</a> (power).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (1:29)</div>
-      <div className="verse-text">Whereunto I also labor, striving according to his working, which worketh in me mightily.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:1)</div>
-      <div className="verse-text">For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:1)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2309.htm" target="_blank" rel="noopener noreferrer">Θέλω</a> (I want) <a href="https://biblehub.com/greek/1063.htm" target="_blank" rel="noopener noreferrer">γὰρ</a> (for) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/1492.htm" target="_blank" rel="noopener noreferrer">εἰδέναι</a> (to know) <a href="https://biblehub.com/greek/2245.htm" target="_blank" rel="noopener noreferrer">ἡλίκον</a> (how great) <a href="https://biblehub.com/greek/73.htm" target="_blank" rel="noopener noreferrer">ἀγῶνα</a> (a struggle) <a href="https://biblehub.com/greek/2192.htm" target="_blank" rel="noopener noreferrer">ἔχω</a> (I am having) <a href="https://biblehub.com/greek/5228.htm" target="_blank" rel="noopener noreferrer">ὑπὲρ</a> (for) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (those) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2993.htm" target="_blank" rel="noopener noreferrer">Λαοδικείᾳ</a> (Laodicea), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3745.htm" target="_blank" rel="noopener noreferrer">ὅσοι</a> (as many as) <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐχ</a> (not) <a href="https://biblehub.com/greek/3708.htm" target="_blank" rel="noopener noreferrer">ἑόρακαν</a> (have seen) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/4383.htm" target="_blank" rel="noopener noreferrer">πρόσωπόν</a> (face) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">μου</a> (of me) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκί</a> (the flesh),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:1)</div>
-      <div className="verse-text">For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:2)</div>
-      <div className="verse-text">That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgment of the mystery of God and of Christ, <b>who is of God, even</b> the Father;</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:2)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/3870.htm" target="_blank" rel="noopener noreferrer">παρακληθῶσιν</a> (may be encouraged) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">αἱ</a> (the) <a href="https://biblehub.com/greek/2588.htm" target="_blank" rel="noopener noreferrer">καρδίαι</a> (hearts) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῶν</a> (of them), <a href="https://biblehub.com/greek/4822.htm" target="_blank" rel="noopener noreferrer">συμβιβασθέντες</a> (having been knit together) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/26.htm" target="_blank" rel="noopener noreferrer">ἀγάπῃ</a> (love), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (to) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶν</a> (all) <a href="https://biblehub.com/greek/4149.htm" target="_blank" rel="noopener noreferrer">πλοῦτος</a> (the riches) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/4136.htm" target="_blank" rel="noopener noreferrer">πληροφορίας</a> (full assurance) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (‑) <a href="https://biblehub.com/greek/4907.htm" target="_blank" rel="noopener noreferrer">συνέσεως</a> (of understanding), <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (to) <a href="https://biblehub.com/greek/1922.htm" target="_blank" rel="noopener noreferrer">ἐπίγνωσιν</a> (the knowledge) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/3466.htm" target="_blank" rel="noopener noreferrer">μυστηρίου</a> (mystery) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God), <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (which is Christ),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:2)</div>
-      <div className="verse-text">That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgment of the mystery of God, and of the Father, <b>and</b> of Christ;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:3)</div>
-      <div className="verse-text">In whom are hid all the treasures of wisdom and knowledge.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:3)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ᾧ</a> (whom) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">εἰσιν</a> (are) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντες</a> (all) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">οἱ</a> (the) <a href="https://biblehub.com/greek/2344.htm" target="_blank" rel="noopener noreferrer">θησαυροὶ</a> (treasures) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (‑) <a href="https://biblehub.com/greek/4678.htm" target="_blank" rel="noopener noreferrer">σοφίας</a> (of wisdom) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1108.htm" target="_blank" rel="noopener noreferrer">γνώσεως</a> (of knowledge) <a href="https://biblehub.com/greek/614.htm" target="_blank" rel="noopener noreferrer">ἀπόκρυφοι</a> (hidden).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:3)</div>
-      <div className="verse-text">In whom are hid all the treasures of wisdom and knowledge.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:4)</div>
-      <div className="verse-text">And this I say, lest any man should beguile you with enticing words.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:4)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">Τοῦτο</a> (This) <a href="https://biblehub.com/greek/3004.htm" target="_blank" rel="noopener noreferrer">λέγω</a> (I say) <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (so that) <a href="https://biblehub.com/greek/3367.htm" target="_blank" rel="noopener noreferrer">μηδεὶς</a> (no one) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/3884.htm" target="_blank" rel="noopener noreferrer">παραλογίζηται</a> (might delude) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (by) <a href="https://biblehub.com/greek/4086.htm" target="_blank" rel="noopener noreferrer">πιθανολογίᾳ</a> (persuasive speech).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:4)</div>
-      <div className="verse-text">And this I say, lest any man should beguile you with enticing words.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:5)</div>
-      <div className="verse-text">For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order and the steadfastness of your faith in Christ.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:5)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1487.htm" target="_blank" rel="noopener noreferrer">εἰ</a> (If) <a href="https://biblehub.com/greek/1063.htm" target="_blank" rel="noopener noreferrer">γὰρ</a> (truly) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (indeed) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (in the) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκὶ</a> (flesh) <a href="https://biblehub.com/greek/548.htm" target="_blank" rel="noopener noreferrer">ἄπειμι</a> (I am absent), <a href="https://biblehub.com/greek/235.htm" target="_blank" rel="noopener noreferrer">ἀλλὰ</a> (yet) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (‑) <a href="https://biblehub.com/greek/4151.htm" target="_blank" rel="noopener noreferrer">πνεύματι</a> (in spirit) <a href="https://biblehub.com/greek/4862.htm" target="_blank" rel="noopener noreferrer">σὺν</a> (with) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (you) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">εἰμι</a> (I am), <a href="https://biblehub.com/greek/5463.htm" target="_blank" rel="noopener noreferrer">χαίρων</a> (rejoicing) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/991.htm" target="_blank" rel="noopener noreferrer">βλέπων</a> (seeing) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (your) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (‑) <a href="https://biblehub.com/greek/5010.htm" target="_blank" rel="noopener noreferrer">τάξιν</a> (good order) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/4733.htm" target="_blank" rel="noopener noreferrer">στερέωμα</a> (firmness) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (in) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστὸν</a> (Christ) <a href="https://biblehub.com/greek/4102.htm" target="_blank" rel="noopener noreferrer">πίστεως</a> (faith) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:5)</div>
-      <div className="verse-text">For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order, and the steadfastness of your faith in Christ.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:6)</div>
-      <div className="verse-text">As ye have, therefore, received Christ Jesus the Lord, so walk ye in him,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:6)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/5613.htm" target="_blank" rel="noopener noreferrer">Ὡς</a> (Just as) <a href="https://biblehub.com/greek/3767.htm" target="_blank" rel="noopener noreferrer">οὖν</a> (therefore) <a href="https://biblehub.com/greek/3880.htm" target="_blank" rel="noopener noreferrer">παρελάβετε</a> (you have received) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστὸν</a> (Christ) <a href="https://biblehub.com/greek/2424.htm" target="_blank" rel="noopener noreferrer">Ἰησοῦν</a> (Jesus) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (the) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κύριον</a> (Lord), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/4043.htm" target="_blank" rel="noopener noreferrer">περιπατεῖτε</a> (walk),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:6)</div>
-      <div className="verse-text">As ye have therefore received Christ Jesus the Lord, so walk ye in him:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:7)</div>
-      <div className="verse-text">Rooted and built up in him, and <b>established</b> in the faith, as ye have been taught, abounding therein with thanksgiving.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:7)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/4492.htm" target="_blank" rel="noopener noreferrer">ἐρριζωμένοι</a> (having been rooted) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/2026.htm" target="_blank" rel="noopener noreferrer">ἐποικοδομούμενοι</a> (being built up) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/950.htm" target="_blank" rel="noopener noreferrer">βεβαιούμενοι</a> (being strengthened in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (the) <a href="https://biblehub.com/greek/4102.htm" target="_blank" rel="noopener noreferrer">πίστει</a> (faith) <a href="https://biblehub.com/greek/2531.htm" target="_blank" rel="noopener noreferrer">καθὼς</a> (just as) <a href="https://biblehub.com/greek/1321.htm" target="_blank" rel="noopener noreferrer">ἐδιδάχθητε</a> (you were taught), <a href="https://biblehub.com/greek/4052.htm" target="_blank" rel="noopener noreferrer">περισσεύοντες</a> (abounding) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (with) <a href="https://biblehub.com/greek/2169.htm" target="_blank" rel="noopener noreferrer">εὐχαριστίᾳ</a> (thanksgiving).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:7)</div>
-      <div className="verse-text">Rooted and built up in him, and <b>stablished</b> in the faith, as ye have been taught, abounding therein with thanksgiving.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:8)</div>
-      <div className="verse-text">Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:8)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/991.htm" target="_blank" rel="noopener noreferrer">Βλέπετε</a> (Take heed) <a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">μή</a> (lest) <a href="https://biblehub.com/greek/5100.htm" target="_blank" rel="noopener noreferrer">τις</a> (anyone) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἔσται</a> (there will be) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/4812.htm" target="_blank" rel="noopener noreferrer">συλαγωγῶν</a> (taking captive) <a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">διὰ</a> (through) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (‑) <a href="https://biblehub.com/greek/5385.htm" target="_blank" rel="noopener noreferrer">φιλοσοφίας</a> (philosophy) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/2756.htm" target="_blank" rel="noopener noreferrer">κενῆς</a> (empty) <a href="https://biblehub.com/greek/539.htm" target="_blank" rel="noopener noreferrer">ἀπάτης</a> (deceit), <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/3862.htm" target="_blank" rel="noopener noreferrer">παράδοσιν</a> (tradition) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (‑) <a href="https://biblehub.com/greek/444.htm" target="_blank" rel="noopener noreferrer">ἀνθρώπων</a> (of men), <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the) <a href="https://biblehub.com/greek/4747.htm" target="_blank" rel="noopener noreferrer">στοιχεῖα</a> (principles) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2889.htm" target="_blank" rel="noopener noreferrer">κόσμου</a> (world) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐ</a> (not) <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστόν</a> (Christ).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:8)</div>
-      <div className="verse-text">Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:9)</div>
-      <div className="verse-text">For in him dwelleth all the fullness of the Godhead bodily.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:9)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3754.htm" target="_blank" rel="noopener noreferrer">ὅτι</a> (For) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/2730.htm" target="_blank" rel="noopener noreferrer">κατοικεῖ</a> (dwells) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶν</a> (all) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/4138.htm" target="_blank" rel="noopener noreferrer">πλήρωμα</a> (fullness) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/2320.htm" target="_blank" rel="noopener noreferrer">Θεότητος</a> (Deity) <a href="https://biblehub.com/greek/4985.htm" target="_blank" rel="noopener noreferrer">σωματικῶς</a> (bodily);</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:9)</div>
-      <div className="verse-text">For in him dwelleth all the fullness of the Godhead bodily.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:10)</div>
-      <div className="verse-text">And ye are complete in him, which is the head of all principality and power,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:10)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστὲ</a> (you are) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/4137.htm" target="_blank" rel="noopener noreferrer">πεπληρωμένοι</a> (complete), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅς</a> (who) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/2776.htm" target="_blank" rel="noopener noreferrer">κεφαλὴ</a> (head) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάσης</a> (of all) <a href="https://biblehub.com/greek/746.htm" target="_blank" rel="noopener noreferrer">ἀρχῆς</a> (rule) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1849.htm" target="_blank" rel="noopener noreferrer">ἐξουσίας</a> (authority),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:10)</div>
-      <div className="verse-text">And ye are complete in him, which is the head of all principality and power:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:11)</div>
-      <div className="verse-text">In whom also ye are circumcised with the circumcision made without hands, in putting off the body of the sins of the flesh by the circumcision of Christ,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:11)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ᾧ</a> (whom) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4059.htm" target="_blank" rel="noopener noreferrer">περιετμήθητε</a> (you were circumcised) <a href="https://biblehub.com/greek/4061.htm" target="_blank" rel="noopener noreferrer">περιτομῇ</a> (with the circumcision) <a href="https://biblehub.com/greek/886.htm" target="_blank" rel="noopener noreferrer">ἀχειροποιήτῳ</a> (made without hands), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (the) <a href="https://biblehub.com/greek/555.htm" target="_blank" rel="noopener noreferrer">ἀπεκδύσει</a> (removal) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σώματος</a> (body) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκός</a> (flesh), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (the) <a href="https://biblehub.com/greek/4061.htm" target="_blank" rel="noopener noreferrer">περιτομῇ</a> (circumcision) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:11)</div>
-      <div className="verse-text">In whom also ye are circumcised with the circumcision made without hands, in putting off the body of the sins of the flesh by the circumcision of Christ:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:12)</div>
-      <div className="verse-text">Buried with him in baptism, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:12)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/4916.htm" target="_blank" rel="noopener noreferrer">συνταφέντες</a> (having been buried with) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (‑) βαπτισμῷ* (baptism), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ᾧ</a> (which) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4891.htm" target="_blank" rel="noopener noreferrer">συνηγέρθητε</a> (you were raised with Him) <a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">διὰ</a> (through) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/4102.htm" target="_blank" rel="noopener noreferrer">πίστεως</a> (faith) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/1753.htm" target="_blank" rel="noopener noreferrer">ἐνεργείας</a> (working) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the One) <a href="https://biblehub.com/greek/1453.htm" target="_blank" rel="noopener noreferrer">ἐγείραντος</a> (having raised) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὸν</a> (Him) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (out from) <a href="https://biblehub.com/greek/3498.htm" target="_blank" rel="noopener noreferrer">νεκρῶν</a> (the dead).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:12)</div>
-      <div className="verse-text">Buried with him in baptism, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:13)</div>
-      <div className="verse-text">And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:13)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">Καὶ</a> (And) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/3498.htm" target="_blank" rel="noopener noreferrer">νεκροὺς</a> (dead) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ὄντας</a> (being) ‹<a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a>› (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/3900.htm" target="_blank" rel="noopener noreferrer">παραπτώμασιν</a> (trespasses) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (in the) <a href="https://biblehub.com/greek/203.htm" target="_blank" rel="noopener noreferrer">ἀκροβυστίᾳ</a> (uncircumcision) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκὸς</a> (flesh) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you), <a href="https://biblehub.com/greek/4806.htm" target="_blank" rel="noopener noreferrer">συνεζωοποίησεν</a> (He made alive together) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/4862.htm" target="_blank" rel="noopener noreferrer">σὺν</a> (with) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him), <a href="https://biblehub.com/greek/5483.htm" target="_blank" rel="noopener noreferrer">χαρισάμενος</a> (having forgiven) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῖν</a> (us) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the) <a href="https://biblehub.com/greek/3900.htm" target="_blank" rel="noopener noreferrer">παραπτώματα</a> (transgressions),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:13)</div>
-      <div className="verse-text">And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:14)</div>
-      <div className="verse-text">Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross;</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:14)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1813.htm" target="_blank" rel="noopener noreferrer">ἐξαλείψας</a> (having blotted out) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) καθ’ (against) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῶν</a> (us) <a href="https://biblehub.com/greek/5498.htm" target="_blank" rel="noopener noreferrer">χειρόγραφον</a> (handwriting) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (in the) <a href="https://biblehub.com/greek/1378.htm" target="_blank" rel="noopener noreferrer">δόγμασιν</a> (decrees), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὃ</a> (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἦν</a> (was) <a href="https://biblehub.com/greek/5227.htm" target="_blank" rel="noopener noreferrer">ὑπεναντίον</a> (adverse) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῖν</a> (to us); <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὸ</a> (it) <a href="https://biblehub.com/greek/142.htm" target="_blank" rel="noopener noreferrer">ἦρκεν</a> (He has taken) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (out of) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the) <a href="https://biblehub.com/greek/3319.htm" target="_blank" rel="noopener noreferrer">μέσου</a> (way), <a href="https://biblehub.com/greek/4338.htm" target="_blank" rel="noopener noreferrer">προσηλώσας</a> (having nailed) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὸ</a> (it) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (to the) <a href="https://biblehub.com/greek/4716.htm" target="_blank" rel="noopener noreferrer">σταυρῷ</a> (cross).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:14)</div>
-      <div className="verse-text">Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:15)</div>
-      <div className="verse-text">And having spoiled principalities and powers, he made a show of them openly, triumphing over them in it.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:15)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/554.htm" target="_blank" rel="noopener noreferrer">ἀπεκδυσάμενος</a> (Having disarmed) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰς</a> (the) <a href="https://biblehub.com/greek/746.htm" target="_blank" rel="noopener noreferrer">ἀρχὰς</a> (rulers) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰς</a> (the) <a href="https://biblehub.com/greek/1849.htm" target="_blank" rel="noopener noreferrer">ἐξουσίας</a> (authorities), <a href="https://biblehub.com/greek/1165.htm" target="_blank" rel="noopener noreferrer">ἐδειγμάτισεν</a> (He made a show of them) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3954.htm" target="_blank" rel="noopener noreferrer">παρρησίᾳ</a> (public), <a href="https://biblehub.com/greek/2358.htm" target="_blank" rel="noopener noreferrer">θριαμβεύσας</a> (having triumphed) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοὺς</a> (over them) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (it).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:15)</div>
-      <div className="verse-text">And having spoiled principalities and powers, he made a show of them openly, triumphing over them in it.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:16)</div>
-      <div className="verse-text">Let no man, therefore, judge you in meat, or in drink, or in respect of a holyday, or of the new moon, or of the Sabbath days,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:16)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">Μὴ</a> (Not) <a href="https://biblehub.com/greek/3767.htm" target="_blank" rel="noopener noreferrer">οὖν</a> (therefore) <a href="https://biblehub.com/greek/5100.htm" target="_blank" rel="noopener noreferrer">τις</a> (anyone) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/2919.htm" target="_blank" rel="noopener noreferrer">κρινέτω</a> (let judge) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in regard to) <a href="https://biblehub.com/greek/1035.htm" target="_blank" rel="noopener noreferrer">βρώσει</a> (food), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (or) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in regard to) <a href="https://biblehub.com/greek/4213.htm" target="_blank" rel="noopener noreferrer">πόσει</a> (drink), <a href="https://biblehub.com/greek/2228.htm" target="_blank" rel="noopener noreferrer">ἢ</a> (or) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3313.htm" target="_blank" rel="noopener noreferrer">μέρει</a> (regard) <a href="https://biblehub.com/greek/1859.htm" target="_blank" rel="noopener noreferrer">ἑορτῆς</a> (to a feast), <a href="https://biblehub.com/greek/2228.htm" target="_blank" rel="noopener noreferrer">ἢ</a> (or) <a href="https://biblehub.com/greek/3561.htm" target="_blank" rel="noopener noreferrer">νεομηνίας</a> (a New Moon), <a href="https://biblehub.com/greek/2228.htm" target="_blank" rel="noopener noreferrer">ἢ</a> (or) <a href="https://biblehub.com/greek/4521.htm" target="_blank" rel="noopener noreferrer">σαββάτων</a> (Sabbaths),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:16)</div>
-      <div className="verse-text">Let no man therefore judge you in meat, or in drink, or in respect of an holyday, or of the new moon, or of the sabbath days:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:17)</div>
-      <div className="verse-text">Which are a shadow of things to come; but the body is of Christ.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:17)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἅ</a> (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (are) <a href="https://biblehub.com/greek/4639.htm" target="_blank" rel="noopener noreferrer">σκιὰ</a> (a shadow) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (the things) <a href="https://biblehub.com/greek/3195.htm" target="_blank" rel="noopener noreferrer">μελλόντων</a> (coming); <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/1161.htm" target="_blank" rel="noopener noreferrer">δὲ</a> (however) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σῶμα</a> (body is) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:17)</div>
-      <div className="verse-text">Which are a shadow of things to come; but the body is of Christ.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:18)</div>
-      <div className="verse-text">Let no man beguile you of your reward in a voluntary humility and worshiping of angels, intruding into those things which he hath not seen, vainly puffed up by his fleshly mind,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:18)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3367.htm" target="_blank" rel="noopener noreferrer">μηδεὶς</a> (No one) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/2603.htm" target="_blank" rel="noopener noreferrer">καταβραβευέτω</a> (let disqualify), <a href="https://biblehub.com/greek/2309.htm" target="_blank" rel="noopener noreferrer">θέλων</a> (delighting) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/5012.htm" target="_blank" rel="noopener noreferrer">ταπεινοφροσύνῃ</a> (humility) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/2356.htm" target="_blank" rel="noopener noreferrer">θρησκείᾳ</a> (the worship) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (of the) <a href="https://biblehub.com/greek/32.htm" target="_blank" rel="noopener noreferrer">ἀγγέλων</a> (angels), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἃ</a> (which) <a href="https://biblehub.com/greek/3708.htm" target="_blank" rel="noopener noreferrer">ἑόρακεν</a> (he has seen) <a href="https://biblehub.com/greek/1687.htm" target="_blank" rel="noopener noreferrer">ἐμβατεύων</a> (detailing), <a href="https://biblehub.com/greek/1500.htm" target="_blank" rel="noopener noreferrer">εἰκῇ</a> (vainly) <a href="https://biblehub.com/greek/5448.htm" target="_blank" rel="noopener noreferrer">φυσιούμενος</a> (being puffed up) <a href="https://biblehub.com/greek/5259.htm" target="_blank" rel="noopener noreferrer">ὑπὸ</a> (by) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the) <a href="https://biblehub.com/greek/3563.htm" target="_blank" rel="noopener noreferrer">νοὸς</a> (mind) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκὸς</a> (flesh) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of him),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:18)</div>
-      <div className="verse-text">Let no man beguile you of your reward in a voluntary humility and worshiping of angels, intruding into those things which he hath not seen, vainly puffed up by his fleshly mind,</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:19)</div>
-      <div className="verse-text">And not holding the Head, from which all the body by joints and bands having nourishment ministered and knit together, increaseth with the increase of God.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:19)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐ</a> (not) <a href="https://biblehub.com/greek/2902.htm" target="_blank" rel="noopener noreferrer">κρατῶν</a> (holding fast) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (to the) <a href="https://biblehub.com/greek/2776.htm" target="_blank" rel="noopener noreferrer">Κεφαλήν</a> (head), <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐξ</a> (from) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">οὗ</a> (whom) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶν</a> (all) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σῶμα</a> (body), <a href="https://biblehub.com/greek/1223.htm" target="_blank" rel="noopener noreferrer">διὰ</a> (by) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (the) <a href="https://biblehub.com/greek/860.htm" target="_blank" rel="noopener noreferrer">ἁφῶν</a> (joints) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/4886.htm" target="_blank" rel="noopener noreferrer">συνδέσμων</a> (ligaments) <a href="https://biblehub.com/greek/2023.htm" target="_blank" rel="noopener noreferrer">ἐπιχορηγούμενον</a> (being supplied) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/4822.htm" target="_blank" rel="noopener noreferrer">συμβιβαζόμενον</a> (being knit together), <a href="https://biblehub.com/greek/837.htm" target="_blank" rel="noopener noreferrer">αὔξει</a> (increases) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (with the) <a href="https://biblehub.com/greek/838.htm" target="_blank" rel="noopener noreferrer">αὔξησιν</a> (increase) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:19)</div>
-      <div className="verse-text">And not holding the Head, from which all the body by joints and bands having nourishment ministered, and knit together, increaseth with the increase of God.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:20)</div>
-      <div className="verse-text">Wherefore, if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:20)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1487.htm" target="_blank" rel="noopener noreferrer">Εἰ</a> (If) <a href="https://biblehub.com/greek/599.htm" target="_blank" rel="noopener noreferrer">ἀπεθάνετε</a> (you have died) <a href="https://biblehub.com/greek/4862.htm" target="_blank" rel="noopener noreferrer">σὺν</a> (with) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστῷ</a> (Christ) <a href="https://biblehub.com/greek/575.htm" target="_blank" rel="noopener noreferrer">ἀπὸ</a> (away from) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (the) <a href="https://biblehub.com/greek/4747.htm" target="_blank" rel="noopener noreferrer">στοιχείων</a> (principles) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the) <a href="https://biblehub.com/greek/2889.htm" target="_blank" rel="noopener noreferrer">κόσμου</a> (world), <a href="https://biblehub.com/greek/5101.htm" target="_blank" rel="noopener noreferrer">τί</a> (why) <a href="https://biblehub.com/greek/5613.htm" target="_blank" rel="noopener noreferrer">ὡς</a> (as if) <a href="https://biblehub.com/greek/2198.htm" target="_blank" rel="noopener noreferrer">ζῶντες</a> (living) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2889.htm" target="_blank" rel="noopener noreferrer">κόσμῳ</a> (the world), <a href="https://biblehub.com/greek/1379.htm" target="_blank" rel="noopener noreferrer">δογματίζεσθε</a> (do you submit to decrees):</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:20)</div>
-      <div className="verse-text">Wherefore if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances,</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:21)</div>
-      <div className="verse-text"><b>Which are after the doctrines and commandments of men, who teach you to</b> touch not, taste not, handle not</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:21)</div>
-      <div className="verse-text">“<a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">Μὴ</a> (Not) <a href="https://biblehub.com/greek/680.htm" target="_blank" rel="noopener noreferrer">ἅψῃ</a> (you should handle)! <a href="https://biblehub.com/greek/3366.htm" target="_blank" rel="noopener noreferrer">μηδὲ</a> (Not) <a href="https://biblehub.com/greek/1089.htm" target="_blank" rel="noopener noreferrer">γεύσῃ</a> (you should taste)! <a href="https://biblehub.com/greek/3366.htm" target="_blank" rel="noopener noreferrer">μηδὲ</a> (Not) <a href="https://biblehub.com/greek/2345.htm" target="_blank" rel="noopener noreferrer">θίγῃς</a> (you should touch)!”? —</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:21)</div>
-      <div className="verse-text">(Touch not; taste not; handle not;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:21)</div>
-      <div className="verse-text">--all <b>those things</b> which are to perish with the using,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:22)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἅ</a> (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (are) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (unto) <a href="https://biblehub.com/greek/5356.htm" target="_blank" rel="noopener noreferrer">φθορὰν</a> (decay) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (with the) <a href="https://biblehub.com/greek/671.htm" target="_blank" rel="noopener noreferrer">ἀποχρήσει</a> (use), <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the) <a href="https://biblehub.com/greek/1778.htm" target="_blank" rel="noopener noreferrer">ἐντάλματα</a> (commandments) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1319.htm" target="_blank" rel="noopener noreferrer">διδασκαλίας</a> (teachings) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (‑) <a href="https://biblehub.com/greek/444.htm" target="_blank" rel="noopener noreferrer">ἀνθρώπων</a> (of men),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:22)</div>
-      <div className="verse-text">Which all are to perish with the using;) <b>after the commandments and doctrines of men?</b></div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (2:22)</div>
-      <div className="verse-text">Which things have indeed a show of wisdom in will-worship, and humility, and neglecting the body as to the satisfying the flesh--not in any honor to God.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (2:23)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3748.htm" target="_blank" rel="noopener noreferrer">ἅτινά</a> (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (are) <a href="https://biblehub.com/greek/3056.htm" target="_blank" rel="noopener noreferrer">λόγον</a> (an appearance) <a href="https://biblehub.com/greek/3303.htm" target="_blank" rel="noopener noreferrer">μὲν</a> (indeed) <a href="https://biblehub.com/greek/2192.htm" target="_blank" rel="noopener noreferrer">ἔχοντα</a> (having) <a href="https://biblehub.com/greek/4678.htm" target="_blank" rel="noopener noreferrer">σοφίας</a> (of wisdom), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/1479.htm" target="_blank" rel="noopener noreferrer">ἐθελοθρησκίᾳ</a> (self‑imposed worship) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/5012.htm" target="_blank" rel="noopener noreferrer">ταπεινοφροσύνῃ</a> (humility) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/857.htm" target="_blank" rel="noopener noreferrer">ἀφειδίᾳ</a> (harsh treatment) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σώματος</a> (of the body), <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐκ</a> (not) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (of) <a href="https://biblehub.com/greek/5092.htm" target="_blank" rel="noopener noreferrer">τιμῇ</a> (honor) <a href="https://biblehub.com/greek/5100.htm" target="_blank" rel="noopener noreferrer">τινι</a> (a certain), <a href="https://biblehub.com/greek/4314.htm" target="_blank" rel="noopener noreferrer">πρὸς</a> (against) <a href="https://biblehub.com/greek/4140.htm" target="_blank" rel="noopener noreferrer">πλησμονὴν</a> (the indulgence) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σαρκός</a> (flesh).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (2:23)</div>
-      <div className="verse-text">Which things have indeed a show of wisdom in will-worship, and humility, and neglecting <b>of</b> the body; not in any honor to the satisfying <b>of</b> the flesh.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:1)</div>
-      <div className="verse-text">If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:1)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1487.htm" target="_blank" rel="noopener noreferrer">Εἰ</a> (If) <a href="https://biblehub.com/greek/3767.htm" target="_blank" rel="noopener noreferrer">οὖν</a> (then) <a href="https://biblehub.com/greek/4891.htm" target="_blank" rel="noopener noreferrer">συνηγέρθητε</a> (you have been raised with) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστῷ</a> (Christ), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the things) <a href="https://biblehub.com/greek/507.htm" target="_blank" rel="noopener noreferrer">ἄνω</a> (above) <a href="https://biblehub.com/greek/2212.htm" target="_blank" rel="noopener noreferrer">ζητεῖτε</a> (seek), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">οὗ</a> (where) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστός</a> (Christ) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (at the) <a href="https://biblehub.com/greek/1188.htm" target="_blank" rel="noopener noreferrer">δεξιᾷ</a> (right hand) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God) <a href="https://biblehub.com/greek/2521.htm" target="_blank" rel="noopener noreferrer">καθήμενος</a> (sitting).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:1)</div>
-      <div className="verse-text">If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:2)</div>
-      <div className="verse-text">Set your affection on things above, not on things on the earth.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:2)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (The things) <a href="https://biblehub.com/greek/507.htm" target="_blank" rel="noopener noreferrer">ἄνω</a> (above) <a href="https://biblehub.com/greek/5426.htm" target="_blank" rel="noopener noreferrer">φρονεῖτε</a> (set your minds on), <a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">μὴ</a> (not) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the things) <a href="https://biblehub.com/greek/1909.htm" target="_blank" rel="noopener noreferrer">ἐπὶ</a> (on) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/1093.htm" target="_blank" rel="noopener noreferrer">γῆς</a> (earth).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:2)</div>
-      <div className="verse-text">Set your affection on things above, not on things on the earth.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:3)</div>
-      <div className="verse-text">For ye are dead, and your life is hid with Christ in God.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:3)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/599.htm" target="_blank" rel="noopener noreferrer">ἀπεθάνετε</a> (You have died) <a href="https://biblehub.com/greek/1063.htm" target="_blank" rel="noopener noreferrer">γάρ</a> (for), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/2222.htm" target="_blank" rel="noopener noreferrer">ζωὴ</a> (life) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you) <a href="https://biblehub.com/greek/2928.htm" target="_blank" rel="noopener noreferrer">κέκρυπται</a> (has been hidden) <a href="https://biblehub.com/greek/4862.htm" target="_blank" rel="noopener noreferrer">σὺν</a> (with) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστῷ</a> (Christ) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεῷ</a> (God).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:3)</div>
-      <div className="verse-text">For ye are dead, and your life is hid with Christ in God.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:4)</div>
-      <div className="verse-text">When Christ, who is our life, shall appear, then shall ye also appear with him in glory.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:4)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3752.htm" target="_blank" rel="noopener noreferrer">ὅταν</a> (When) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστὸς</a> (Christ) <a href="https://biblehub.com/greek/5319.htm" target="_blank" rel="noopener noreferrer">φανερωθῇ</a> (may be revealed), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/2222.htm" target="_blank" rel="noopener noreferrer">ζωὴ</a> (life) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a>* (of you), <a href="https://biblehub.com/greek/5119.htm" target="_blank" rel="noopener noreferrer">τότε</a> (then) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμεῖς</a> (you) <a href="https://biblehub.com/greek/4862.htm" target="_blank" rel="noopener noreferrer">σὺν</a> (with) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (Him) <a href="https://biblehub.com/greek/5319.htm" target="_blank" rel="noopener noreferrer">φανερωθήσεσθε</a> (will appear) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/1391.htm" target="_blank" rel="noopener noreferrer">δόξῃ</a> (glory).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:4)</div>
-      <div className="verse-text">When Christ, who is our life, shall appear, then shall ye also appear with him in glory.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:5)</div>
-      <div className="verse-text">Mortify, therefore, your members which are upon the earth: fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry;</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:5)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3499.htm" target="_blank" rel="noopener noreferrer">Νεκρώσατε</a> (Put to death) <a href="https://biblehub.com/greek/3767.htm" target="_blank" rel="noopener noreferrer">οὖν</a> (therefore) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the) <a href="https://biblehub.com/greek/3196.htm" target="_blank" rel="noopener noreferrer">μέλη</a> (members) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (which are) <a href="https://biblehub.com/greek/1909.htm" target="_blank" rel="noopener noreferrer">ἐπὶ</a> (upon) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (the) <a href="https://biblehub.com/greek/1093.htm" target="_blank" rel="noopener noreferrer">γῆς</a> (earth): <a href="https://biblehub.com/greek/4202.htm" target="_blank" rel="noopener noreferrer">πορνείαν</a> (sexual immorality), <a href="https://biblehub.com/greek/167.htm" target="_blank" rel="noopener noreferrer">ἀκαθαρσίαν</a> (impurity), <a href="https://biblehub.com/greek/3806.htm" target="_blank" rel="noopener noreferrer">πάθος</a> (passion), <a href="https://biblehub.com/greek/1939.htm" target="_blank" rel="noopener noreferrer">ἐπιθυμίαν</a> (desire) <a href="https://biblehub.com/greek/2556.htm" target="_blank" rel="noopener noreferrer">κακήν</a> (evil), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (‑) <a href="https://biblehub.com/greek/4124.htm" target="_blank" rel="noopener noreferrer">πλεονεξίαν</a> (covetousness), <a href="https://biblehub.com/greek/3748.htm" target="_blank" rel="noopener noreferrer">ἥτις</a> (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστὶν</a> (is) <a href="https://biblehub.com/greek/1495.htm" target="_blank" rel="noopener noreferrer">εἰδωλολατρία</a> (idolatry),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:5)</div>
-      <div className="verse-text">Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:6)</div>
-      <div className="verse-text">For which things' sake the wrath of God cometh on the children of disobedience,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:6)</div>
-      <div className="verse-text">δι’ (because of) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἃ</a> (which things) <a href="https://biblehub.com/greek/2064.htm" target="_blank" rel="noopener noreferrer">ἔρχεται</a> (is coming) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/3709.htm" target="_blank" rel="noopener noreferrer">ὀργὴ</a> (wrath) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God) ‹<a href="https://biblehub.com/greek/1909.htm" target="_blank" rel="noopener noreferrer">ἐπὶ</a> (on) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοὺς</a> (the) <a href="https://biblehub.com/greek/5207.htm" target="_blank" rel="noopener noreferrer">υἱοὺς</a> (sons) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of) <a href="https://biblehub.com/greek/543.htm" target="_blank" rel="noopener noreferrer">ἀπειθείας</a>› (disobedience),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:6)</div>
-      <div className="verse-text">For which things' sake the wrath of God cometh on the children of disobedience:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:7)</div>
-      <div className="verse-text">In the which ye also walked <b>sometime</b>, when ye lived in them.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:7)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">οἷς</a> (which) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμεῖς</a> (you) <a href="https://biblehub.com/greek/4043.htm" target="_blank" rel="noopener noreferrer">περιεπατήσατέ</a> (walked) <a href="https://biblehub.com/greek/4218.htm" target="_blank" rel="noopener noreferrer">ποτε</a> (once) <a href="https://biblehub.com/greek/3753.htm" target="_blank" rel="noopener noreferrer">ὅτε</a> (when) <a href="https://biblehub.com/greek/2198.htm" target="_blank" rel="noopener noreferrer">ἐζῆτε</a> (you were living) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">τούτοις</a> (them).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:7)</div>
-      <div className="verse-text">In the which ye also walked <b>some time</b>, when ye lived in them.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:8)</div>
-      <div className="verse-text">But now ye also put off all these: anger, wrath, malice, blasphemy, filthy communication out of your mouth.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:8)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3570.htm" target="_blank" rel="noopener noreferrer">νυνὶ</a> (Now) <a href="https://biblehub.com/greek/1161.htm" target="_blank" rel="noopener noreferrer">δὲ</a> (however), <a href="https://biblehub.com/greek/659.htm" target="_blank" rel="noopener noreferrer">ἀπόθεσθε</a> (put off) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμεῖς</a> (you) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (‑) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all these things): <a href="https://biblehub.com/greek/3709.htm" target="_blank" rel="noopener noreferrer">ὀργήν</a> (anger), <a href="https://biblehub.com/greek/2372.htm" target="_blank" rel="noopener noreferrer">θυμόν</a> (rage), <a href="https://biblehub.com/greek/2549.htm" target="_blank" rel="noopener noreferrer">κακίαν</a> (malice), <a href="https://biblehub.com/greek/988.htm" target="_blank" rel="noopener noreferrer">βλασφημίαν</a> (slander), <a href="https://biblehub.com/greek/148.htm" target="_blank" rel="noopener noreferrer">αἰσχρολογίαν</a> (foul language) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (out of) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (the) <a href="https://biblehub.com/greek/4750.htm" target="_blank" rel="noopener noreferrer">στόματος</a> (mouth) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:8)</div>
-      <div className="verse-text">But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:9)</div>
-      <div className="verse-text">Lie not one to another, seeing that ye have put off the old man with his deeds,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:9)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">Μὴ</a> (Not) <a href="https://biblehub.com/greek/5574.htm" target="_blank" rel="noopener noreferrer">ψεύδεσθε</a> (do lie) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (to) <a href="https://biblehub.com/greek/240.htm" target="_blank" rel="noopener noreferrer">ἀλλήλους</a> (one another), <a href="https://biblehub.com/greek/554.htm" target="_blank" rel="noopener noreferrer">ἀπεκδυσάμενοι</a> (having put off) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (the) <a href="https://biblehub.com/greek/3820.htm" target="_blank" rel="noopener noreferrer">παλαιὸν</a> (old) <a href="https://biblehub.com/greek/444.htm" target="_blank" rel="noopener noreferrer">ἄνθρωπον</a> (man) <a href="https://biblehub.com/greek/4862.htm" target="_blank" rel="noopener noreferrer">σὺν</a> (with) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ταῖς</a> (the) <a href="https://biblehub.com/greek/4234.htm" target="_blank" rel="noopener noreferrer">πράξεσιν</a> (practices) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (of him),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:9)</div>
-      <div className="verse-text">Lie not one to another, seeing that ye have put off the old man with his deeds;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:10)</div>
-      <div className="verse-text">And have put on the new man, which is renewed in knowledge after the image of him that created him,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:10)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1746.htm" target="_blank" rel="noopener noreferrer">ἐνδυσάμενοι</a> (having put on) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (the) <a href="https://biblehub.com/greek/3501.htm" target="_blank" rel="noopener noreferrer">νέον</a> (new), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (the one) <a href="https://biblehub.com/greek/341.htm" target="_blank" rel="noopener noreferrer">ἀνακαινούμενον</a> (being renewed) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (in) <a href="https://biblehub.com/greek/1922.htm" target="_blank" rel="noopener noreferrer">ἐπίγνωσιν</a> (knowledge) κατ’ (according to) <a href="https://biblehub.com/greek/1504.htm" target="_blank" rel="noopener noreferrer">εἰκόνα</a> (the image) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (of the one) <a href="https://biblehub.com/greek/2936.htm" target="_blank" rel="noopener noreferrer">κτίσαντος</a> (having created) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτόν</a> (him),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:10)</div>
-      <div className="verse-text">And have put on the new man, which is renewed in knowledge after the image of him that created him:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:11)</div>
-      <div className="verse-text">Where there is neither Greek nor Jew, circumcision nor uncircumcision, barbarian, Scythian, bond nor free; but Christ is all and in all.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:11)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3699.htm" target="_blank" rel="noopener noreferrer">ὅπου</a> (where) <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐκ</a> (not) <a href="https://biblehub.com/greek/1762.htm" target="_blank" rel="noopener noreferrer">ἔνι</a> (there is) <a href="https://biblehub.com/greek/1672.htm" target="_blank" rel="noopener noreferrer">Ἕλλην</a> (Greek) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/2453.htm" target="_blank" rel="noopener noreferrer">Ἰουδαῖος</a> (Jew), <a href="https://biblehub.com/greek/4061.htm" target="_blank" rel="noopener noreferrer">περιτομὴ</a> (circumcision) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/203.htm" target="_blank" rel="noopener noreferrer">ἀκροβυστία</a> (uncircumcision), <a href="https://biblehub.com/greek/915.htm" target="_blank" rel="noopener noreferrer">βάρβαρος</a> (Barbarian), <a href="https://biblehub.com/greek/4658.htm" target="_blank" rel="noopener noreferrer">Σκύθης</a> (Scythian), <a href="https://biblehub.com/greek/1401.htm" target="_blank" rel="noopener noreferrer">δοῦλος</a> (slave), <a href="https://biblehub.com/greek/1658.htm" target="_blank" rel="noopener noreferrer">ἐλεύθερος</a> (free); <a href="https://biblehub.com/greek/235.htm" target="_blank" rel="noopener noreferrer">ἀλλὰ</a> (but) ‹<a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a>› (‑) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶσιν</a> (all) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστός</a> (Christ is).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:11)</div>
-      <div className="verse-text">Where there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond nor free: but Christ is all, and in all.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:12)</div>
-      <div className="verse-text">Put on, therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, long-suffering,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:12)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1746.htm" target="_blank" rel="noopener noreferrer">Ἐνδύσασθε</a> (Put on) <a href="https://biblehub.com/greek/3767.htm" target="_blank" rel="noopener noreferrer">οὖν</a> (therefore), <a href="https://biblehub.com/greek/5613.htm" target="_blank" rel="noopener noreferrer">ὡς</a> (as) <a href="https://biblehub.com/greek/1588.htm" target="_blank" rel="noopener noreferrer">ἐκλεκτοὶ</a> (the elect) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God), <a href="https://biblehub.com/greek/40.htm" target="_blank" rel="noopener noreferrer">ἅγιοι</a> (holy) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/25.htm" target="_blank" rel="noopener noreferrer">ἠγαπημένοι</a> (beloved), <a href="https://biblehub.com/greek/4698.htm" target="_blank" rel="noopener noreferrer">σπλάγχνα</a> (hearts) <a href="https://biblehub.com/greek/3628.htm" target="_blank" rel="noopener noreferrer">οἰκτιρμοῦ</a> (of compassion), <a href="https://biblehub.com/greek/5544.htm" target="_blank" rel="noopener noreferrer">χρηστότητα</a> (kindness), <a href="https://biblehub.com/greek/5012.htm" target="_blank" rel="noopener noreferrer">ταπεινοφροσύνην</a> (humility), <a href="https://biblehub.com/greek/4240.htm" target="_blank" rel="noopener noreferrer">πραΰτητα</a> (gentleness), <a href="https://biblehub.com/greek/3115.htm" target="_blank" rel="noopener noreferrer">μακροθυμίαν</a> (and patience);</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:12)</div>
-      <div className="verse-text">Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, long-suffering;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:13)</div>
-      <div className="verse-text">Forbearing one another, and forgiving one another if any man have a quarrel against any; even as Christ forgave you, so also do ye.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:13)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/430.htm" target="_blank" rel="noopener noreferrer">ἀνεχόμενοι</a> (bearing with) <a href="https://biblehub.com/greek/240.htm" target="_blank" rel="noopener noreferrer">ἀλλήλων</a> (each other) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/5483.htm" target="_blank" rel="noopener noreferrer">χαριζόμενοι</a> (forgiving) <a href="https://biblehub.com/greek/1438.htm" target="_blank" rel="noopener noreferrer">ἑαυτοῖς</a> (each other). <a href="https://biblehub.com/greek/1437.htm" target="_blank" rel="noopener noreferrer">ἐάν</a> (If) <a href="https://biblehub.com/greek/5100.htm" target="_blank" rel="noopener noreferrer">τις</a> (anyone) <a href="https://biblehub.com/greek/4314.htm" target="_blank" rel="noopener noreferrer">πρός</a> (against) <a href="https://biblehub.com/greek/5100.htm" target="_blank" rel="noopener noreferrer">τινα</a> (another) <a href="https://biblehub.com/greek/2192.htm" target="_blank" rel="noopener noreferrer">ἔχῃ</a> (should have) <a href="https://biblehub.com/greek/3437.htm" target="_blank" rel="noopener noreferrer">μομφήν</a> (a complaint), <a href="https://biblehub.com/greek/2531.htm" target="_blank" rel="noopener noreferrer">καθὼς</a> (even as) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (the) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κύριος</a> (Lord) <a href="https://biblehub.com/greek/5483.htm" target="_blank" rel="noopener noreferrer">ἐχαρίσατο</a> (has forgiven) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (you), <a href="https://biblehub.com/greek/3779.htm" target="_blank" rel="noopener noreferrer">οὕτως</a> (so) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμεῖς</a> (you).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:13)</div>
-      <div className="verse-text">Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:14)</div>
-      <div className="verse-text">And above all these things, put on charity, which is the bond of perfectness.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:14)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1909.htm" target="_blank" rel="noopener noreferrer">ἐπὶ</a> (Beyond) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶσιν</a> (all) <a href="https://biblehub.com/greek/1161.htm" target="_blank" rel="noopener noreferrer">δὲ</a> (now) <a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">τούτοις</a> (these), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (put on the) <a href="https://biblehub.com/greek/26.htm" target="_blank" rel="noopener noreferrer">ἀγάπην</a> (love), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅ</a> (which) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/4886.htm" target="_blank" rel="noopener noreferrer">σύνδεσμος</a> (the bond) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (‑) <a href="https://biblehub.com/greek/5047.htm" target="_blank" rel="noopener noreferrer">τελειότητος</a> (of perfect unity).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:14)</div>
-      <div className="verse-text">And above all these things put on charity, which is the bond of perfectness.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:15)</div>
-      <div className="verse-text">And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:15)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (And) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/1515.htm" target="_blank" rel="noopener noreferrer">εἰρήνη</a> (peace) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (from Christ) <a href="https://biblehub.com/greek/1018.htm" target="_blank" rel="noopener noreferrer">βραβευέτω</a> (let rule) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ταῖς</a> (the) <a href="https://biblehub.com/greek/2588.htm" target="_blank" rel="noopener noreferrer">καρδίαις</a> (hearts) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you), <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (to) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἣν</a> (which) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/2564.htm" target="_blank" rel="noopener noreferrer">ἐκλήθητε</a> (you were called) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/1520.htm" target="_blank" rel="noopener noreferrer">ἑνὶ</a> (one) <a href="https://biblehub.com/greek/4983.htm" target="_blank" rel="noopener noreferrer">σώματι</a> (body). <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (And) <a href="https://biblehub.com/greek/2170.htm" target="_blank" rel="noopener noreferrer">εὐχάριστοι</a> (thankful) <a href="https://biblehub.com/greek/1096.htm" target="_blank" rel="noopener noreferrer">γίνεσθε</a> (be).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:15)</div>
-      <div className="verse-text">And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:16)</div>
-      <div className="verse-text">Let the word of Christ dwell in you richly in all wisdom: teaching and admonishing one another in psalms, and hymns, and spiritual songs, singing with grace in your hearts to the Lord.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:16)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Ὁ</a> (The) <a href="https://biblehub.com/greek/3056.htm" target="_blank" rel="noopener noreferrer">λόγος</a> (word) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ) <a href="https://biblehub.com/greek/1774.htm" target="_blank" rel="noopener noreferrer">ἐνοικείτω</a> (let dwell) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (you) <a href="https://biblehub.com/greek/4146.htm" target="_blank" rel="noopener noreferrer">πλουσίως</a> (richly), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάσῃ</a> (all) <a href="https://biblehub.com/greek/4678.htm" target="_blank" rel="noopener noreferrer">σοφίᾳ</a> (wisdom) <a href="https://biblehub.com/greek/1321.htm" target="_blank" rel="noopener noreferrer">διδάσκοντες</a> (teaching) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3560.htm" target="_blank" rel="noopener noreferrer">νουθετοῦντες</a> (admonishing) <a href="https://biblehub.com/greek/1438.htm" target="_blank" rel="noopener noreferrer">ἑαυτοὺς</a> (each other) <a href="https://biblehub.com/greek/5568.htm" target="_blank" rel="noopener noreferrer">ψαλμοῖς</a> (in psalms), <a href="https://biblehub.com/greek/5215.htm" target="_blank" rel="noopener noreferrer">ὕμνοις</a> (hymns), <a href="https://biblehub.com/greek/5603.htm" target="_blank" rel="noopener noreferrer">ᾠδαῖς</a> (and songs) <a href="https://biblehub.com/greek/4152.htm" target="_blank" rel="noopener noreferrer">πνευματικαῖς</a> (spiritual), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (with) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (‑) <a href="https://biblehub.com/greek/5485.htm" target="_blank" rel="noopener noreferrer">χάριτι</a> (grace) <a href="https://biblehub.com/greek/103.htm" target="_blank" rel="noopener noreferrer">ᾄδοντες</a> (singing), <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ταῖς</a> (the) <a href="https://biblehub.com/greek/2588.htm" target="_blank" rel="noopener noreferrer">καρδίαις</a> (hearts) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (to) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεῷ</a> (God).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:16)</div>
-      <div className="verse-text">Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:17)</div>
-      <div className="verse-text">And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:17)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (And) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πᾶν</a> (everything), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅ</a> (which) <a href="https://biblehub.com/greek/5100.htm" target="_blank" rel="noopener noreferrer">τι</a> (what) <a href="https://biblehub.com/greek/1437.htm" target="_blank" rel="noopener noreferrer">ἐὰν</a> (if) <a href="https://biblehub.com/greek/4160.htm" target="_blank" rel="noopener noreferrer">ποιῆτε</a> (you might do) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3056.htm" target="_blank" rel="noopener noreferrer">λόγῳ</a> (word) <a href="https://biblehub.com/greek/2228.htm" target="_blank" rel="noopener noreferrer">ἢ</a> (or) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2041.htm" target="_blank" rel="noopener noreferrer">ἔργῳ</a> (deed), <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3686.htm" target="_blank" rel="noopener noreferrer">ὀνόματι</a> (the name) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίου</a> (of the Lord) <a href="https://biblehub.com/greek/2424.htm" target="_blank" rel="noopener noreferrer">Ἰησοῦ</a> (Jesus), <a href="https://biblehub.com/greek/2168.htm" target="_blank" rel="noopener noreferrer">εὐχαριστοῦντες</a> (giving thanks) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεῷ</a> (to God) <a href="https://biblehub.com/greek/3962.htm" target="_blank" rel="noopener noreferrer">Πατρὶ</a> (the Father) δι’ (through) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτοῦ</a> (Him).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:17)</div>
-      <div className="verse-text">And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:18)</div>
-      <div className="verse-text">Wives, submit yourselves unto your own husbands, as it is fit in the Lord.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:18)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Αἱ</a> (‑) <a href="https://biblehub.com/greek/1135.htm" target="_blank" rel="noopener noreferrer">γυναῖκες</a> (Wives), <a href="https://biblehub.com/greek/5293.htm" target="_blank" rel="noopener noreferrer">ὑποτάσσεσθε</a> (submit yourselves) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (to the) <a href="https://biblehub.com/greek/435.htm" target="_blank" rel="noopener noreferrer">ἀνδράσιν</a> (husbands), <a href="https://biblehub.com/greek/5613.htm" target="_blank" rel="noopener noreferrer">ὡς</a> (as) <a href="https://biblehub.com/greek/433.htm" target="_blank" rel="noopener noreferrer">ἀνῆκεν</a> (is fitting) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίῳ</a> (the Lord).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:18)</div>
-      <div className="verse-text">Wives, submit yourselves unto your own husbands, as it is fit in the Lord.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:19)</div>
-      <div className="verse-text">Husbands, love your wives and be not bitter against them.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:19)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Οἱ</a> (‑) <a href="https://biblehub.com/greek/435.htm" target="_blank" rel="noopener noreferrer">ἄνδρες</a> (Husbands), <a href="https://biblehub.com/greek/25.htm" target="_blank" rel="noopener noreferrer">ἀγαπᾶτε</a> (love) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰς</a> (the) <a href="https://biblehub.com/greek/1135.htm" target="_blank" rel="noopener noreferrer">γυναῖκας</a> (wives), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">μὴ</a> (not) <a href="https://biblehub.com/greek/4087.htm" target="_blank" rel="noopener noreferrer">πικραίνεσθε</a> (be harsh) <a href="https://biblehub.com/greek/4314.htm" target="_blank" rel="noopener noreferrer">πρὸς</a> (toward) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτάς</a> (them).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:19)</div>
-      <div className="verse-text">Husbands, love your wives, and be not bitter against them.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:20)</div>
-      <div className="verse-text">Children, obey your parents in all things; for this is well pleasing unto the Lord.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:20)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Τὰ</a> (‑) <a href="https://biblehub.com/greek/5043.htm" target="_blank" rel="noopener noreferrer">τέκνα</a> (Children), <a href="https://biblehub.com/greek/5219.htm" target="_blank" rel="noopener noreferrer">ὑπακούετε</a> (obey) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/1118.htm" target="_blank" rel="noopener noreferrer">γονεῦσιν</a> (parents) <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all things); <a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">τοῦτο</a> (this) <a href="https://biblehub.com/greek/1063.htm" target="_blank" rel="noopener noreferrer">γὰρ</a> (for) <a href="https://biblehub.com/greek/2101.htm" target="_blank" rel="noopener noreferrer">εὐάρεστόν</a> (pleasing) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίῳ</a> (the Lord).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:20)</div>
-      <div className="verse-text">Children, obey your parents in all things: for this is well pleasing unto the Lord.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:21)</div>
-      <div className="verse-text">Fathers, provoke not your children to anger, lest they be discouraged.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:21)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Οἱ</a> (‑) <a href="https://biblehub.com/greek/3962.htm" target="_blank" rel="noopener noreferrer">πατέρες</a> (Fathers), <a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">μὴ</a> (not) <a href="https://biblehub.com/greek/2042.htm" target="_blank" rel="noopener noreferrer">ἐρεθίζετε</a> (do provoke) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the) <a href="https://biblehub.com/greek/5043.htm" target="_blank" rel="noopener noreferrer">τέκνα</a> (children) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you), <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">μὴ</a> (not) <a href="https://biblehub.com/greek/120.htm" target="_blank" rel="noopener noreferrer">ἀθυμῶσιν</a> (they might become discouraged).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:21)</div>
-      <div className="verse-text">Fathers, provoke not your children to anger, lest they be discouraged.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:22)</div>
-      <div className="verse-text">Servants, obey in all things your masters according to the flesh--not with <b>eye-service</b>, as <b>men-pleasers</b>, but in singleness of heart, fearing God;</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:22)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Οἱ</a> (‑) <a href="https://biblehub.com/greek/1401.htm" target="_blank" rel="noopener noreferrer">δοῦλοι</a> (Slaves), <a href="https://biblehub.com/greek/5219.htm" target="_blank" rel="noopener noreferrer">ὑπακούετε</a> (obey) <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all things) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (the) <a href="https://biblehub.com/greek/2596.htm" target="_blank" rel="noopener noreferrer">κατὰ</a> (according to) <a href="https://biblehub.com/greek/4561.htm" target="_blank" rel="noopener noreferrer">σάρκα</a> (flesh) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">κυρίοις</a> (masters), <a href="https://biblehub.com/greek/3361.htm" target="_blank" rel="noopener noreferrer">μὴ</a> (not) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (with) <a href="https://biblehub.com/greek/3787.htm" target="_blank" rel="noopener noreferrer">ὀφθαλμοδουλίαις</a> (eye‑services) <a href="https://biblehub.com/greek/5613.htm" target="_blank" rel="noopener noreferrer">ὡς</a> (as) <a href="https://biblehub.com/greek/441.htm" target="_blank" rel="noopener noreferrer">ἀνθρωπάρεσκοι</a> (men‑pleasers), ἀλλ’ (but) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/572.htm" target="_blank" rel="noopener noreferrer">ἁπλότητι</a> (sincerity) <a href="https://biblehub.com/greek/2588.htm" target="_blank" rel="noopener noreferrer">καρδίας</a> (of heart), <a href="https://biblehub.com/greek/5399.htm" target="_blank" rel="noopener noreferrer">φοβούμενοι</a> (fearing) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (the) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κύριον</a> (Lord).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:22)</div>
-      <div className="verse-text">Servants, obey in all things your masters according to the flesh; not with <b>eyeservice</b>, as <b>menpleasers</b>; but in singleness of heart, fearing God:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:23)</div>
-      <div className="verse-text">And whatsoever ye do, do it heartily, as to the Lord and not unto men,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:23)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">Ὃ</a> (Whatever) <a href="https://biblehub.com/greek/1437.htm" target="_blank" rel="noopener noreferrer">ἐὰν</a> (if) <a href="https://biblehub.com/greek/4160.htm" target="_blank" rel="noopener noreferrer">ποιῆτε</a> (you might do), <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (from) <a href="https://biblehub.com/greek/5590.htm" target="_blank" rel="noopener noreferrer">ψυχῆς</a> (the soul) <a href="https://biblehub.com/greek/2038.htm" target="_blank" rel="noopener noreferrer">ἐργάζεσθε</a> (work), <a href="https://biblehub.com/greek/5613.htm" target="_blank" rel="noopener noreferrer">ὡς</a> (as) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (to the) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίῳ</a> (Lord) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐκ</a> (not) <a href="https://biblehub.com/greek/444.htm" target="_blank" rel="noopener noreferrer">ἀνθρώποις</a> (to men),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:23)</div>
-      <div className="verse-text">And whatsoever ye do, do it heartily, as to the Lord, and not unto men;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:24)</div>
-      <div className="verse-text">Knowing that of the Lord ye shall receive the reward of the inheritance; for ye serve the Lord Christ.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:24)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1492.htm" target="_blank" rel="noopener noreferrer">εἰδότες</a> (knowing) <a href="https://biblehub.com/greek/3754.htm" target="_blank" rel="noopener noreferrer">ὅτι</a> (that) <a href="https://biblehub.com/greek/575.htm" target="_blank" rel="noopener noreferrer">ἀπὸ</a> (from) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίου</a> (the Lord) <a href="https://biblehub.com/greek/618.htm" target="_blank" rel="noopener noreferrer">ἀπολήμψεσθε</a> (you will receive) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/469.htm" target="_blank" rel="noopener noreferrer">ἀνταπόδοσιν</a> (reward) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῆς</a> (of the) <a href="https://biblehub.com/greek/2817.htm" target="_blank" rel="noopener noreferrer">κληρονομίας</a> (inheritance). <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (The) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίῳ</a> (Lord) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστῷ</a> (Christ) <a href="https://biblehub.com/greek/1398.htm" target="_blank" rel="noopener noreferrer">δουλεύετε</a> (you serve).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:24)</div>
-      <div className="verse-text">Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (3:25)</div>
-      <div className="verse-text">But he that doeth wrong shall receive for the wrong which he hath done; and there is no respect of persons.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (3:25)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (The one) <a href="https://biblehub.com/greek/1063.htm" target="_blank" rel="noopener noreferrer">γὰρ</a> (for) <a href="https://biblehub.com/greek/91.htm" target="_blank" rel="noopener noreferrer">ἀδικῶν</a> (doing wrong) <a href="https://biblehub.com/greek/2865.htm" target="_blank" rel="noopener noreferrer">κομίσεται</a> (will be repaid for) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὃ</a> (what) <a href="https://biblehub.com/greek/91.htm" target="_blank" rel="noopener noreferrer">ἠδίκησεν</a> (he has done wrong), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3756.htm" target="_blank" rel="noopener noreferrer">οὐκ</a> (not) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἔστιν</a> (there is) <a href="https://biblehub.com/greek/4382.htm" target="_blank" rel="noopener noreferrer">προσωπολημψία</a> (partiality).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (3:25)</div>
-      <div className="verse-text">But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:1)</div>
-      <div className="verse-text">Masters, give unto your servants that which is just and equal, knowing that ye also have a Master in heaven.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:1)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Οἱ</a> (‑) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">κύριοι</a> (Masters), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (that which) <a href="https://biblehub.com/greek/1342.htm" target="_blank" rel="noopener noreferrer">δίκαιον</a> (is righteous) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (that which) <a href="https://biblehub.com/greek/2471.htm" target="_blank" rel="noopener noreferrer">ἰσότητα</a> (is equal), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῖς</a> (to the) <a href="https://biblehub.com/greek/1401.htm" target="_blank" rel="noopener noreferrer">δούλοις</a> (slaves) <a href="https://biblehub.com/greek/3930.htm" target="_blank" rel="noopener noreferrer">παρέχεσθε</a> (give), <a href="https://biblehub.com/greek/1492.htm" target="_blank" rel="noopener noreferrer">εἰδότες</a> (knowing) <a href="https://biblehub.com/greek/3754.htm" target="_blank" rel="noopener noreferrer">ὅτι</a> (that) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμεῖς</a> (you) <a href="https://biblehub.com/greek/2192.htm" target="_blank" rel="noopener noreferrer">ἔχετε</a> (have) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κύριον</a> (a Master) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3772.htm" target="_blank" rel="noopener noreferrer">οὐρανῷ</a> (heaven).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:1)</div>
-      <div className="verse-text">Masters, give unto your servants that which is just and equal; knowing that ye also have a Master in heaven.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:2)</div>
-      <div className="verse-text">Continue in prayer and watch in the same with thanksgiving,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:2)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Τῇ</a> (‑) <a href="https://biblehub.com/greek/4335.htm" target="_blank" rel="noopener noreferrer">προσευχῇ</a> (In prayer) <a href="https://biblehub.com/greek/4342.htm" target="_blank" rel="noopener noreferrer">προσκαρτερεῖτε</a> (continue steadfastly), <a href="https://biblehub.com/greek/1127.htm" target="_blank" rel="noopener noreferrer">γρηγοροῦντες</a> (watching) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῇ</a> (it) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (with) <a href="https://biblehub.com/greek/2169.htm" target="_blank" rel="noopener noreferrer">εὐχαριστίᾳ</a> (thanksgiving),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:2)</div>
-      <div className="verse-text">Continue in prayer, and watch in the same with thanksgiving;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:3)</div>
-      <div className="verse-text">Withal praying also for us, that God would open unto us a door of utterance to speak the mystery of Christ, for which I am also in bonds,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:3)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/4336.htm" target="_blank" rel="noopener noreferrer">προσευχόμενοι</a> (praying) <a href="https://biblehub.com/greek/260.htm" target="_blank" rel="noopener noreferrer">ἅμα</a> (at the same time) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4012.htm" target="_blank" rel="noopener noreferrer">περὶ</a> (for) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῶν</a> (us), <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεὸς</a> (God) <a href="https://biblehub.com/greek/455.htm" target="_blank" rel="noopener noreferrer">ἀνοίξῃ</a> (may open) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῖν</a> (to us) <a href="https://biblehub.com/greek/2374.htm" target="_blank" rel="noopener noreferrer">θύραν</a> (a door) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (for the) <a href="https://biblehub.com/greek/3056.htm" target="_blank" rel="noopener noreferrer">λόγου</a> (word), <a href="https://biblehub.com/greek/2980.htm" target="_blank" rel="noopener noreferrer">λαλῆσαι</a> (to declare) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸ</a> (the) <a href="https://biblehub.com/greek/3466.htm" target="_blank" rel="noopener noreferrer">μυστήριον</a> (mystery) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ), δι’ (on account of) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὃ</a> (which) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/1210.htm" target="_blank" rel="noopener noreferrer">δέδεμαι</a> (I have been bound),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:3)</div>
-      <div className="verse-text">Withal praying also for us, that God would open unto us a door of utterance, to speak the mystery of Christ, for which I am also in bonds:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:4)</div>
-      <div className="verse-text">That I may make it manifest, as I ought to speak.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:4)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (so that) <a href="https://biblehub.com/greek/5319.htm" target="_blank" rel="noopener noreferrer">φανερώσω</a> (I should make clear) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὸ</a> (it), <a href="https://biblehub.com/greek/5613.htm" target="_blank" rel="noopener noreferrer">ὡς</a> (as) <a href="https://biblehub.com/greek/1163.htm" target="_blank" rel="noopener noreferrer">δεῖ</a> (it behooves) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">με</a> (me) <a href="https://biblehub.com/greek/2980.htm" target="_blank" rel="noopener noreferrer">λαλῆσαι</a> (to speak).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:4)</div>
-      <div className="verse-text">That I may make it manifest, as I ought to speak.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:5)</div>
-      <div className="verse-text">Walk in wisdom toward them that are without, redeeming the time.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:5)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">Ἐν</a> (In) <a href="https://biblehub.com/greek/4678.htm" target="_blank" rel="noopener noreferrer">σοφίᾳ</a> (wisdom) <a href="https://biblehub.com/greek/4043.htm" target="_blank" rel="noopener noreferrer">περιπατεῖτε</a> (walk) <a href="https://biblehub.com/greek/4314.htm" target="_blank" rel="noopener noreferrer">πρὸς</a> (toward) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοὺς</a> (those) <a href="https://biblehub.com/greek/1854.htm" target="_blank" rel="noopener noreferrer">ἔξω</a> (outside), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὸν</a> (the) <a href="https://biblehub.com/greek/2540.htm" target="_blank" rel="noopener noreferrer">καιρὸν</a> (time) <a href="https://biblehub.com/greek/1805.htm" target="_blank" rel="noopener noreferrer">ἐξαγοραζόμενοι</a> (redeeming).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:5)</div>
-      <div className="verse-text">Walk in wisdom toward them that are without, redeeming the time.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:6)</div>
-      <div className="verse-text">Let your speech be always with grace, seasoned with salt, that ye may know how ye ought to answer every man.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:6)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/3056.htm" target="_blank" rel="noopener noreferrer">λόγος</a> (Let the speech) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you) <a href="https://biblehub.com/greek/3842.htm" target="_blank" rel="noopener noreferrer">πάντοτε</a> (be always) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/5485.htm" target="_blank" rel="noopener noreferrer">χάριτι</a> (grace), <a href="https://biblehub.com/greek/217.htm" target="_blank" rel="noopener noreferrer">ἅλατι</a> (with salt) <a href="https://biblehub.com/greek/741.htm" target="_blank" rel="noopener noreferrer">ἠρτυμένος</a> (having been seasoned), <a href="https://biblehub.com/greek/1492.htm" target="_blank" rel="noopener noreferrer">εἰδέναι</a> (to know) <a href="https://biblehub.com/greek/4459.htm" target="_blank" rel="noopener noreferrer">πῶς</a> (how) <a href="https://biblehub.com/greek/1163.htm" target="_blank" rel="noopener noreferrer">δεῖ</a> (it behooves) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/1520.htm" target="_blank" rel="noopener noreferrer">ἑνὶ</a> (one) <a href="https://biblehub.com/greek/1538.htm" target="_blank" rel="noopener noreferrer">ἑκάστῳ</a> (each) <a href="https://biblehub.com/greek/611.htm" target="_blank" rel="noopener noreferrer">ἀποκρίνεσθαι</a> (to answer).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:6)</div>
-      <div className="verse-text">Let your speech be always with grace, seasoned with salt, that ye may know how ye ought to answer every man.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:7)</div>
-      <div className="verse-text">All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister, and fellow servant in the Lord,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:7)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Τὰ</a> (The things) κατ’ (concerning) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἐμὲ</a> (me) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (all) <a href="https://biblehub.com/greek/1107.htm" target="_blank" rel="noopener noreferrer">γνωρίσει</a> (will make known) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (to you) <a href="https://biblehub.com/greek/5190.htm" target="_blank" rel="noopener noreferrer">Τυχικὸς</a> (Tychicus), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (the) <a href="https://biblehub.com/greek/27.htm" target="_blank" rel="noopener noreferrer">ἀγαπητὸς</a> (beloved) <a href="https://biblehub.com/greek/80.htm" target="_blank" rel="noopener noreferrer">ἀδελφὸς</a> (brother) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/4103.htm" target="_blank" rel="noopener noreferrer">πιστὸς</a> (faithful) <a href="https://biblehub.com/greek/1249.htm" target="_blank" rel="noopener noreferrer">διάκονος</a> (servant) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/4889.htm" target="_blank" rel="noopener noreferrer">σύνδουλος</a> (fellow bond‑servant) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίῳ</a> (the Lord),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:7)</div>
-      <div className="verse-text">All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister and fellow servant in the Lord:</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:8)</div>
-      <div className="verse-text">Whom I have sent unto you for the same purpose, that he might know your estate and comfort your hearts,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:8)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὃν</a> (whom) <a href="https://biblehub.com/greek/3992.htm" target="_blank" rel="noopener noreferrer">ἔπεμψα</a> (I sent) <a href="https://biblehub.com/greek/4314.htm" target="_blank" rel="noopener noreferrer">πρὸς</a> (to) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (for) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὸ</a> (this very) <a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">τοῦτο</a> (purpose), <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/1097.htm" target="_blank" rel="noopener noreferrer">γνῶτε</a> (you might know) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (the things) <a href="https://biblehub.com/greek/4012.htm" target="_blank" rel="noopener noreferrer">περὶ</a> (concerning) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">ἡμῶν</a> (us), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3870.htm" target="_blank" rel="noopener noreferrer">παρακαλέσῃ</a> (he may encourage) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰς</a> (the) <a href="https://biblehub.com/greek/2588.htm" target="_blank" rel="noopener noreferrer">καρδίας</a> (hearts) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (of you),</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:8)</div>
-      <div className="verse-text">Whom I have sent unto you for the same purpose, that he might know your estate, and comfort your hearts;</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:9)</div>
-      <div className="verse-text">With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:9)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/4862.htm" target="_blank" rel="noopener noreferrer">σὺν</a> (with) <a href="https://biblehub.com/greek/3682.htm" target="_blank" rel="noopener noreferrer">Ὀνησίμῳ</a> (Onesimus), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῷ</a> (the) <a href="https://biblehub.com/greek/4103.htm" target="_blank" rel="noopener noreferrer">πιστῷ</a> (faithful) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/27.htm" target="_blank" rel="noopener noreferrer">ἀγαπητῷ</a> (beloved) <a href="https://biblehub.com/greek/80.htm" target="_blank" rel="noopener noreferrer">ἀδελφῷ</a> (brother), <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ὅς</a> (who) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ἐστιν</a> (is) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐξ</a> (one of) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you). <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">πάντα</a> (All things) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (to you) <a href="https://biblehub.com/greek/1107.htm" target="_blank" rel="noopener noreferrer">γνωρίσουσιν</a> (they will make known) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὰ</a> (‑) <a href="https://biblehub.com/greek/5602.htm" target="_blank" rel="noopener noreferrer">ὧδε</a> (here).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:9)</div>
-      <div className="verse-text">With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:10)</div>
-      <div className="verse-text">Aristarchus, my fellow prisoner, saluteth you, and Marcus, sister's son to Barnabas (touching whom ye received commandments; if he come unto you, receive him),</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:10)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/782.htm" target="_blank" rel="noopener noreferrer">Ἀσπάζεται</a> (Greets) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you), <a href="https://biblehub.com/greek/708.htm" target="_blank" rel="noopener noreferrer">Ἀρίσταρχος</a> (Aristarchus) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (the) <a href="https://biblehub.com/greek/4869.htm" target="_blank" rel="noopener noreferrer">συναιχμάλωτός</a> (fellow prisoner) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">μου</a> (of me), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3138.htm" target="_blank" rel="noopener noreferrer">Μᾶρκος</a> (Mark), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (the) <a href="https://biblehub.com/greek/431.htm" target="_blank" rel="noopener noreferrer">ἀνεψιὸς</a> (cousin) <a href="https://biblehub.com/greek/921.htm" target="_blank" rel="noopener noreferrer">Βαρνάβα</a> (of Barnabas), <a href="https://biblehub.com/greek/4012.htm" target="_blank" rel="noopener noreferrer">περὶ</a> (concerning) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">οὗ</a> (whom) <a href="https://biblehub.com/greek/2983.htm" target="_blank" rel="noopener noreferrer">ἐλάβετε</a> (you have received) <a href="https://biblehub.com/greek/1785.htm" target="_blank" rel="noopener noreferrer">ἐντολάς</a> (instructions) — <a href="https://biblehub.com/greek/1437.htm" target="_blank" rel="noopener noreferrer">ἐὰν</a> (if) <a href="https://biblehub.com/greek/2064.htm" target="_blank" rel="noopener noreferrer">ἔλθῃ</a> (he comes) <a href="https://biblehub.com/greek/4314.htm" target="_blank" rel="noopener noreferrer">πρὸς</a> (to) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you), <a href="https://biblehub.com/greek/1209.htm" target="_blank" rel="noopener noreferrer">δέξασθε</a> (welcome) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτόν</a> (him) —</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:10)</div>
-      <div className="verse-text">Aristarchus my fellow prisoner saluteth you, and Marcus, sister's son to Barnabas, (touching whom ye received commandments: if he come unto you, receive him;)</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:11)</div>
-      <div className="verse-text">And Jesus, which is called Justus, who are of the circumcision. These only are my fellow workers <b>in</b> the kingdom of God, which have been a comfort unto me.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:11)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and also) <a href="https://biblehub.com/greek/2424.htm" target="_blank" rel="noopener noreferrer">Ἰησοῦς</a> (Jesus) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/3004.htm" target="_blank" rel="noopener noreferrer">λεγόμενος</a> (called) <a href="https://biblehub.com/greek/2459.htm" target="_blank" rel="noopener noreferrer">Ἰοῦστος</a> (Justus), <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">οἱ</a> (‑) <a href="https://biblehub.com/greek/1510.htm" target="_blank" rel="noopener noreferrer">ὄντες</a> (being) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (among) <a href="https://biblehub.com/greek/4061.htm" target="_blank" rel="noopener noreferrer">περιτομῆς</a> (the circumcision) <a href="https://biblehub.com/greek/3778.htm" target="_blank" rel="noopener noreferrer">οὗτοι</a> (these) <a href="https://biblehub.com/greek/3441.htm" target="_blank" rel="noopener noreferrer">μόνοι</a> (only) <a href="https://biblehub.com/greek/4904.htm" target="_blank" rel="noopener noreferrer">συνεργοὶ</a> (fellow workers) <a href="https://biblehub.com/greek/1519.htm" target="_blank" rel="noopener noreferrer">εἰς</a> (for) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/932.htm" target="_blank" rel="noopener noreferrer">βασιλείαν</a> (kingdom) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God), <a href="https://biblehub.com/greek/3748.htm" target="_blank" rel="noopener noreferrer">οἵτινες</a> (who) <a href="https://biblehub.com/greek/1096.htm" target="_blank" rel="noopener noreferrer">ἐγενήθησάν</a> (have been) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">μοι</a> (to me) <a href="https://biblehub.com/greek/3931.htm" target="_blank" rel="noopener noreferrer">παρηγορία</a> (a comfort).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:11)</div>
-      <div className="verse-text">And Jesus, which is called Justus, who are of the circumcision. These only are my fellow workers <b>unto</b> the kingdom of God, which have been a comfort unto me.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:12)</div>
-      <div className="verse-text">Epaphras, who is one of you, a servant of Christ, saluteth you, always laboring fervently for you in prayers, that ye may stand perfect and complete in all the will of God.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:12)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/782.htm" target="_blank" rel="noopener noreferrer">Ἀσπάζεται</a> (Greets) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you), <a href="https://biblehub.com/greek/1889.htm" target="_blank" rel="noopener noreferrer">Ἐπαφρᾶς</a> (Epaphras) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (who is) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐξ</a> (one of) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you), <a href="https://biblehub.com/greek/1401.htm" target="_blank" rel="noopener noreferrer">δοῦλος</a> (a servant) <a href="https://biblehub.com/greek/5547.htm" target="_blank" rel="noopener noreferrer">Χριστοῦ</a> (of Christ) <a href="https://biblehub.com/greek/2424.htm" target="_blank" rel="noopener noreferrer">Ἰησοῦ</a> (Jesus), <a href="https://biblehub.com/greek/3842.htm" target="_blank" rel="noopener noreferrer">πάντοτε</a> (always) <a href="https://biblehub.com/greek/75.htm" target="_blank" rel="noopener noreferrer">ἀγωνιζόμενος</a> (struggling) <a href="https://biblehub.com/greek/5228.htm" target="_blank" rel="noopener noreferrer">ὑπὲρ</a> (for) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ταῖς</a> (the) <a href="https://biblehub.com/greek/4335.htm" target="_blank" rel="noopener noreferrer">προσευχαῖς</a> (prayers), <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (so that) <a href="https://biblehub.com/greek/2476.htm" target="_blank" rel="noopener noreferrer">σταθῆτε</a> (you may stand) <a href="https://biblehub.com/greek/5046.htm" target="_blank" rel="noopener noreferrer">τέλειοι</a> (mature) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/4135.htm" target="_blank" rel="noopener noreferrer">πεπληροφορημένοι</a> (fully assured) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3956.htm" target="_blank" rel="noopener noreferrer">παντὶ</a> (all) <a href="https://biblehub.com/greek/2307.htm" target="_blank" rel="noopener noreferrer">θελήματι</a> (the will) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοῦ</a> (‑) <a href="https://biblehub.com/greek/2316.htm" target="_blank" rel="noopener noreferrer">Θεοῦ</a> (of God).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:12)</div>
-      <div className="verse-text">Epaphras, who is one of you, a servant of Christ, saluteth you, always laboring fervently for you in prayers, that ye may stand perfect and complete in all the will of God.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:13)</div>
-      <div className="verse-text">For I bear him record, that he hath a great zeal for you, and them that are in Laodicea, and them in Hierapolis.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:13)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3140.htm" target="_blank" rel="noopener noreferrer">μαρτυρῶ</a> (I bear witness) <a href="https://biblehub.com/greek/1063.htm" target="_blank" rel="noopener noreferrer">γὰρ</a> (for) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῷ</a> (to him) <a href="https://biblehub.com/greek/3754.htm" target="_blank" rel="noopener noreferrer">ὅτι</a> (that) <a href="https://biblehub.com/greek/2192.htm" target="_blank" rel="noopener noreferrer">ἔχει</a> (he has) <a href="https://biblehub.com/greek/4183.htm" target="_blank" rel="noopener noreferrer">πολὺν</a> (great) <a href="https://biblehub.com/greek/4192.htm" target="_blank" rel="noopener noreferrer">πόνον</a> (concern) <a href="https://biblehub.com/greek/5228.htm" target="_blank" rel="noopener noreferrer">ὑπὲρ</a> (for) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (those) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2993.htm" target="_blank" rel="noopener noreferrer">Λαοδικείᾳ</a> (Laodicea) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (them) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) Ἱερα‿ (Hiera) <a href="https://biblehub.com/greek/4172.htm" target="_blank" rel="noopener noreferrer">πόλει</a> (polis).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:13)</div>
-      <div className="verse-text">For I bear him record, that he hath a great zeal for you, and them that are in Laodicea, and them in Hierapolis.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:14)</div>
-      <div className="verse-text">Luke, the beloved physician, and Demas greet you.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:14)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/782.htm" target="_blank" rel="noopener noreferrer">Ἀσπάζεται</a> (Greets) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμᾶς</a> (you), <a href="https://biblehub.com/greek/3065.htm" target="_blank" rel="noopener noreferrer">Λουκᾶς</a> (Luke) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (the) <a href="https://biblehub.com/greek/2395.htm" target="_blank" rel="noopener noreferrer">ἰατρὸς</a> (physician) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ὁ</a> (‑) <a href="https://biblehub.com/greek/27.htm" target="_blank" rel="noopener noreferrer">ἀγαπητὸς</a> (beloved), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and also) <a href="https://biblehub.com/greek/1214.htm" target="_blank" rel="noopener noreferrer">Δημᾶς</a> (Demas).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:14)</div>
-      <div className="verse-text">Luke, the beloved physician, and Demas, greet you.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:15)</div>
-      <div className="verse-text">Salute the brethren which are in Laodicea, and Nymphas, and the church which is in his house.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:15)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/782.htm" target="_blank" rel="noopener noreferrer">Ἀσπάσασθε</a> (Greet) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τοὺς</a> (the) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2993.htm" target="_blank" rel="noopener noreferrer">Λαοδικείᾳ</a> (Laodicea) <a href="https://biblehub.com/greek/80.htm" target="_blank" rel="noopener noreferrer">ἀδελφοὺς</a> (brothers), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and also) <a href="https://biblehub.com/greek/3564.htm" target="_blank" rel="noopener noreferrer">Νύμφαν</a> (Nympha), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) κατ’ (in) <a href="https://biblehub.com/greek/3624.htm" target="_blank" rel="noopener noreferrer">οἶκον</a> (house) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτῆς</a> (of her) <a href="https://biblehub.com/greek/1577.htm" target="_blank" rel="noopener noreferrer">ἐκκλησίαν</a> (church).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:15)</div>
-      <div className="verse-text">Salute the brethren which are in Laodicea, and Nymphas, and the church which is in his house.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:16)</div>
-      <div className="verse-text">And when this epistle is read among you, cause that it be read also in the church of the Laodiceans, and that ye likewise read the epistle from Laodicea,</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:16)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">Καὶ</a> (And) <a href="https://biblehub.com/greek/3752.htm" target="_blank" rel="noopener noreferrer">ὅταν</a> (when) <a href="https://biblehub.com/greek/314.htm" target="_blank" rel="noopener noreferrer">ἀναγνωσθῇ</a> (shall be read) παρ’ (among) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῖν</a> (you) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">ἡ</a> (the) <a href="https://biblehub.com/greek/1992.htm" target="_blank" rel="noopener noreferrer">ἐπιστολή</a> (letter), <a href="https://biblehub.com/greek/4160.htm" target="_blank" rel="noopener noreferrer">ποιήσατε</a> (cause) <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (the) <a href="https://biblehub.com/greek/2994.htm" target="_blank" rel="noopener noreferrer">Λαοδικέων</a> (of the Laodiceans) <a href="https://biblehub.com/greek/1577.htm" target="_blank" rel="noopener noreferrer">ἐκκλησίᾳ</a> (church) <a href="https://biblehub.com/greek/314.htm" target="_blank" rel="noopener noreferrer">ἀναγνωσθῇ</a> (it may be read), <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (and) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the one) <a href="https://biblehub.com/greek/1537.htm" target="_blank" rel="noopener noreferrer">ἐκ</a> (from) <a href="https://biblehub.com/greek/2993.htm" target="_blank" rel="noopener noreferrer">Λαοδικείας</a> (Laodicea) <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">καὶ</a> (also) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμεῖς</a> (you) <a href="https://biblehub.com/greek/314.htm" target="_blank" rel="noopener noreferrer">ἀναγνῶτε</a> (may read).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:16)</div>
-      <div className="verse-text">And when this epistle is read among you, cause that it be read also in the church of the Laodiceans; and that ye likewise read the epistle from Laodicea.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:17)</div>
-      <div className="verse-text">And say to Archippus, Take heed to the ministry which thou hast received in the Lord, that thou fulfill it.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:17)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/2532.htm" target="_blank" rel="noopener noreferrer">Καὶ</a> (And) <a href="https://biblehub.com/greek/2036.htm" target="_blank" rel="noopener noreferrer">εἴπατε</a> (say) <a href="https://biblehub.com/greek/751.htm" target="_blank" rel="noopener noreferrer">Ἀρχίππῳ</a> (to Archippus), “<a href="https://biblehub.com/greek/991.htm" target="_blank" rel="noopener noreferrer">Βλέπε</a> (Take heed to) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τὴν</a> (the) <a href="https://biblehub.com/greek/1248.htm" target="_blank" rel="noopener noreferrer">διακονίαν</a> (ministry) <a href="https://biblehub.com/greek/3739.htm" target="_blank" rel="noopener noreferrer">ἣν</a> (that) <a href="https://biblehub.com/greek/3880.htm" target="_blank" rel="noopener noreferrer">παρέλαβες</a> (you have received) <a href="https://biblehub.com/greek/1722.htm" target="_blank" rel="noopener noreferrer">ἐν</a> (in) <a href="https://biblehub.com/greek/2962.htm" target="_blank" rel="noopener noreferrer">Κυρίῳ</a> (the Lord), <a href="https://biblehub.com/greek/2443.htm" target="_blank" rel="noopener noreferrer">ἵνα</a> (that) <a href="https://biblehub.com/greek/846.htm" target="_blank" rel="noopener noreferrer">αὐτὴν</a> (it) <a href="https://biblehub.com/greek/4137.htm" target="_blank" rel="noopener noreferrer">πληροῖς</a> (you may fulfill).”</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:17)</div>
-      <div className="verse-text">And say to Archippus, Take heed to the ministry which thou hast received in the Lord, that thou fulfill it.</div>
-    </div>
-  </div>
-    <div className="verse-container">
-    <div className="column iv">
-      <div className="verse-ref">Inspired Version (4:18)</div>
-      <div className="verse-text">The salutation by the hand of me, Paul. Remember my bonds. Grace be with you. Amen.</div>
-    </div>
-    
-    <div className="column original greek">
-      <div className="verse-ref">Greek (4:18)</div>
-      <div className="verse-text"><a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Ὁ</a> (The) <a href="https://biblehub.com/greek/783.htm" target="_blank" rel="noopener noreferrer">ἀσπασμὸς</a> (greeting) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῇ</a> (is in the) <a href="https://biblehub.com/greek/1699.htm" target="_blank" rel="noopener noreferrer">ἐμῇ</a> (own) <a href="https://biblehub.com/greek/5495.htm" target="_blank" rel="noopener noreferrer">χειρὶ</a> (hand) — <a href="https://biblehub.com/greek/3972.htm" target="_blank" rel="noopener noreferrer">Παύλου</a> (Paul). <a href="https://biblehub.com/greek/3421.htm" target="_blank" rel="noopener noreferrer">Μνημονεύετέ</a> (Remember) <a href="https://biblehub.com/greek/1473.htm" target="_blank" rel="noopener noreferrer">μου</a> (my) <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">τῶν</a> (‑) <a href="https://biblehub.com/greek/1199.htm" target="_blank" rel="noopener noreferrer">δεσμῶν</a> (chains). <a href="https://biblehub.com/greek/3588.htm" target="_blank" rel="noopener noreferrer">Ἡ</a> (‑) <a href="https://biblehub.com/greek/5485.htm" target="_blank" rel="noopener noreferrer">χάρις</a> (Grace be) μεθ’ (with) <a href="https://biblehub.com/greek/4771.htm" target="_blank" rel="noopener noreferrer">ὑμῶν</a> (you).</div>
-    </div>
-
-    <div className="column kjv">
-      <div className="verse-ref">KJV (4:18)</div>
-      <div className="verse-text">The salutation by the hand of me Paul. Remember my bonds. Grace be with you. Amen.</div>
-    </div>
-  </div>
-  </div>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:1)"
+  ivText="Paul, an apostle of Jesus Christ, by the will of God, and Timotheus, our brother,"
+  origRef="Greek (1:1)"
+  origText="<a href='https://biblehub.com/greek/3972.htm' target='_blank' rel='noopener noreferrer'>Παῦλος</a> (Paul) <a href='https://biblehub.com/greek/652.htm' target='_blank' rel='noopener noreferrer'>ἀπόστολος</a> (an apostle) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ) <a href='https://biblehub.com/greek/2424.htm' target='_blank' rel='noopener noreferrer'>Ἰησοῦ</a> (Jesus) <a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>διὰ</a> (by) <a href='https://biblehub.com/greek/2307.htm' target='_blank' rel='noopener noreferrer'>θελήματος</a> (the will) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/5095.htm' target='_blank' rel='noopener noreferrer'>Τιμόθεος</a> (Timothy) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (the) <a href='https://biblehub.com/greek/80.htm' target='_blank' rel='noopener noreferrer'>ἀδελφὸς</a> (brother),"
+  kjvRef="KJV (1:1)"
+  kjvText="Paul, an apostle of Jesus Christ by the will of God, and Timotheus our brother,"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:2)"
+  ivText="To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you and peace, from God our Father and the Lord Jesus Christ."
+  origRef="Greek (1:2)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Τοῖς</a> (To the) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2857.htm' target='_blank' rel='noopener noreferrer'>Κολοσσαῖς</a> (Colossae) <a href='https://biblehub.com/greek/40.htm' target='_blank' rel='noopener noreferrer'>ἁγίοις</a> (saints) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/4103.htm' target='_blank' rel='noopener noreferrer'>πιστοῖς</a> (faithful) <a href='https://biblehub.com/greek/80.htm' target='_blank' rel='noopener noreferrer'>ἀδελφοῖς</a> (brothers) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστῷ</a> (Christ): <a href='https://biblehub.com/greek/5485.htm' target='_blank' rel='noopener noreferrer'>Χάρις</a> (Grace) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (to you) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1515.htm' target='_blank' rel='noopener noreferrer'>εἰρήνη</a> (peace) <a href='https://biblehub.com/greek/575.htm' target='_blank' rel='noopener noreferrer'>ἀπὸ</a> (from) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (God) <a href='https://biblehub.com/greek/3962.htm' target='_blank' rel='noopener noreferrer'>Πατρὸς</a> (the Father) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῶν</a> (of us)."
+  kjvRef="KJV (1:2)"
+  kjvText="To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and peace, from God our Father and the Lord Jesus Christ."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:3)"
+  ivText="We give thanks to God and the Father of our Lord Jesus Christ, praying always for you,"
+  origRef="Greek (1:3)"
+  origText="<a href='https://biblehub.com/greek/2168.htm' target='_blank' rel='noopener noreferrer'>Εὐχαριστοῦμεν</a> (We give thanks) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (to the) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεῷ</a> (God) <a href='https://biblehub.com/greek/3962.htm' target='_blank' rel='noopener noreferrer'>Πατρὶ</a> (and Father) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίου</a> (Lord) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῶν</a> (of us) <a href='https://biblehub.com/greek/2424.htm' target='_blank' rel='noopener noreferrer'>Ἰησοῦ</a> (Jesus) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (Christ), <a href='https://biblehub.com/greek/3842.htm' target='_blank' rel='noopener noreferrer'>πάντοτε</a> (continually) <a href='https://biblehub.com/greek/4012.htm' target='_blank' rel='noopener noreferrer'>περὶ</a> (for) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you) <a href='https://biblehub.com/greek/4336.htm' target='_blank' rel='noopener noreferrer'>προσευχόμενοι</a> (praying),"
+  kjvRef="KJV (1:3)"
+  kjvText="We give thanks to God and the Father of our Lord Jesus Christ, praying always for you,"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:4)"
+  ivText="Since we heard of your faith in Christ Jesus and of <b>your</b> love to all the saints,"
+  origRef="Greek (1:4)"
+  origText="<a href='https://biblehub.com/greek/191.htm' target='_blank' rel='noopener noreferrer'>ἀκούσαντες</a> (having heard of) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/4102.htm' target='_blank' rel='noopener noreferrer'>πίστιν</a> (faith) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστῷ</a> (Christ) <a href='https://biblehub.com/greek/2424.htm' target='_blank' rel='noopener noreferrer'>Ἰησοῦ</a> (Jesus) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/26.htm' target='_blank' rel='noopener noreferrer'>ἀγάπην</a> (love) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἣν</a> (that) <a href='https://biblehub.com/greek/2192.htm' target='_blank' rel='noopener noreferrer'>ἔχετε</a> (you have) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (toward) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντας</a> (all) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοὺς</a> (the) <a href='https://biblehub.com/greek/40.htm' target='_blank' rel='noopener noreferrer'>ἁγίους</a> (saints),"
+  kjvRef="KJV (1:4)"
+  kjvText="Since we heard of your faith in Christ Jesus, and of <b>the</b> love <b>which ye have</b> to all the saints,"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:5)"
+  ivText="For the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel,"
+  origRef="Greek (1:5)"
+  origText="<a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>διὰ</a> (because of) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/1680.htm' target='_blank' rel='noopener noreferrer'>ἐλπίδα</a> (hope) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (‑) <a href='https://biblehub.com/greek/606.htm' target='_blank' rel='noopener noreferrer'>ἀποκειμένην</a> (being laid up) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (for you) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/3772.htm' target='_blank' rel='noopener noreferrer'>οὐρανοῖς</a> (heavens), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἣν</a> (which) <a href='https://biblehub.com/greek/4257.htm' target='_blank' rel='noopener noreferrer'>προηκούσατε</a> (you heard of before) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (the) <a href='https://biblehub.com/greek/3056.htm' target='_blank' rel='noopener noreferrer'>λόγῳ</a> (word) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of) <a href='https://biblehub.com/greek/225.htm' target='_blank' rel='noopener noreferrer'>ἀληθείας</a> (truth), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the) <a href='https://biblehub.com/greek/2098.htm' target='_blank' rel='noopener noreferrer'>εὐαγγελίου</a> (gospel),"
+  kjvRef="KJV (1:5)"
+  kjvText="For the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:6)"
+  ivText="Which is come unto you, as in all <b>generations of</b> the world, and bringeth forth fruit, as it doth also in you since the day ye heard of it and knew the grace of God in truth,"
+  origRef="Greek (1:6)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the one) <a href='https://biblehub.com/greek/3918.htm' target='_blank' rel='noopener noreferrer'>παρόντος</a> (being present) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (unto) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you), <a href='https://biblehub.com/greek/2531.htm' target='_blank' rel='noopener noreferrer'>καθὼς</a> (just as) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>παντὶ</a> (all) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (the) <a href='https://biblehub.com/greek/2889.htm' target='_blank' rel='noopener noreferrer'>κόσμῳ</a> (world) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστὶν</a> (it is) <a href='https://biblehub.com/greek/2592.htm' target='_blank' rel='noopener noreferrer'>καρποφορούμενον</a> (bearing fruit) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/837.htm' target='_blank' rel='noopener noreferrer'>αὐξανόμενον</a> (increasing), <a href='https://biblehub.com/greek/2531.htm' target='_blank' rel='noopener noreferrer'>καθὼς</a> (just as) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (among) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (you), ἀφ’ (from) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἧς</a> (the) <a href='https://biblehub.com/greek/2250.htm' target='_blank' rel='noopener noreferrer'>ἡμέρας</a> (day) <a href='https://biblehub.com/greek/191.htm' target='_blank' rel='noopener noreferrer'>ἠκούσατε</a> (you heard) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1921.htm' target='_blank' rel='noopener noreferrer'>ἐπέγνωτε</a> (knew) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/5484.htm' target='_blank' rel='noopener noreferrer'>χάριν</a> (grace) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/225.htm' target='_blank' rel='noopener noreferrer'>ἀληθείᾳ</a> (truth),"
+  kjvRef="KJV (1:6)"
+  kjvText="Which is come unto you, as <b>it is</b> in all the world; and bringeth forth fruit, as it doth also in you, since the day ye heard of it, and knew the grace of God in truth:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:7)"
+  ivText="As ye also learned of Epaphras, our dear fellow servant, who is for you a faithful minister of Christ,"
+  origRef="Greek (1:7)"
+  origText="<a href='https://biblehub.com/greek/2531.htm' target='_blank' rel='noopener noreferrer'>καθὼς</a> (just as) <a href='https://biblehub.com/greek/3129.htm' target='_blank' rel='noopener noreferrer'>ἐμάθετε</a> (you learned) <a href='https://biblehub.com/greek/575.htm' target='_blank' rel='noopener noreferrer'>ἀπὸ</a> (from) <a href='https://biblehub.com/greek/1889.htm' target='_blank' rel='noopener noreferrer'>Ἐπαφρᾶ</a> (Epaphras), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the) <a href='https://biblehub.com/greek/27.htm' target='_blank' rel='noopener noreferrer'>ἀγαπητοῦ</a> (beloved) <a href='https://biblehub.com/greek/4889.htm' target='_blank' rel='noopener noreferrer'>συνδούλου</a> (fellow bond‑servant) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῶν</a> (of us), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅς</a> (who) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/4103.htm' target='_blank' rel='noopener noreferrer'>πιστὸς</a> (faithful) <a href='https://biblehub.com/greek/5228.htm' target='_blank' rel='noopener noreferrer'>ὑπὲρ</a> (on behalf of) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῶν</a>* (us), <a href='https://biblehub.com/greek/1249.htm' target='_blank' rel='noopener noreferrer'>διάκονος</a> (a servant) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ),"
+  kjvRef="KJV (1:7)"
+  kjvText="As ye also learned of Epaphras our dear fellow servant, who is for you a faithful minister of Christ;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:8)"
+  ivText="Who also declared unto us your love in the Spirit."
+  origRef="Greek (1:8)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (the one) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/1213.htm' target='_blank' rel='noopener noreferrer'>δηλώσας</a> (having made known) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῖν</a> (to us) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (‑) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (your) <a href='https://biblehub.com/greek/26.htm' target='_blank' rel='noopener noreferrer'>ἀγάπην</a> (love) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/4151.htm' target='_blank' rel='noopener noreferrer'>Πνεύματι</a> (the Spirit)."
+  kjvRef="KJV (1:8)"
+  kjvText="Who also declared unto us your love in the Spirit."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:9)"
+  ivText="For this cause we also, since the day we heard it, do not cease to pray for you and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding,"
+  origRef="Greek (1:9)"
+  origText="<a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>Διὰ</a> (Because of) <a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>τοῦτο</a> (this) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμεῖς</a> (we) ἀφ’ (from) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἧς</a> (the) <a href='https://biblehub.com/greek/2250.htm' target='_blank' rel='noopener noreferrer'>ἡμέρας</a> (day) <a href='https://biblehub.com/greek/191.htm' target='_blank' rel='noopener noreferrer'>ἠκούσαμεν</a> (we heard), <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐ</a> (not) <a href='https://biblehub.com/greek/3973.htm' target='_blank' rel='noopener noreferrer'>παυόμεθα</a> (cease) <a href='https://biblehub.com/greek/5228.htm' target='_blank' rel='noopener noreferrer'>ὑπὲρ</a> (for) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you) <a href='https://biblehub.com/greek/4336.htm' target='_blank' rel='noopener noreferrer'>προσευχόμενοι</a> (praying) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/154.htm' target='_blank' rel='noopener noreferrer'>αἰτούμενοι</a> (asking) <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/4137.htm' target='_blank' rel='noopener noreferrer'>πληρωθῆτε</a> (you may be filled with) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/1922.htm' target='_blank' rel='noopener noreferrer'>ἐπίγνωσιν</a> (knowledge) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2307.htm' target='_blank' rel='noopener noreferrer'>θελήματος</a> (will) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάσῃ</a> (all) <a href='https://biblehub.com/greek/4678.htm' target='_blank' rel='noopener noreferrer'>σοφίᾳ</a> (wisdom) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/4907.htm' target='_blank' rel='noopener noreferrer'>συνέσει</a> (understanding) <a href='https://biblehub.com/greek/4152.htm' target='_blank' rel='noopener noreferrer'>πνευματικῇ</a> (spiritual),"
+  kjvRef="KJV (1:9)"
+  kjvText="For this cause we also, since the day we heard it, do not cease to pray for you, and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:10)"
+  ivText="That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work and increasing in the knowledge of God,"
+  origRef="Greek (1:10)"
+  origText="<a href='https://biblehub.com/greek/4043.htm' target='_blank' rel='noopener noreferrer'>περιπατῆσαι</a> (to walk) <a href='https://biblehub.com/greek/516.htm' target='_blank' rel='noopener noreferrer'>ἀξίως</a> (worthily) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίου</a> (Lord): <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶσαν</a> (all) <a href='https://biblehub.com/greek/699.htm' target='_blank' rel='noopener noreferrer'>ἀρεσκείαν</a> (pleasing), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>παντὶ</a> (every) <a href='https://biblehub.com/greek/2041.htm' target='_blank' rel='noopener noreferrer'>ἔργῳ</a> (work) <a href='https://biblehub.com/greek/18.htm' target='_blank' rel='noopener noreferrer'>ἀγαθῷ</a> (good), <a href='https://biblehub.com/greek/2592.htm' target='_blank' rel='noopener noreferrer'>καρποφοροῦντες</a> (bringing forth fruit) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/837.htm' target='_blank' rel='noopener noreferrer'>αὐξανόμενοι</a> (growing) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (in the) <a href='https://biblehub.com/greek/1922.htm' target='_blank' rel='noopener noreferrer'>ἐπιγνώσει</a> (knowledge) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God),"
+  kjvRef="KJV (1:10)"
+  kjvText="That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work, and increasing in the knowledge of God;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:11)"
+  ivText="Strengthened with all might, according to his glorious power, unto all patience and long-suffering with joyfulness,"
+  origRef="Greek (1:11)"
+  origText="<a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (with) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάσῃ</a> (all) <a href='https://biblehub.com/greek/1411.htm' target='_blank' rel='noopener noreferrer'>δυνάμει</a> (power) <a href='https://biblehub.com/greek/1412.htm' target='_blank' rel='noopener noreferrer'>δυναμούμενοι</a> (being strengthened) <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/2904.htm' target='_blank' rel='noopener noreferrer'>κράτος</a> (might) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (‑) <a href='https://biblehub.com/greek/1391.htm' target='_blank' rel='noopener noreferrer'>δόξης</a> (glorious) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (unto) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶσαν</a> (all) <a href='https://biblehub.com/greek/5281.htm' target='_blank' rel='noopener noreferrer'>ὑπομονὴν</a> (endurance) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3115.htm' target='_blank' rel='noopener noreferrer'>μακροθυμίαν</a> (patience) <a href='https://biblehub.com/greek/3326.htm' target='_blank' rel='noopener noreferrer'>μετὰ</a> (with) <a href='https://biblehub.com/greek/5479.htm' target='_blank' rel='noopener noreferrer'>χαρᾶς</a> (joy),"
+  kjvRef="KJV (1:11)"
+  kjvText="Strengthened with all might, according to his glorious power, unto all patience and long-suffering with joyfulness;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:12)"
+  ivText="Giving thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light,"
+  origRef="Greek (1:12)"
+  origText="<a href='https://biblehub.com/greek/2168.htm' target='_blank' rel='noopener noreferrer'>εὐχαριστοῦντες</a> (giving thanks) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (to the) <a href='https://biblehub.com/greek/3962.htm' target='_blank' rel='noopener noreferrer'>Πατρὶ</a> (Father), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (the One) <a href='https://biblehub.com/greek/2427.htm' target='_blank' rel='noopener noreferrer'>ἱκανώσαντι</a> (having qualified) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (for) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/3310.htm' target='_blank' rel='noopener noreferrer'>μερίδα</a> (share) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2819.htm' target='_blank' rel='noopener noreferrer'>κλήρου</a> (inheritance) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (of the) <a href='https://biblehub.com/greek/40.htm' target='_blank' rel='noopener noreferrer'>ἁγίων</a> (saints) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (the) <a href='https://biblehub.com/greek/5457.htm' target='_blank' rel='noopener noreferrer'>φωτί</a> (light),"
+  kjvRef="KJV (1:12)"
+  kjvText="Giving thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:13)"
+  ivText="Who hath delivered us from the power of darkness and hath translated us into the kingdom of his dear Son,"
+  origRef="Greek (1:13)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὃς</a> (who) <a href='https://biblehub.com/greek/4506.htm' target='_blank' rel='noopener noreferrer'>ἐρρύσατο</a> (has delivered) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμᾶς</a> (us) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (from) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/1849.htm' target='_blank' rel='noopener noreferrer'>ἐξουσίας</a> (dominion) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/4655.htm' target='_blank' rel='noopener noreferrer'>σκότους</a> (of darkness) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3179.htm' target='_blank' rel='noopener noreferrer'>μετέστησεν</a> (transferred us) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (into) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/932.htm' target='_blank' rel='noopener noreferrer'>βασιλείαν</a> (kingdom) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/5207.htm' target='_blank' rel='noopener noreferrer'>Υἱοῦ</a> (Son) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (‑) <a href='https://biblehub.com/greek/26.htm' target='_blank' rel='noopener noreferrer'>ἀγάπης</a> (beloved) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him),"
+  kjvRef="KJV (1:13)"
+  kjvText="Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:14)"
+  ivText="In whom we have redemption through his blood, even the forgiveness of sins,"
+  origRef="Greek (1:14)"
+  origText="<a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ᾧ</a> (whom) <a href='https://biblehub.com/greek/2192.htm' target='_blank' rel='noopener noreferrer'>ἔχομεν</a> (we have) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (‑) <a href='https://biblehub.com/greek/629.htm' target='_blank' rel='noopener noreferrer'>ἀπολύτρωσιν</a> (redemption), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/859.htm' target='_blank' rel='noopener noreferrer'>ἄφεσιν</a> (forgiveness) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (‑) <a href='https://biblehub.com/greek/266.htm' target='_blank' rel='noopener noreferrer'>ἁμαρτιῶν</a> (of sins)."
+  kjvRef="KJV (1:14)"
+  kjvText="In whom we have redemption through his blood, even the forgiveness of sins:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:15)"
+  ivText="Who is the image of the invisible God, the firstborn of every creature."
+  origRef="Greek (1:15)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>Ὅς</a> (He) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/1504.htm' target='_blank' rel='noopener noreferrer'>εἰκὼν</a> (the image) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (God) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/517.htm' target='_blank' rel='noopener noreferrer'>ἀοράτου</a> (invisible), <a href='https://biblehub.com/greek/4416.htm' target='_blank' rel='noopener noreferrer'>πρωτότοκος</a> (the firstborn) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάσης</a> (over all) <a href='https://biblehub.com/greek/2937.htm' target='_blank' rel='noopener noreferrer'>κτίσεως</a> (creation),"
+  kjvRef="KJV (1:15)"
+  kjvText="Who is the image of the invisible God, the firstborn of every creature:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:16)"
+  ivText="For by him were all things created that are in heaven and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers; all things were created by him and for him;"
+  origRef="Greek (1:16)"
+  origText="<a href='https://biblehub.com/greek/3754.htm' target='_blank' rel='noopener noreferrer'>ὅτι</a> (because) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/2936.htm' target='_blank' rel='noopener noreferrer'>ἐκτίσθη</a> (were created) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (‑) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all things) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/3772.htm' target='_blank' rel='noopener noreferrer'>οὐρανοῖς</a> (heavens) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1909.htm' target='_blank' rel='noopener noreferrer'>ἐπὶ</a> (upon) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/1093.htm' target='_blank' rel='noopener noreferrer'>γῆς</a> (earth), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the) <a href='https://biblehub.com/greek/3707.htm' target='_blank' rel='noopener noreferrer'>ὁρατὰ</a> (visible) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the) <a href='https://biblehub.com/greek/517.htm' target='_blank' rel='noopener noreferrer'>ἀόρατα</a> (invisible), <a href='https://biblehub.com/greek/1535.htm' target='_blank' rel='noopener noreferrer'>εἴτε</a> (whether) <a href='https://biblehub.com/greek/2362.htm' target='_blank' rel='noopener noreferrer'>θρόνοι</a> (thrones) <a href='https://biblehub.com/greek/1535.htm' target='_blank' rel='noopener noreferrer'>εἴτε</a> (or) <a href='https://biblehub.com/greek/2963.htm' target='_blank' rel='noopener noreferrer'>κυριότητες</a> (dominions) <a href='https://biblehub.com/greek/1535.htm' target='_blank' rel='noopener noreferrer'>εἴτε</a> (or) <a href='https://biblehub.com/greek/746.htm' target='_blank' rel='noopener noreferrer'>ἀρχαὶ</a> (rulers) <a href='https://biblehub.com/greek/1535.htm' target='_blank' rel='noopener noreferrer'>εἴτε</a> (or) <a href='https://biblehub.com/greek/1849.htm' target='_blank' rel='noopener noreferrer'>ἐξουσίαι</a> (authorities); <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (‑) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all things) δι’ (through) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (Him) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (unto) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὸν</a> (Him) <a href='https://biblehub.com/greek/2936.htm' target='_blank' rel='noopener noreferrer'>ἔκτισται</a> (have been created)."
+  kjvRef="KJV (1:16)"
+  kjvText="For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:17)"
+  ivText="And he is before all things, and by him all things consist."
+  origRef="Greek (1:17)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>Καὶ</a> (And) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτός</a> (He) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/4253.htm' target='_blank' rel='noopener noreferrer'>πρὸ</a> (before) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντων</a> (all things), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (‑) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all things) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/4921.htm' target='_blank' rel='noopener noreferrer'>συνέστηκεν</a> (hold together)."
+  kjvRef="KJV (1:17)"
+  kjvText="And he is before all things, and by him all things consist."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:18)"
+  ivText="And he is the head of the body, the church, who is the beginning, the firstborn from the dead, that in all things he might have the pre-eminence."
+  origRef="Greek (1:18)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (And) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτός</a> (He) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/2776.htm' target='_blank' rel='noopener noreferrer'>κεφαλὴ</a> (head) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σώματος</a> (body), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/1577.htm' target='_blank' rel='noopener noreferrer'>ἐκκλησίας</a> (church), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅς</a> (who) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) (<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a>) (the) <a href='https://biblehub.com/greek/746.htm' target='_blank' rel='noopener noreferrer'>ἀρχή</a> (beginning), <a href='https://biblehub.com/greek/4416.htm' target='_blank' rel='noopener noreferrer'>πρωτότοκος</a> (firstborn) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (out from) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (the) <a href='https://biblehub.com/greek/3498.htm' target='_blank' rel='noopener noreferrer'>νεκρῶν</a> (dead), <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (so that) <a href='https://biblehub.com/greek/1096.htm' target='_blank' rel='noopener noreferrer'>γένηται</a> (might be) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶσιν</a> (all things) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὸς</a> (He) <a href='https://biblehub.com/greek/4409.htm' target='_blank' rel='noopener noreferrer'>πρωτεύων</a> (holding preeminence),"
+  kjvRef="KJV (1:18)"
+  kjvText="And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the pre-eminence."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:19)"
+  ivText="For it pleased the Father that in him should all fullness dwell,"
+  origRef="Greek (1:19)"
+  origText="<a href='https://biblehub.com/greek/3754.htm' target='_blank' rel='noopener noreferrer'>ὅτι</a> (because) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/2106.htm' target='_blank' rel='noopener noreferrer'>εὐδόκησεν</a> (was pleased) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶν</a> (all) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/4138.htm' target='_blank' rel='noopener noreferrer'>πλήρωμα</a> (fullness) <a href='https://biblehub.com/greek/2730.htm' target='_blank' rel='noopener noreferrer'>κατοικῆσαι</a> (to dwell),"
+  kjvRef="KJV (1:19)"
+  kjvText="For it pleased the Father that in him should all fullness dwell;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:20)"
+  ivText="And, having made peace through the blood of his cross, by him to reconcile all things unto himself--by him, I say, whether they be things in earth or things in heaven."
+  origRef="Greek (1:20)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) δι’ (by) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (Him) <a href='https://biblehub.com/greek/604.htm' target='_blank' rel='noopener noreferrer'>ἀποκαταλλάξαι</a> (to reconcile) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (‑) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all things) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (to) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτόν</a> (Himself), <a href='https://biblehub.com/greek/1517.htm' target='_blank' rel='noopener noreferrer'>εἰρηνοποιήσας</a> (having made peace) <a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>διὰ</a> (by) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the) <a href='https://biblehub.com/greek/129.htm' target='_blank' rel='noopener noreferrer'>αἵματος</a> (blood) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/4716.htm' target='_blank' rel='noopener noreferrer'>σταυροῦ</a> (cross) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him), δι’ (through) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (Him), <a href='https://biblehub.com/greek/1535.htm' target='_blank' rel='noopener noreferrer'>εἴτε</a> (whether) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the things) <a href='https://biblehub.com/greek/1909.htm' target='_blank' rel='noopener noreferrer'>ἐπὶ</a> (on) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/1093.htm' target='_blank' rel='noopener noreferrer'>γῆς</a> (earth), <a href='https://biblehub.com/greek/1535.htm' target='_blank' rel='noopener noreferrer'>εἴτε</a> (or) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the things) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/3772.htm' target='_blank' rel='noopener noreferrer'>οὐρανοῖς</a> (heavens)."
+  kjvRef="KJV (1:20)"
+  kjvText="And, having made peace through the blood of his cross, by him to reconcile all things unto himself; by him, I say, whether they be things in earth, or things in heaven."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:21)"
+  ivText="And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled,"
+  origRef="Greek (1:21)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>Καὶ</a> (And) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you), <a href='https://biblehub.com/greek/4218.htm' target='_blank' rel='noopener noreferrer'>ποτε</a> (once) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ὄντας</a> (being) <a href='https://biblehub.com/greek/526.htm' target='_blank' rel='noopener noreferrer'>ἀπηλλοτριωμένους</a> (alienated) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/2190.htm' target='_blank' rel='noopener noreferrer'>ἐχθροὺς</a> (hostile) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (‑) <a href='https://biblehub.com/greek/1271.htm' target='_blank' rel='noopener noreferrer'>διανοίᾳ</a> (in mind) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/2041.htm' target='_blank' rel='noopener noreferrer'>ἔργοις</a> (deeds) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (‑) <a href='https://biblehub.com/greek/4190.htm' target='_blank' rel='noopener noreferrer'>πονηροῖς</a> (evil),"
+  kjvRef="KJV (1:21)"
+  kjvText="And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:22)"
+  ivText="In the body of his flesh through death, to present you holy and unblamable and unreprovable in his sight,"
+  origRef="Greek (1:22)"
+  origText="<a href='https://biblehub.com/greek/3570.htm' target='_blank' rel='noopener noreferrer'>νυνὶ</a> (now) <a href='https://biblehub.com/greek/1161.htm' target='_blank' rel='noopener noreferrer'>δὲ</a> (however) <a href='https://biblehub.com/greek/604.htm' target='_blank' rel='noopener noreferrer'>ἀποκατήλλαξεν</a> (He has reconciled You) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (the) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σώματι</a> (body) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκὸς</a> (flesh) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him) <a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>διὰ</a> (through) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2288.htm' target='_blank' rel='noopener noreferrer'>θανάτου</a> (death), <a href='https://biblehub.com/greek/3936.htm' target='_blank' rel='noopener noreferrer'>παραστῆσαι</a> (to present) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/40.htm' target='_blank' rel='noopener noreferrer'>ἁγίους</a> (holy) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/299.htm' target='_blank' rel='noopener noreferrer'>ἀμώμους</a> (unblemished) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/410.htm' target='_blank' rel='noopener noreferrer'>ἀνεγκλήτους</a> (blameless) <a href='https://biblehub.com/greek/2714.htm' target='_blank' rel='noopener noreferrer'>κατενώπιον</a> (before) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (Him),"
+  kjvRef="KJV (1:22)"
+  kjvText="In the body of his flesh through death, to present you holy and unblamable and unreprovable in his sight:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:23)"
+  ivText="If ye continue in the faith grounded and settled and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven, whereof I, Paul, am made a minister,"
+  origRef="Greek (1:23)"
+  origText="<a href='https://biblehub.com/greek/1487.htm' target='_blank' rel='noopener noreferrer'>εἴ</a> (if) <a href='https://biblehub.com/greek/1065.htm' target='_blank' rel='noopener noreferrer'>γε</a> (indeed) <a href='https://biblehub.com/greek/1961.htm' target='_blank' rel='noopener noreferrer'>ἐπιμένετε</a> (you continue) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (‑) <a href='https://biblehub.com/greek/4102.htm' target='_blank' rel='noopener noreferrer'>πίστει</a> (in the faith), <a href='https://biblehub.com/greek/2311.htm' target='_blank' rel='noopener noreferrer'>τεθεμελιωμένοι</a> (established) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1476.htm' target='_blank' rel='noopener noreferrer'>ἑδραῖοι</a> (firm), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>μὴ</a> (not) <a href='https://biblehub.com/greek/3334.htm' target='_blank' rel='noopener noreferrer'>μετακινούμενοι</a> (being moved away) <a href='https://biblehub.com/greek/575.htm' target='_blank' rel='noopener noreferrer'>ἀπὸ</a> (from) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/1680.htm' target='_blank' rel='noopener noreferrer'>ἐλπίδος</a> (hope) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2098.htm' target='_blank' rel='noopener noreferrer'>εὐαγγελίου</a> (gospel) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>οὗ</a> (that) <a href='https://biblehub.com/greek/191.htm' target='_blank' rel='noopener noreferrer'>ἠκούσατε</a> (you have heard), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2784.htm' target='_blank' rel='noopener noreferrer'>κηρυχθέντος</a> (having been proclaimed) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάσῃ</a> (all) <a href='https://biblehub.com/greek/2937.htm' target='_blank' rel='noopener noreferrer'>κτίσει</a> (creation) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (‑) <a href='https://biblehub.com/greek/5259.htm' target='_blank' rel='noopener noreferrer'>ὑπὸ</a> (under) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (‑) <a href='https://biblehub.com/greek/3772.htm' target='_blank' rel='noopener noreferrer'>οὐρανόν</a> (heaven), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>οὗ</a> (of which) <a href='https://biblehub.com/greek/1096.htm' target='_blank' rel='noopener noreferrer'>ἐγενόμην</a> (have become) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἐγὼ</a> (I) <a href='https://biblehub.com/greek/3972.htm' target='_blank' rel='noopener noreferrer'>Παῦλος</a> (Paul) <a href='https://biblehub.com/greek/1249.htm' target='_blank' rel='noopener noreferrer'>διάκονος</a> (a minister)."
+  kjvRef="KJV (1:23)"
+  kjvText="If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven; whereof I Paul am made a minister;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:24)"
+  ivText="Who now rejoice in my sufferings for you and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church,"
+  origRef="Greek (1:24)"
+  origText="<a href='https://biblehub.com/greek/3568.htm' target='_blank' rel='noopener noreferrer'>Νῦν</a> (Now) <a href='https://biblehub.com/greek/5463.htm' target='_blank' rel='noopener noreferrer'>χαίρω</a> (I rejoice) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/3804.htm' target='_blank' rel='noopener noreferrer'>παθήμασιν</a> (sufferings) <a href='https://biblehub.com/greek/5228.htm' target='_blank' rel='noopener noreferrer'>ὑπὲρ</a> (for) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/466.htm' target='_blank' rel='noopener noreferrer'>ἀνταναπληρῶ</a> (I am filling up) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (that which) <a href='https://biblehub.com/greek/5303.htm' target='_blank' rel='noopener noreferrer'>ὑστερήματα</a> (is lacking) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (of the) <a href='https://biblehub.com/greek/2347.htm' target='_blank' rel='noopener noreferrer'>θλίψεων</a> (tribulations) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (the) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκί</a> (flesh) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>μου</a> (of me) <a href='https://biblehub.com/greek/5228.htm' target='_blank' rel='noopener noreferrer'>ὑπὲρ</a> (for) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σώματος</a> (body) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅ</a> (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/1577.htm' target='_blank' rel='noopener noreferrer'>ἐκκλησία</a> (church),"
+  kjvRef="KJV (1:24)"
+  kjvText="Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:25)"
+  ivText="Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfill the word of God,"
+  origRef="Greek (1:25)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἧς</a> (of which) <a href='https://biblehub.com/greek/1096.htm' target='_blank' rel='noopener noreferrer'>ἐγενόμην</a> (became) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἐγὼ</a> (I) <a href='https://biblehub.com/greek/1249.htm' target='_blank' rel='noopener noreferrer'>διάκονος</a> (a minister), <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/3622.htm' target='_blank' rel='noopener noreferrer'>οἰκονομίαν</a> (administration) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (‑) <a href='https://biblehub.com/greek/1325.htm' target='_blank' rel='noopener noreferrer'>δοθεῖσάν</a> (having been given) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>μοι</a> (me) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (toward) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you), <a href='https://biblehub.com/greek/4137.htm' target='_blank' rel='noopener noreferrer'>πληρῶσαι</a> (to complete) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (the) <a href='https://biblehub.com/greek/3056.htm' target='_blank' rel='noopener noreferrer'>λόγον</a> (word) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God),"
+  kjvRef="KJV (1:25)"
+  kjvText="Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfill the word of God;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:26)"
+  ivText="Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints,"
+  origRef="Greek (1:26)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/3466.htm' target='_blank' rel='noopener noreferrer'>μυστήριον</a> (mystery) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (‑) <a href='https://biblehub.com/greek/613.htm' target='_blank' rel='noopener noreferrer'>ἀποκεκρυμμένον</a> (having been hidden) <a href='https://biblehub.com/greek/575.htm' target='_blank' rel='noopener noreferrer'>ἀπὸ</a> (from) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (the) <a href='https://biblehub.com/greek/165.htm' target='_blank' rel='noopener noreferrer'>αἰώνων</a> (ages) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/575.htm' target='_blank' rel='noopener noreferrer'>ἀπὸ</a> (from) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (the) <a href='https://biblehub.com/greek/1074.htm' target='_blank' rel='noopener noreferrer'>γενεῶν</a> (generations), <a href='https://biblehub.com/greek/3568.htm' target='_blank' rel='noopener noreferrer'>νῦν</a> (now) <a href='https://biblehub.com/greek/1161.htm' target='_blank' rel='noopener noreferrer'>δὲ</a> (however) <a href='https://biblehub.com/greek/5319.htm' target='_blank' rel='noopener noreferrer'>ἐφανερώθη</a> (having been manifested) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (to the) <a href='https://biblehub.com/greek/40.htm' target='_blank' rel='noopener noreferrer'>ἁγίοις</a> (saints) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him),"
+  kjvRef="KJV (1:26)"
+  kjvText="Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:27)"
+  ivText="To whom God would make known what is the riches of the glory of this mystery among the Gentiles, which is Christ in you, the hope of glory,"
+  origRef="Greek (1:27)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>οἷς</a> (to whom) <a href='https://biblehub.com/greek/2309.htm' target='_blank' rel='noopener noreferrer'>ἠθέλησεν</a> (has willed) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεὸς</a> (God) <a href='https://biblehub.com/greek/1107.htm' target='_blank' rel='noopener noreferrer'>γνωρίσαι</a> (to make known) <a href='https://biblehub.com/greek/5101.htm' target='_blank' rel='noopener noreferrer'>τί</a> (what is) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/4149.htm' target='_blank' rel='noopener noreferrer'>πλοῦτος</a> (riches) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/1391.htm' target='_blank' rel='noopener noreferrer'>δόξης</a> (glory) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/3466.htm' target='_blank' rel='noopener noreferrer'>μυστηρίου</a> (mystery) <a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>τούτου</a> (this) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (among) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/1484.htm' target='_blank' rel='noopener noreferrer'>ἔθνεσιν</a> (Gentiles), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅ</a>* (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστὸς</a> (Christ) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (you), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/1680.htm' target='_blank' rel='noopener noreferrer'>ἐλπὶς</a> (hope) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (‑) <a href='https://biblehub.com/greek/1391.htm' target='_blank' rel='noopener noreferrer'>δόξης</a> (of glory),"
+  kjvRef="KJV (1:27)"
+  kjvText="To whom God would make known what is the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:28)"
+  ivText="Whom we preach, warning every man and teaching every man in all wisdom, that we may present every man perfect in Christ Jesus,"
+  origRef="Greek (1:28)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὃν</a> (whom) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμεῖς</a> (we) <a href='https://biblehub.com/greek/2605.htm' target='_blank' rel='noopener noreferrer'>καταγγέλλομεν</a> (preach), <a href='https://biblehub.com/greek/3560.htm' target='_blank' rel='noopener noreferrer'>νουθετοῦντες</a> (admonishing) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (every) <a href='https://biblehub.com/greek/444.htm' target='_blank' rel='noopener noreferrer'>ἄνθρωπον</a> (man) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1321.htm' target='_blank' rel='noopener noreferrer'>διδάσκοντες</a> (teaching) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (every) <a href='https://biblehub.com/greek/444.htm' target='_blank' rel='noopener noreferrer'>ἄνθρωπον</a> (man) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάσῃ</a> (all) <a href='https://biblehub.com/greek/4678.htm' target='_blank' rel='noopener noreferrer'>σοφίᾳ</a> (wisdom), <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (so that) <a href='https://biblehub.com/greek/3936.htm' target='_blank' rel='noopener noreferrer'>παραστήσωμεν</a> (we may present) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (every) <a href='https://biblehub.com/greek/444.htm' target='_blank' rel='noopener noreferrer'>ἄνθρωπον</a> (man) <a href='https://biblehub.com/greek/5046.htm' target='_blank' rel='noopener noreferrer'>τέλειον</a> (perfect) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστῷ</a> (Christ)."
+  kjvRef="KJV (1:28)"
+  kjvText="Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (1:29)"
+  ivText="Whereunto I also labor, striving according to his working, which worketh in me mightily."
+  origRef="Greek (1:29)"
+  origText="<a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>Εἰς</a> (Unto) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὃ</a> (this) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/2872.htm' target='_blank' rel='noopener noreferrer'>κοπιῶ</a> (I toil), <a href='https://biblehub.com/greek/75.htm' target='_blank' rel='noopener noreferrer'>ἀγωνιζόμενος</a> (striving) <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/1753.htm' target='_blank' rel='noopener noreferrer'>ἐνέργειαν</a> (energy) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of Him) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (‑) <a href='https://biblehub.com/greek/1754.htm' target='_blank' rel='noopener noreferrer'>ἐνεργουμένην</a> (working) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἐμοὶ</a> (me) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/1411.htm' target='_blank' rel='noopener noreferrer'>δυνάμει</a> (power)."
+  kjvRef="KJV (1:29)"
+  kjvText="Whereunto I also labor, striving according to his working, which worketh in me mightily."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:1)"
+  ivText="For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh,"
+  origRef="Greek (2:1)"
+  origText="<a href='https://biblehub.com/greek/2309.htm' target='_blank' rel='noopener noreferrer'>Θέλω</a> (I want) <a href='https://biblehub.com/greek/1063.htm' target='_blank' rel='noopener noreferrer'>γὰρ</a> (for) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/1492.htm' target='_blank' rel='noopener noreferrer'>εἰδέναι</a> (to know) <a href='https://biblehub.com/greek/2245.htm' target='_blank' rel='noopener noreferrer'>ἡλίκον</a> (how great) <a href='https://biblehub.com/greek/73.htm' target='_blank' rel='noopener noreferrer'>ἀγῶνα</a> (a struggle) <a href='https://biblehub.com/greek/2192.htm' target='_blank' rel='noopener noreferrer'>ἔχω</a> (I am having) <a href='https://biblehub.com/greek/5228.htm' target='_blank' rel='noopener noreferrer'>ὑπὲρ</a> (for) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (those) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2993.htm' target='_blank' rel='noopener noreferrer'>Λαοδικείᾳ</a> (Laodicea), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3745.htm' target='_blank' rel='noopener noreferrer'>ὅσοι</a> (as many as) <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐχ</a> (not) <a href='https://biblehub.com/greek/3708.htm' target='_blank' rel='noopener noreferrer'>ἑόρακαν</a> (have seen) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/4383.htm' target='_blank' rel='noopener noreferrer'>πρόσωπόν</a> (face) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>μου</a> (of me) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκί</a> (the flesh),"
+  kjvRef="KJV (2:1)"
+  kjvText="For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:2)"
+  ivText="That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgment of the mystery of God and of Christ, <b>who is of God, even</b> the Father;"
+  origRef="Greek (2:2)"
+  origText="<a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/3870.htm' target='_blank' rel='noopener noreferrer'>παρακληθῶσιν</a> (may be encouraged) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>αἱ</a> (the) <a href='https://biblehub.com/greek/2588.htm' target='_blank' rel='noopener noreferrer'>καρδίαι</a> (hearts) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῶν</a> (of them), <a href='https://biblehub.com/greek/4822.htm' target='_blank' rel='noopener noreferrer'>συμβιβασθέντες</a> (having been knit together) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/26.htm' target='_blank' rel='noopener noreferrer'>ἀγάπῃ</a> (love), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (to) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶν</a> (all) <a href='https://biblehub.com/greek/4149.htm' target='_blank' rel='noopener noreferrer'>πλοῦτος</a> (the riches) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/4136.htm' target='_blank' rel='noopener noreferrer'>πληροφορίας</a> (full assurance) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (‑) <a href='https://biblehub.com/greek/4907.htm' target='_blank' rel='noopener noreferrer'>συνέσεως</a> (of understanding), <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (to) <a href='https://biblehub.com/greek/1922.htm' target='_blank' rel='noopener noreferrer'>ἐπίγνωσιν</a> (the knowledge) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/3466.htm' target='_blank' rel='noopener noreferrer'>μυστηρίου</a> (mystery) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God), <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (which is Christ),"
+  kjvRef="KJV (2:2)"
+  kjvText="That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgment of the mystery of God, and of the Father, <b>and</b> of Christ;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:3)"
+  ivText="In whom are hid all the treasures of wisdom and knowledge."
+  origRef="Greek (2:3)"
+  origText="<a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ᾧ</a> (whom) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>εἰσιν</a> (are) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντες</a> (all) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>οἱ</a> (the) <a href='https://biblehub.com/greek/2344.htm' target='_blank' rel='noopener noreferrer'>θησαυροὶ</a> (treasures) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (‑) <a href='https://biblehub.com/greek/4678.htm' target='_blank' rel='noopener noreferrer'>σοφίας</a> (of wisdom) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1108.htm' target='_blank' rel='noopener noreferrer'>γνώσεως</a> (of knowledge) <a href='https://biblehub.com/greek/614.htm' target='_blank' rel='noopener noreferrer'>ἀπόκρυφοι</a> (hidden)."
+  kjvRef="KJV (2:3)"
+  kjvText="In whom are hid all the treasures of wisdom and knowledge."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:4)"
+  ivText="And this I say, lest any man should beguile you with enticing words."
+  origRef="Greek (2:4)"
+  origText="<a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>Τοῦτο</a> (This) <a href='https://biblehub.com/greek/3004.htm' target='_blank' rel='noopener noreferrer'>λέγω</a> (I say) <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (so that) <a href='https://biblehub.com/greek/3367.htm' target='_blank' rel='noopener noreferrer'>μηδεὶς</a> (no one) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/3884.htm' target='_blank' rel='noopener noreferrer'>παραλογίζηται</a> (might delude) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (by) <a href='https://biblehub.com/greek/4086.htm' target='_blank' rel='noopener noreferrer'>πιθανολογίᾳ</a> (persuasive speech)."
+  kjvRef="KJV (2:4)"
+  kjvText="And this I say, lest any man should beguile you with enticing words."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:5)"
+  ivText="For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order and the steadfastness of your faith in Christ."
+  origRef="Greek (2:5)"
+  origText="<a href='https://biblehub.com/greek/1487.htm' target='_blank' rel='noopener noreferrer'>εἰ</a> (If) <a href='https://biblehub.com/greek/1063.htm' target='_blank' rel='noopener noreferrer'>γὰρ</a> (truly) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (indeed) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (in the) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκὶ</a> (flesh) <a href='https://biblehub.com/greek/548.htm' target='_blank' rel='noopener noreferrer'>ἄπειμι</a> (I am absent), <a href='https://biblehub.com/greek/235.htm' target='_blank' rel='noopener noreferrer'>ἀλλὰ</a> (yet) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (‑) <a href='https://biblehub.com/greek/4151.htm' target='_blank' rel='noopener noreferrer'>πνεύματι</a> (in spirit) <a href='https://biblehub.com/greek/4862.htm' target='_blank' rel='noopener noreferrer'>σὺν</a> (with) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (you) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>εἰμι</a> (I am), <a href='https://biblehub.com/greek/5463.htm' target='_blank' rel='noopener noreferrer'>χαίρων</a> (rejoicing) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/991.htm' target='_blank' rel='noopener noreferrer'>βλέπων</a> (seeing) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (your) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (‑) <a href='https://biblehub.com/greek/5010.htm' target='_blank' rel='noopener noreferrer'>τάξιν</a> (good order) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/4733.htm' target='_blank' rel='noopener noreferrer'>στερέωμα</a> (firmness) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (in) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστὸν</a> (Christ) <a href='https://biblehub.com/greek/4102.htm' target='_blank' rel='noopener noreferrer'>πίστεως</a> (faith) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you)."
+  kjvRef="KJV (2:5)"
+  kjvText="For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order, and the steadfastness of your faith in Christ."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:6)"
+  ivText="As ye have, therefore, received Christ Jesus the Lord, so walk ye in him,"
+  origRef="Greek (2:6)"
+  origText="<a href='https://biblehub.com/greek/5613.htm' target='_blank' rel='noopener noreferrer'>Ὡς</a> (Just as) <a href='https://biblehub.com/greek/3767.htm' target='_blank' rel='noopener noreferrer'>οὖν</a> (therefore) <a href='https://biblehub.com/greek/3880.htm' target='_blank' rel='noopener noreferrer'>παρελάβετε</a> (you have received) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστὸν</a> (Christ) <a href='https://biblehub.com/greek/2424.htm' target='_blank' rel='noopener noreferrer'>Ἰησοῦν</a> (Jesus) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (the) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κύριον</a> (Lord), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/4043.htm' target='_blank' rel='noopener noreferrer'>περιπατεῖτε</a> (walk),"
+  kjvRef="KJV (2:6)"
+  kjvText="As ye have therefore received Christ Jesus the Lord, so walk ye in him:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:7)"
+  ivText="Rooted and built up in him, and <b>established</b> in the faith, as ye have been taught, abounding therein with thanksgiving."
+  origRef="Greek (2:7)"
+  origText="<a href='https://biblehub.com/greek/4492.htm' target='_blank' rel='noopener noreferrer'>ἐρριζωμένοι</a> (having been rooted) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/2026.htm' target='_blank' rel='noopener noreferrer'>ἐποικοδομούμενοι</a> (being built up) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/950.htm' target='_blank' rel='noopener noreferrer'>βεβαιούμενοι</a> (being strengthened in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (the) <a href='https://biblehub.com/greek/4102.htm' target='_blank' rel='noopener noreferrer'>πίστει</a> (faith) <a href='https://biblehub.com/greek/2531.htm' target='_blank' rel='noopener noreferrer'>καθὼς</a> (just as) <a href='https://biblehub.com/greek/1321.htm' target='_blank' rel='noopener noreferrer'>ἐδιδάχθητε</a> (you were taught), <a href='https://biblehub.com/greek/4052.htm' target='_blank' rel='noopener noreferrer'>περισσεύοντες</a> (abounding) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (with) <a href='https://biblehub.com/greek/2169.htm' target='_blank' rel='noopener noreferrer'>εὐχαριστίᾳ</a> (thanksgiving)."
+  kjvRef="KJV (2:7)"
+  kjvText="Rooted and built up in him, and <b>stablished</b> in the faith, as ye have been taught, abounding therein with thanksgiving."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:8)"
+  ivText="Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ."
+  origRef="Greek (2:8)"
+  origText="<a href='https://biblehub.com/greek/991.htm' target='_blank' rel='noopener noreferrer'>Βλέπετε</a> (Take heed) <a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>μή</a> (lest) <a href='https://biblehub.com/greek/5100.htm' target='_blank' rel='noopener noreferrer'>τις</a> (anyone) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἔσται</a> (there will be) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/4812.htm' target='_blank' rel='noopener noreferrer'>συλαγωγῶν</a> (taking captive) <a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>διὰ</a> (through) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (‑) <a href='https://biblehub.com/greek/5385.htm' target='_blank' rel='noopener noreferrer'>φιλοσοφίας</a> (philosophy) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/2756.htm' target='_blank' rel='noopener noreferrer'>κενῆς</a> (empty) <a href='https://biblehub.com/greek/539.htm' target='_blank' rel='noopener noreferrer'>ἀπάτης</a> (deceit), <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/3862.htm' target='_blank' rel='noopener noreferrer'>παράδοσιν</a> (tradition) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (‑) <a href='https://biblehub.com/greek/444.htm' target='_blank' rel='noopener noreferrer'>ἀνθρώπων</a> (of men), <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the) <a href='https://biblehub.com/greek/4747.htm' target='_blank' rel='noopener noreferrer'>στοιχεῖα</a> (principles) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2889.htm' target='_blank' rel='noopener noreferrer'>κόσμου</a> (world) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐ</a> (not) <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστόν</a> (Christ)."
+  kjvRef="KJV (2:8)"
+  kjvText="Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:9)"
+  ivText="For in him dwelleth all the fullness of the Godhead bodily."
+  origRef="Greek (2:9)"
+  origText="<a href='https://biblehub.com/greek/3754.htm' target='_blank' rel='noopener noreferrer'>ὅτι</a> (For) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/2730.htm' target='_blank' rel='noopener noreferrer'>κατοικεῖ</a> (dwells) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶν</a> (all) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/4138.htm' target='_blank' rel='noopener noreferrer'>πλήρωμα</a> (fullness) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/2320.htm' target='_blank' rel='noopener noreferrer'>Θεότητος</a> (Deity) <a href='https://biblehub.com/greek/4985.htm' target='_blank' rel='noopener noreferrer'>σωματικῶς</a> (bodily);"
+  kjvRef="KJV (2:9)"
+  kjvText="For in him dwelleth all the fullness of the Godhead bodily."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:10)"
+  ivText="And ye are complete in him, which is the head of all principality and power,"
+  origRef="Greek (2:10)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστὲ</a> (you are) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/4137.htm' target='_blank' rel='noopener noreferrer'>πεπληρωμένοι</a> (complete), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅς</a> (who) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/2776.htm' target='_blank' rel='noopener noreferrer'>κεφαλὴ</a> (head) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάσης</a> (of all) <a href='https://biblehub.com/greek/746.htm' target='_blank' rel='noopener noreferrer'>ἀρχῆς</a> (rule) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1849.htm' target='_blank' rel='noopener noreferrer'>ἐξουσίας</a> (authority),"
+  kjvRef="KJV (2:10)"
+  kjvText="And ye are complete in him, which is the head of all principality and power:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:11)"
+  ivText="In whom also ye are circumcised with the circumcision made without hands, in putting off the body of the sins of the flesh by the circumcision of Christ,"
+  origRef="Greek (2:11)"
+  origText="<a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ᾧ</a> (whom) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4059.htm' target='_blank' rel='noopener noreferrer'>περιετμήθητε</a> (you were circumcised) <a href='https://biblehub.com/greek/4061.htm' target='_blank' rel='noopener noreferrer'>περιτομῇ</a> (with the circumcision) <a href='https://biblehub.com/greek/886.htm' target='_blank' rel='noopener noreferrer'>ἀχειροποιήτῳ</a> (made without hands), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (the) <a href='https://biblehub.com/greek/555.htm' target='_blank' rel='noopener noreferrer'>ἀπεκδύσει</a> (removal) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σώματος</a> (body) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκός</a> (flesh), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (the) <a href='https://biblehub.com/greek/4061.htm' target='_blank' rel='noopener noreferrer'>περιτομῇ</a> (circumcision) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ),"
+  kjvRef="KJV (2:11)"
+  kjvText="In whom also ye are circumcised with the circumcision made without hands, in putting off the body of the sins of the flesh by the circumcision of Christ:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:12)"
+  ivText="Buried with him in baptism, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead."
+  origRef="Greek (2:12)"
+  origText="<a href='https://biblehub.com/greek/4916.htm' target='_blank' rel='noopener noreferrer'>συνταφέντες</a> (having been buried with) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (‑) βαπτισμῷ* (baptism), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ᾧ</a> (which) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4891.htm' target='_blank' rel='noopener noreferrer'>συνηγέρθητε</a> (you were raised with Him) <a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>διὰ</a> (through) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/4102.htm' target='_blank' rel='noopener noreferrer'>πίστεως</a> (faith) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/1753.htm' target='_blank' rel='noopener noreferrer'>ἐνεργείας</a> (working) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the One) <a href='https://biblehub.com/greek/1453.htm' target='_blank' rel='noopener noreferrer'>ἐγείραντος</a> (having raised) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὸν</a> (Him) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (out from) <a href='https://biblehub.com/greek/3498.htm' target='_blank' rel='noopener noreferrer'>νεκρῶν</a> (the dead)."
+  kjvRef="KJV (2:12)"
+  kjvText="Buried with him in baptism, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:13)"
+  ivText="And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses,"
+  origRef="Greek (2:13)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>Καὶ</a> (And) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/3498.htm' target='_blank' rel='noopener noreferrer'>νεκροὺς</a> (dead) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ὄντας</a> (being) ‹<a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a>› (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/3900.htm' target='_blank' rel='noopener noreferrer'>παραπτώμασιν</a> (trespasses) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (in the) <a href='https://biblehub.com/greek/203.htm' target='_blank' rel='noopener noreferrer'>ἀκροβυστίᾳ</a> (uncircumcision) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκὸς</a> (flesh) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you), <a href='https://biblehub.com/greek/4806.htm' target='_blank' rel='noopener noreferrer'>συνεζωοποίησεν</a> (He made alive together) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/4862.htm' target='_blank' rel='noopener noreferrer'>σὺν</a> (with) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him), <a href='https://biblehub.com/greek/5483.htm' target='_blank' rel='noopener noreferrer'>χαρισάμενος</a> (having forgiven) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῖν</a> (us) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the) <a href='https://biblehub.com/greek/3900.htm' target='_blank' rel='noopener noreferrer'>παραπτώματα</a> (transgressions),"
+  kjvRef="KJV (2:13)"
+  kjvText="And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:14)"
+  ivText="Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross;"
+  origRef="Greek (2:14)"
+  origText="<a href='https://biblehub.com/greek/1813.htm' target='_blank' rel='noopener noreferrer'>ἐξαλείψας</a> (having blotted out) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) καθ’ (against) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῶν</a> (us) <a href='https://biblehub.com/greek/5498.htm' target='_blank' rel='noopener noreferrer'>χειρόγραφον</a> (handwriting) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (in the) <a href='https://biblehub.com/greek/1378.htm' target='_blank' rel='noopener noreferrer'>δόγμασιν</a> (decrees), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὃ</a> (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἦν</a> (was) <a href='https://biblehub.com/greek/5227.htm' target='_blank' rel='noopener noreferrer'>ὑπεναντίον</a> (adverse) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῖν</a> (to us); <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὸ</a> (it) <a href='https://biblehub.com/greek/142.htm' target='_blank' rel='noopener noreferrer'>ἦρκεν</a> (He has taken) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (out of) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the) <a href='https://biblehub.com/greek/3319.htm' target='_blank' rel='noopener noreferrer'>μέσου</a> (way), <a href='https://biblehub.com/greek/4338.htm' target='_blank' rel='noopener noreferrer'>προσηλώσας</a> (having nailed) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὸ</a> (it) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (to the) <a href='https://biblehub.com/greek/4716.htm' target='_blank' rel='noopener noreferrer'>σταυρῷ</a> (cross)."
+  kjvRef="KJV (2:14)"
+  kjvText="Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:15)"
+  ivText="And having spoiled principalities and powers, he made a show of them openly, triumphing over them in it."
+  origRef="Greek (2:15)"
+  origText="<a href='https://biblehub.com/greek/554.htm' target='_blank' rel='noopener noreferrer'>ἀπεκδυσάμενος</a> (Having disarmed) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰς</a> (the) <a href='https://biblehub.com/greek/746.htm' target='_blank' rel='noopener noreferrer'>ἀρχὰς</a> (rulers) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰς</a> (the) <a href='https://biblehub.com/greek/1849.htm' target='_blank' rel='noopener noreferrer'>ἐξουσίας</a> (authorities), <a href='https://biblehub.com/greek/1165.htm' target='_blank' rel='noopener noreferrer'>ἐδειγμάτισεν</a> (He made a show of them) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3954.htm' target='_blank' rel='noopener noreferrer'>παρρησίᾳ</a> (public), <a href='https://biblehub.com/greek/2358.htm' target='_blank' rel='noopener noreferrer'>θριαμβεύσας</a> (having triumphed) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοὺς</a> (over them) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (it)."
+  kjvRef="KJV (2:15)"
+  kjvText="And having spoiled principalities and powers, he made a show of them openly, triumphing over them in it."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:16)"
+  ivText="Let no man, therefore, judge you in meat, or in drink, or in respect of a holyday, or of the new moon, or of the Sabbath days,"
+  origRef="Greek (2:16)"
+  origText="<a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>Μὴ</a> (Not) <a href='https://biblehub.com/greek/3767.htm' target='_blank' rel='noopener noreferrer'>οὖν</a> (therefore) <a href='https://biblehub.com/greek/5100.htm' target='_blank' rel='noopener noreferrer'>τις</a> (anyone) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/2919.htm' target='_blank' rel='noopener noreferrer'>κρινέτω</a> (let judge) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in regard to) <a href='https://biblehub.com/greek/1035.htm' target='_blank' rel='noopener noreferrer'>βρώσει</a> (food), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (or) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in regard to) <a href='https://biblehub.com/greek/4213.htm' target='_blank' rel='noopener noreferrer'>πόσει</a> (drink), <a href='https://biblehub.com/greek/2228.htm' target='_blank' rel='noopener noreferrer'>ἢ</a> (or) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3313.htm' target='_blank' rel='noopener noreferrer'>μέρει</a> (regard) <a href='https://biblehub.com/greek/1859.htm' target='_blank' rel='noopener noreferrer'>ἑορτῆς</a> (to a feast), <a href='https://biblehub.com/greek/2228.htm' target='_blank' rel='noopener noreferrer'>ἢ</a> (or) <a href='https://biblehub.com/greek/3561.htm' target='_blank' rel='noopener noreferrer'>νεομηνίας</a> (a New Moon), <a href='https://biblehub.com/greek/2228.htm' target='_blank' rel='noopener noreferrer'>ἢ</a> (or) <a href='https://biblehub.com/greek/4521.htm' target='_blank' rel='noopener noreferrer'>σαββάτων</a> (Sabbaths),"
+  kjvRef="KJV (2:16)"
+  kjvText="Let no man therefore judge you in meat, or in drink, or in respect of an holyday, or of the new moon, or of the sabbath days:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:17)"
+  ivText="Which are a shadow of things to come; but the body is of Christ."
+  origRef="Greek (2:17)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἅ</a> (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (are) <a href='https://biblehub.com/greek/4639.htm' target='_blank' rel='noopener noreferrer'>σκιὰ</a> (a shadow) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (the things) <a href='https://biblehub.com/greek/3195.htm' target='_blank' rel='noopener noreferrer'>μελλόντων</a> (coming); <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/1161.htm' target='_blank' rel='noopener noreferrer'>δὲ</a> (however) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σῶμα</a> (body is) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ)."
+  kjvRef="KJV (2:17)"
+  kjvText="Which are a shadow of things to come; but the body is of Christ."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:18)"
+  ivText="Let no man beguile you of your reward in a voluntary humility and worshiping of angels, intruding into those things which he hath not seen, vainly puffed up by his fleshly mind,"
+  origRef="Greek (2:18)"
+  origText="<a href='https://biblehub.com/greek/3367.htm' target='_blank' rel='noopener noreferrer'>μηδεὶς</a> (No one) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/2603.htm' target='_blank' rel='noopener noreferrer'>καταβραβευέτω</a> (let disqualify), <a href='https://biblehub.com/greek/2309.htm' target='_blank' rel='noopener noreferrer'>θέλων</a> (delighting) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/5012.htm' target='_blank' rel='noopener noreferrer'>ταπεινοφροσύνῃ</a> (humility) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/2356.htm' target='_blank' rel='noopener noreferrer'>θρησκείᾳ</a> (the worship) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (of the) <a href='https://biblehub.com/greek/32.htm' target='_blank' rel='noopener noreferrer'>ἀγγέλων</a> (angels), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἃ</a> (which) <a href='https://biblehub.com/greek/3708.htm' target='_blank' rel='noopener noreferrer'>ἑόρακεν</a> (he has seen) <a href='https://biblehub.com/greek/1687.htm' target='_blank' rel='noopener noreferrer'>ἐμβατεύων</a> (detailing), <a href='https://biblehub.com/greek/1500.htm' target='_blank' rel='noopener noreferrer'>εἰκῇ</a> (vainly) <a href='https://biblehub.com/greek/5448.htm' target='_blank' rel='noopener noreferrer'>φυσιούμενος</a> (being puffed up) <a href='https://biblehub.com/greek/5259.htm' target='_blank' rel='noopener noreferrer'>ὑπὸ</a> (by) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the) <a href='https://biblehub.com/greek/3563.htm' target='_blank' rel='noopener noreferrer'>νοὸς</a> (mind) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκὸς</a> (flesh) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of him),"
+  kjvRef="KJV (2:18)"
+  kjvText="Let no man beguile you of your reward in a voluntary humility and worshiping of angels, intruding into those things which he hath not seen, vainly puffed up by his fleshly mind,"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:19)"
+  ivText="And not holding the Head, from which all the body by joints and bands having nourishment ministered and knit together, increaseth with the increase of God."
+  origRef="Greek (2:19)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐ</a> (not) <a href='https://biblehub.com/greek/2902.htm' target='_blank' rel='noopener noreferrer'>κρατῶν</a> (holding fast) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (to the) <a href='https://biblehub.com/greek/2776.htm' target='_blank' rel='noopener noreferrer'>Κεφαλήν</a> (head), <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐξ</a> (from) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>οὗ</a> (whom) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶν</a> (all) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σῶμα</a> (body), <a href='https://biblehub.com/greek/1223.htm' target='_blank' rel='noopener noreferrer'>διὰ</a> (by) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (the) <a href='https://biblehub.com/greek/860.htm' target='_blank' rel='noopener noreferrer'>ἁφῶν</a> (joints) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/4886.htm' target='_blank' rel='noopener noreferrer'>συνδέσμων</a> (ligaments) <a href='https://biblehub.com/greek/2023.htm' target='_blank' rel='noopener noreferrer'>ἐπιχορηγούμενον</a> (being supplied) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/4822.htm' target='_blank' rel='noopener noreferrer'>συμβιβαζόμενον</a> (being knit together), <a href='https://biblehub.com/greek/837.htm' target='_blank' rel='noopener noreferrer'>αὔξει</a> (increases) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (with the) <a href='https://biblehub.com/greek/838.htm' target='_blank' rel='noopener noreferrer'>αὔξησιν</a> (increase) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God)."
+  kjvRef="KJV (2:19)"
+  kjvText="And not holding the Head, from which all the body by joints and bands having nourishment ministered, and knit together, increaseth with the increase of God."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:20)"
+  ivText="Wherefore, if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances,"
+  origRef="Greek (2:20)"
+  origText="<a href='https://biblehub.com/greek/1487.htm' target='_blank' rel='noopener noreferrer'>Εἰ</a> (If) <a href='https://biblehub.com/greek/599.htm' target='_blank' rel='noopener noreferrer'>ἀπεθάνετε</a> (you have died) <a href='https://biblehub.com/greek/4862.htm' target='_blank' rel='noopener noreferrer'>σὺν</a> (with) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστῷ</a> (Christ) <a href='https://biblehub.com/greek/575.htm' target='_blank' rel='noopener noreferrer'>ἀπὸ</a> (away from) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (the) <a href='https://biblehub.com/greek/4747.htm' target='_blank' rel='noopener noreferrer'>στοιχείων</a> (principles) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the) <a href='https://biblehub.com/greek/2889.htm' target='_blank' rel='noopener noreferrer'>κόσμου</a> (world), <a href='https://biblehub.com/greek/5101.htm' target='_blank' rel='noopener noreferrer'>τί</a> (why) <a href='https://biblehub.com/greek/5613.htm' target='_blank' rel='noopener noreferrer'>ὡς</a> (as if) <a href='https://biblehub.com/greek/2198.htm' target='_blank' rel='noopener noreferrer'>ζῶντες</a> (living) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2889.htm' target='_blank' rel='noopener noreferrer'>κόσμῳ</a> (the world), <a href='https://biblehub.com/greek/1379.htm' target='_blank' rel='noopener noreferrer'>δογματίζεσθε</a> (do you submit to decrees):"
+  kjvRef="KJV (2:20)"
+  kjvText="Wherefore if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances,"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:21)"
+  ivText="<b>Which are after the doctrines and commandments of men, who teach you to</b> touch not, taste not, handle not"
+  origRef="Greek (2:21)"
+  origText="“<a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>Μὴ</a> (Not) <a href='https://biblehub.com/greek/680.htm' target='_blank' rel='noopener noreferrer'>ἅψῃ</a> (you should handle)! <a href='https://biblehub.com/greek/3366.htm' target='_blank' rel='noopener noreferrer'>μηδὲ</a> (Not) <a href='https://biblehub.com/greek/1089.htm' target='_blank' rel='noopener noreferrer'>γεύσῃ</a> (you should taste)! <a href='https://biblehub.com/greek/3366.htm' target='_blank' rel='noopener noreferrer'>μηδὲ</a> (Not) <a href='https://biblehub.com/greek/2345.htm' target='_blank' rel='noopener noreferrer'>θίγῃς</a> (you should touch)!”? —"
+  kjvRef="KJV (2:21)"
+  kjvText="(Touch not; taste not; handle not;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:21)"
+  ivText="--all <b>those things</b> which are to perish with the using,"
+  origRef="Greek (2:22)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἅ</a> (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (are) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (unto) <a href='https://biblehub.com/greek/5356.htm' target='_blank' rel='noopener noreferrer'>φθορὰν</a> (decay) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (with the) <a href='https://biblehub.com/greek/671.htm' target='_blank' rel='noopener noreferrer'>ἀποχρήσει</a> (use), <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the) <a href='https://biblehub.com/greek/1778.htm' target='_blank' rel='noopener noreferrer'>ἐντάλματα</a> (commandments) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1319.htm' target='_blank' rel='noopener noreferrer'>διδασκαλίας</a> (teachings) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (‑) <a href='https://biblehub.com/greek/444.htm' target='_blank' rel='noopener noreferrer'>ἀνθρώπων</a> (of men),"
+  kjvRef="KJV (2:22)"
+  kjvText="Which all are to perish with the using;) <b>after the commandments and doctrines of men?</b>"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (2:22)"
+  ivText="Which things have indeed a show of wisdom in will-worship, and humility, and neglecting the body as to the satisfying the flesh--not in any honor to God."
+  origRef="Greek (2:23)"
+  origText="<a href='https://biblehub.com/greek/3748.htm' target='_blank' rel='noopener noreferrer'>ἅτινά</a> (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (are) <a href='https://biblehub.com/greek/3056.htm' target='_blank' rel='noopener noreferrer'>λόγον</a> (an appearance) <a href='https://biblehub.com/greek/3303.htm' target='_blank' rel='noopener noreferrer'>μὲν</a> (indeed) <a href='https://biblehub.com/greek/2192.htm' target='_blank' rel='noopener noreferrer'>ἔχοντα</a> (having) <a href='https://biblehub.com/greek/4678.htm' target='_blank' rel='noopener noreferrer'>σοφίας</a> (of wisdom), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/1479.htm' target='_blank' rel='noopener noreferrer'>ἐθελοθρησκίᾳ</a> (self‑imposed worship) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/5012.htm' target='_blank' rel='noopener noreferrer'>ταπεινοφροσύνῃ</a> (humility) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/857.htm' target='_blank' rel='noopener noreferrer'>ἀφειδίᾳ</a> (harsh treatment) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σώματος</a> (of the body), <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐκ</a> (not) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (of) <a href='https://biblehub.com/greek/5092.htm' target='_blank' rel='noopener noreferrer'>τιμῇ</a> (honor) <a href='https://biblehub.com/greek/5100.htm' target='_blank' rel='noopener noreferrer'>τινι</a> (a certain), <a href='https://biblehub.com/greek/4314.htm' target='_blank' rel='noopener noreferrer'>πρὸς</a> (against) <a href='https://biblehub.com/greek/4140.htm' target='_blank' rel='noopener noreferrer'>πλησμονὴν</a> (the indulgence) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σαρκός</a> (flesh)."
+  kjvRef="KJV (2:23)"
+  kjvText="Which things have indeed a show of wisdom in will-worship, and humility, and neglecting <b>of</b> the body; not in any honor to the satisfying <b>of</b> the flesh."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:1)"
+  ivText="If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God."
+  origRef="Greek (3:1)"
+  origText="<a href='https://biblehub.com/greek/1487.htm' target='_blank' rel='noopener noreferrer'>Εἰ</a> (If) <a href='https://biblehub.com/greek/3767.htm' target='_blank' rel='noopener noreferrer'>οὖν</a> (then) <a href='https://biblehub.com/greek/4891.htm' target='_blank' rel='noopener noreferrer'>συνηγέρθητε</a> (you have been raised with) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστῷ</a> (Christ), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the things) <a href='https://biblehub.com/greek/507.htm' target='_blank' rel='noopener noreferrer'>ἄνω</a> (above) <a href='https://biblehub.com/greek/2212.htm' target='_blank' rel='noopener noreferrer'>ζητεῖτε</a> (seek), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>οὗ</a> (where) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστός</a> (Christ) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (at the) <a href='https://biblehub.com/greek/1188.htm' target='_blank' rel='noopener noreferrer'>δεξιᾷ</a> (right hand) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God) <a href='https://biblehub.com/greek/2521.htm' target='_blank' rel='noopener noreferrer'>καθήμενος</a> (sitting)."
+  kjvRef="KJV (3:1)"
+  kjvText="If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:2)"
+  ivText="Set your affection on things above, not on things on the earth."
+  origRef="Greek (3:2)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (The things) <a href='https://biblehub.com/greek/507.htm' target='_blank' rel='noopener noreferrer'>ἄνω</a> (above) <a href='https://biblehub.com/greek/5426.htm' target='_blank' rel='noopener noreferrer'>φρονεῖτε</a> (set your minds on), <a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>μὴ</a> (not) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the things) <a href='https://biblehub.com/greek/1909.htm' target='_blank' rel='noopener noreferrer'>ἐπὶ</a> (on) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/1093.htm' target='_blank' rel='noopener noreferrer'>γῆς</a> (earth)."
+  kjvRef="KJV (3:2)"
+  kjvText="Set your affection on things above, not on things on the earth."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:3)"
+  ivText="For ye are dead, and your life is hid with Christ in God."
+  origRef="Greek (3:3)"
+  origText="<a href='https://biblehub.com/greek/599.htm' target='_blank' rel='noopener noreferrer'>ἀπεθάνετε</a> (You have died) <a href='https://biblehub.com/greek/1063.htm' target='_blank' rel='noopener noreferrer'>γάρ</a> (for), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/2222.htm' target='_blank' rel='noopener noreferrer'>ζωὴ</a> (life) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you) <a href='https://biblehub.com/greek/2928.htm' target='_blank' rel='noopener noreferrer'>κέκρυπται</a> (has been hidden) <a href='https://biblehub.com/greek/4862.htm' target='_blank' rel='noopener noreferrer'>σὺν</a> (with) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστῷ</a> (Christ) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεῷ</a> (God)."
+  kjvRef="KJV (3:3)"
+  kjvText="For ye are dead, and your life is hid with Christ in God."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:4)"
+  ivText="When Christ, who is our life, shall appear, then shall ye also appear with him in glory."
+  origRef="Greek (3:4)"
+  origText="<a href='https://biblehub.com/greek/3752.htm' target='_blank' rel='noopener noreferrer'>ὅταν</a> (When) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστὸς</a> (Christ) <a href='https://biblehub.com/greek/5319.htm' target='_blank' rel='noopener noreferrer'>φανερωθῇ</a> (may be revealed), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/2222.htm' target='_blank' rel='noopener noreferrer'>ζωὴ</a> (life) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a>* (of you), <a href='https://biblehub.com/greek/5119.htm' target='_blank' rel='noopener noreferrer'>τότε</a> (then) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμεῖς</a> (you) <a href='https://biblehub.com/greek/4862.htm' target='_blank' rel='noopener noreferrer'>σὺν</a> (with) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (Him) <a href='https://biblehub.com/greek/5319.htm' target='_blank' rel='noopener noreferrer'>φανερωθήσεσθε</a> (will appear) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/1391.htm' target='_blank' rel='noopener noreferrer'>δόξῃ</a> (glory)."
+  kjvRef="KJV (3:4)"
+  kjvText="When Christ, who is our life, shall appear, then shall ye also appear with him in glory."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:5)"
+  ivText="Mortify, therefore, your members which are upon the earth: fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry;"
+  origRef="Greek (3:5)"
+  origText="<a href='https://biblehub.com/greek/3499.htm' target='_blank' rel='noopener noreferrer'>Νεκρώσατε</a> (Put to death) <a href='https://biblehub.com/greek/3767.htm' target='_blank' rel='noopener noreferrer'>οὖν</a> (therefore) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the) <a href='https://biblehub.com/greek/3196.htm' target='_blank' rel='noopener noreferrer'>μέλη</a> (members) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (which are) <a href='https://biblehub.com/greek/1909.htm' target='_blank' rel='noopener noreferrer'>ἐπὶ</a> (upon) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (the) <a href='https://biblehub.com/greek/1093.htm' target='_blank' rel='noopener noreferrer'>γῆς</a> (earth): <a href='https://biblehub.com/greek/4202.htm' target='_blank' rel='noopener noreferrer'>πορνείαν</a> (sexual immorality), <a href='https://biblehub.com/greek/167.htm' target='_blank' rel='noopener noreferrer'>ἀκαθαρσίαν</a> (impurity), <a href='https://biblehub.com/greek/3806.htm' target='_blank' rel='noopener noreferrer'>πάθος</a> (passion), <a href='https://biblehub.com/greek/1939.htm' target='_blank' rel='noopener noreferrer'>ἐπιθυμίαν</a> (desire) <a href='https://biblehub.com/greek/2556.htm' target='_blank' rel='noopener noreferrer'>κακήν</a> (evil), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (‑) <a href='https://biblehub.com/greek/4124.htm' target='_blank' rel='noopener noreferrer'>πλεονεξίαν</a> (covetousness), <a href='https://biblehub.com/greek/3748.htm' target='_blank' rel='noopener noreferrer'>ἥτις</a> (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστὶν</a> (is) <a href='https://biblehub.com/greek/1495.htm' target='_blank' rel='noopener noreferrer'>εἰδωλολατρία</a> (idolatry),"
+  kjvRef="KJV (3:5)"
+  kjvText="Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:6)"
+  ivText="For which things' sake the wrath of God cometh on the children of disobedience,"
+  origRef="Greek (3:6)"
+  origText="δι’ (because of) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἃ</a> (which things) <a href='https://biblehub.com/greek/2064.htm' target='_blank' rel='noopener noreferrer'>ἔρχεται</a> (is coming) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/3709.htm' target='_blank' rel='noopener noreferrer'>ὀργὴ</a> (wrath) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God) ‹<a href='https://biblehub.com/greek/1909.htm' target='_blank' rel='noopener noreferrer'>ἐπὶ</a> (on) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοὺς</a> (the) <a href='https://biblehub.com/greek/5207.htm' target='_blank' rel='noopener noreferrer'>υἱοὺς</a> (sons) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of) <a href='https://biblehub.com/greek/543.htm' target='_blank' rel='noopener noreferrer'>ἀπειθείας</a>› (disobedience),"
+  kjvRef="KJV (3:6)"
+  kjvText="For which things' sake the wrath of God cometh on the children of disobedience:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:7)"
+  ivText="In the which ye also walked <b>sometime</b>, when ye lived in them."
+  origRef="Greek (3:7)"
+  origText="<a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>οἷς</a> (which) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμεῖς</a> (you) <a href='https://biblehub.com/greek/4043.htm' target='_blank' rel='noopener noreferrer'>περιεπατήσατέ</a> (walked) <a href='https://biblehub.com/greek/4218.htm' target='_blank' rel='noopener noreferrer'>ποτε</a> (once) <a href='https://biblehub.com/greek/3753.htm' target='_blank' rel='noopener noreferrer'>ὅτε</a> (when) <a href='https://biblehub.com/greek/2198.htm' target='_blank' rel='noopener noreferrer'>ἐζῆτε</a> (you were living) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>τούτοις</a> (them)."
+  kjvRef="KJV (3:7)"
+  kjvText="In the which ye also walked <b>some time</b>, when ye lived in them."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:8)"
+  ivText="But now ye also put off all these: anger, wrath, malice, blasphemy, filthy communication out of your mouth."
+  origRef="Greek (3:8)"
+  origText="<a href='https://biblehub.com/greek/3570.htm' target='_blank' rel='noopener noreferrer'>νυνὶ</a> (Now) <a href='https://biblehub.com/greek/1161.htm' target='_blank' rel='noopener noreferrer'>δὲ</a> (however), <a href='https://biblehub.com/greek/659.htm' target='_blank' rel='noopener noreferrer'>ἀπόθεσθε</a> (put off) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμεῖς</a> (you) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (‑) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all these things): <a href='https://biblehub.com/greek/3709.htm' target='_blank' rel='noopener noreferrer'>ὀργήν</a> (anger), <a href='https://biblehub.com/greek/2372.htm' target='_blank' rel='noopener noreferrer'>θυμόν</a> (rage), <a href='https://biblehub.com/greek/2549.htm' target='_blank' rel='noopener noreferrer'>κακίαν</a> (malice), <a href='https://biblehub.com/greek/988.htm' target='_blank' rel='noopener noreferrer'>βλασφημίαν</a> (slander), <a href='https://biblehub.com/greek/148.htm' target='_blank' rel='noopener noreferrer'>αἰσχρολογίαν</a> (foul language) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (out of) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (the) <a href='https://biblehub.com/greek/4750.htm' target='_blank' rel='noopener noreferrer'>στόματος</a> (mouth) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you)."
+  kjvRef="KJV (3:8)"
+  kjvText="But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:9)"
+  ivText="Lie not one to another, seeing that ye have put off the old man with his deeds,"
+  origRef="Greek (3:9)"
+  origText="<a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>Μὴ</a> (Not) <a href='https://biblehub.com/greek/5574.htm' target='_blank' rel='noopener noreferrer'>ψεύδεσθε</a> (do lie) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (to) <a href='https://biblehub.com/greek/240.htm' target='_blank' rel='noopener noreferrer'>ἀλλήλους</a> (one another), <a href='https://biblehub.com/greek/554.htm' target='_blank' rel='noopener noreferrer'>ἀπεκδυσάμενοι</a> (having put off) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (the) <a href='https://biblehub.com/greek/3820.htm' target='_blank' rel='noopener noreferrer'>παλαιὸν</a> (old) <a href='https://biblehub.com/greek/444.htm' target='_blank' rel='noopener noreferrer'>ἄνθρωπον</a> (man) <a href='https://biblehub.com/greek/4862.htm' target='_blank' rel='noopener noreferrer'>σὺν</a> (with) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ταῖς</a> (the) <a href='https://biblehub.com/greek/4234.htm' target='_blank' rel='noopener noreferrer'>πράξεσιν</a> (practices) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (of him),"
+  kjvRef="KJV (3:9)"
+  kjvText="Lie not one to another, seeing that ye have put off the old man with his deeds;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:10)"
+  ivText="And have put on the new man, which is renewed in knowledge after the image of him that created him,"
+  origRef="Greek (3:10)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1746.htm' target='_blank' rel='noopener noreferrer'>ἐνδυσάμενοι</a> (having put on) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (the) <a href='https://biblehub.com/greek/3501.htm' target='_blank' rel='noopener noreferrer'>νέον</a> (new), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (the one) <a href='https://biblehub.com/greek/341.htm' target='_blank' rel='noopener noreferrer'>ἀνακαινούμενον</a> (being renewed) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (in) <a href='https://biblehub.com/greek/1922.htm' target='_blank' rel='noopener noreferrer'>ἐπίγνωσιν</a> (knowledge) κατ’ (according to) <a href='https://biblehub.com/greek/1504.htm' target='_blank' rel='noopener noreferrer'>εἰκόνα</a> (the image) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (of the one) <a href='https://biblehub.com/greek/2936.htm' target='_blank' rel='noopener noreferrer'>κτίσαντος</a> (having created) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτόν</a> (him),"
+  kjvRef="KJV (3:10)"
+  kjvText="And have put on the new man, which is renewed in knowledge after the image of him that created him:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:11)"
+  ivText="Where there is neither Greek nor Jew, circumcision nor uncircumcision, barbarian, Scythian, bond nor free; but Christ is all and in all."
+  origRef="Greek (3:11)"
+  origText="<a href='https://biblehub.com/greek/3699.htm' target='_blank' rel='noopener noreferrer'>ὅπου</a> (where) <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐκ</a> (not) <a href='https://biblehub.com/greek/1762.htm' target='_blank' rel='noopener noreferrer'>ἔνι</a> (there is) <a href='https://biblehub.com/greek/1672.htm' target='_blank' rel='noopener noreferrer'>Ἕλλην</a> (Greek) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/2453.htm' target='_blank' rel='noopener noreferrer'>Ἰουδαῖος</a> (Jew), <a href='https://biblehub.com/greek/4061.htm' target='_blank' rel='noopener noreferrer'>περιτομὴ</a> (circumcision) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/203.htm' target='_blank' rel='noopener noreferrer'>ἀκροβυστία</a> (uncircumcision), <a href='https://biblehub.com/greek/915.htm' target='_blank' rel='noopener noreferrer'>βάρβαρος</a> (Barbarian), <a href='https://biblehub.com/greek/4658.htm' target='_blank' rel='noopener noreferrer'>Σκύθης</a> (Scythian), <a href='https://biblehub.com/greek/1401.htm' target='_blank' rel='noopener noreferrer'>δοῦλος</a> (slave), <a href='https://biblehub.com/greek/1658.htm' target='_blank' rel='noopener noreferrer'>ἐλεύθερος</a> (free); <a href='https://biblehub.com/greek/235.htm' target='_blank' rel='noopener noreferrer'>ἀλλὰ</a> (but) ‹<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a>› (‑) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶσιν</a> (all) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστός</a> (Christ is)."
+  kjvRef="KJV (3:11)"
+  kjvText="Where there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond nor free: but Christ is all, and in all."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:12)"
+  ivText="Put on, therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, long-suffering,"
+  origRef="Greek (3:12)"
+  origText="<a href='https://biblehub.com/greek/1746.htm' target='_blank' rel='noopener noreferrer'>Ἐνδύσασθε</a> (Put on) <a href='https://biblehub.com/greek/3767.htm' target='_blank' rel='noopener noreferrer'>οὖν</a> (therefore), <a href='https://biblehub.com/greek/5613.htm' target='_blank' rel='noopener noreferrer'>ὡς</a> (as) <a href='https://biblehub.com/greek/1588.htm' target='_blank' rel='noopener noreferrer'>ἐκλεκτοὶ</a> (the elect) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God), <a href='https://biblehub.com/greek/40.htm' target='_blank' rel='noopener noreferrer'>ἅγιοι</a> (holy) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/25.htm' target='_blank' rel='noopener noreferrer'>ἠγαπημένοι</a> (beloved), <a href='https://biblehub.com/greek/4698.htm' target='_blank' rel='noopener noreferrer'>σπλάγχνα</a> (hearts) <a href='https://biblehub.com/greek/3628.htm' target='_blank' rel='noopener noreferrer'>οἰκτιρμοῦ</a> (of compassion), <a href='https://biblehub.com/greek/5544.htm' target='_blank' rel='noopener noreferrer'>χρηστότητα</a> (kindness), <a href='https://biblehub.com/greek/5012.htm' target='_blank' rel='noopener noreferrer'>ταπεινοφροσύνην</a> (humility), <a href='https://biblehub.com/greek/4240.htm' target='_blank' rel='noopener noreferrer'>πραΰτητα</a> (gentleness), <a href='https://biblehub.com/greek/3115.htm' target='_blank' rel='noopener noreferrer'>μακροθυμίαν</a> (and patience);"
+  kjvRef="KJV (3:12)"
+  kjvText="Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, long-suffering;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:13)"
+  ivText="Forbearing one another, and forgiving one another if any man have a quarrel against any; even as Christ forgave you, so also do ye."
+  origRef="Greek (3:13)"
+  origText="<a href='https://biblehub.com/greek/430.htm' target='_blank' rel='noopener noreferrer'>ἀνεχόμενοι</a> (bearing with) <a href='https://biblehub.com/greek/240.htm' target='_blank' rel='noopener noreferrer'>ἀλλήλων</a> (each other) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/5483.htm' target='_blank' rel='noopener noreferrer'>χαριζόμενοι</a> (forgiving) <a href='https://biblehub.com/greek/1438.htm' target='_blank' rel='noopener noreferrer'>ἑαυτοῖς</a> (each other). <a href='https://biblehub.com/greek/1437.htm' target='_blank' rel='noopener noreferrer'>ἐάν</a> (If) <a href='https://biblehub.com/greek/5100.htm' target='_blank' rel='noopener noreferrer'>τις</a> (anyone) <a href='https://biblehub.com/greek/4314.htm' target='_blank' rel='noopener noreferrer'>πρός</a> (against) <a href='https://biblehub.com/greek/5100.htm' target='_blank' rel='noopener noreferrer'>τινα</a> (another) <a href='https://biblehub.com/greek/2192.htm' target='_blank' rel='noopener noreferrer'>ἔχῃ</a> (should have) <a href='https://biblehub.com/greek/3437.htm' target='_blank' rel='noopener noreferrer'>μομφήν</a> (a complaint), <a href='https://biblehub.com/greek/2531.htm' target='_blank' rel='noopener noreferrer'>καθὼς</a> (even as) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (the) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κύριος</a> (Lord) <a href='https://biblehub.com/greek/5483.htm' target='_blank' rel='noopener noreferrer'>ἐχαρίσατο</a> (has forgiven) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (you), <a href='https://biblehub.com/greek/3779.htm' target='_blank' rel='noopener noreferrer'>οὕτως</a> (so) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμεῖς</a> (you)."
+  kjvRef="KJV (3:13)"
+  kjvText="Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:14)"
+  ivText="And above all these things, put on charity, which is the bond of perfectness."
+  origRef="Greek (3:14)"
+  origText="<a href='https://biblehub.com/greek/1909.htm' target='_blank' rel='noopener noreferrer'>ἐπὶ</a> (Beyond) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶσιν</a> (all) <a href='https://biblehub.com/greek/1161.htm' target='_blank' rel='noopener noreferrer'>δὲ</a> (now) <a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>τούτοις</a> (these), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (put on the) <a href='https://biblehub.com/greek/26.htm' target='_blank' rel='noopener noreferrer'>ἀγάπην</a> (love), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅ</a> (which) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/4886.htm' target='_blank' rel='noopener noreferrer'>σύνδεσμος</a> (the bond) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (‑) <a href='https://biblehub.com/greek/5047.htm' target='_blank' rel='noopener noreferrer'>τελειότητος</a> (of perfect unity)."
+  kjvRef="KJV (3:14)"
+  kjvText="And above all these things put on charity, which is the bond of perfectness."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:15)"
+  ivText="And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful."
+  origRef="Greek (3:15)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (And) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/1515.htm' target='_blank' rel='noopener noreferrer'>εἰρήνη</a> (peace) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (from Christ) <a href='https://biblehub.com/greek/1018.htm' target='_blank' rel='noopener noreferrer'>βραβευέτω</a> (let rule) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ταῖς</a> (the) <a href='https://biblehub.com/greek/2588.htm' target='_blank' rel='noopener noreferrer'>καρδίαις</a> (hearts) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you), <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (to) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἣν</a> (which) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/2564.htm' target='_blank' rel='noopener noreferrer'>ἐκλήθητε</a> (you were called) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/1520.htm' target='_blank' rel='noopener noreferrer'>ἑνὶ</a> (one) <a href='https://biblehub.com/greek/4983.htm' target='_blank' rel='noopener noreferrer'>σώματι</a> (body). <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (And) <a href='https://biblehub.com/greek/2170.htm' target='_blank' rel='noopener noreferrer'>εὐχάριστοι</a> (thankful) <a href='https://biblehub.com/greek/1096.htm' target='_blank' rel='noopener noreferrer'>γίνεσθε</a> (be)."
+  kjvRef="KJV (3:15)"
+  kjvText="And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:16)"
+  ivText="Let the word of Christ dwell in you richly in all wisdom: teaching and admonishing one another in psalms, and hymns, and spiritual songs, singing with grace in your hearts to the Lord."
+  origRef="Greek (3:16)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Ὁ</a> (The) <a href='https://biblehub.com/greek/3056.htm' target='_blank' rel='noopener noreferrer'>λόγος</a> (word) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ) <a href='https://biblehub.com/greek/1774.htm' target='_blank' rel='noopener noreferrer'>ἐνοικείτω</a> (let dwell) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (you) <a href='https://biblehub.com/greek/4146.htm' target='_blank' rel='noopener noreferrer'>πλουσίως</a> (richly), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάσῃ</a> (all) <a href='https://biblehub.com/greek/4678.htm' target='_blank' rel='noopener noreferrer'>σοφίᾳ</a> (wisdom) <a href='https://biblehub.com/greek/1321.htm' target='_blank' rel='noopener noreferrer'>διδάσκοντες</a> (teaching) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3560.htm' target='_blank' rel='noopener noreferrer'>νουθετοῦντες</a> (admonishing) <a href='https://biblehub.com/greek/1438.htm' target='_blank' rel='noopener noreferrer'>ἑαυτοὺς</a> (each other) <a href='https://biblehub.com/greek/5568.htm' target='_blank' rel='noopener noreferrer'>ψαλμοῖς</a> (in psalms), <a href='https://biblehub.com/greek/5215.htm' target='_blank' rel='noopener noreferrer'>ὕμνοις</a> (hymns), <a href='https://biblehub.com/greek/5603.htm' target='_blank' rel='noopener noreferrer'>ᾠδαῖς</a> (and songs) <a href='https://biblehub.com/greek/4152.htm' target='_blank' rel='noopener noreferrer'>πνευματικαῖς</a> (spiritual), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (with) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (‑) <a href='https://biblehub.com/greek/5485.htm' target='_blank' rel='noopener noreferrer'>χάριτι</a> (grace) <a href='https://biblehub.com/greek/103.htm' target='_blank' rel='noopener noreferrer'>ᾄδοντες</a> (singing), <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ταῖς</a> (the) <a href='https://biblehub.com/greek/2588.htm' target='_blank' rel='noopener noreferrer'>καρδίαις</a> (hearts) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (to) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεῷ</a> (God)."
+  kjvRef="KJV (3:16)"
+  kjvText="Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:17)"
+  ivText="And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him."
+  origRef="Greek (3:17)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (And) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πᾶν</a> (everything), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅ</a> (which) <a href='https://biblehub.com/greek/5100.htm' target='_blank' rel='noopener noreferrer'>τι</a> (what) <a href='https://biblehub.com/greek/1437.htm' target='_blank' rel='noopener noreferrer'>ἐὰν</a> (if) <a href='https://biblehub.com/greek/4160.htm' target='_blank' rel='noopener noreferrer'>ποιῆτε</a> (you might do) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3056.htm' target='_blank' rel='noopener noreferrer'>λόγῳ</a> (word) <a href='https://biblehub.com/greek/2228.htm' target='_blank' rel='noopener noreferrer'>ἢ</a> (or) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2041.htm' target='_blank' rel='noopener noreferrer'>ἔργῳ</a> (deed), <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3686.htm' target='_blank' rel='noopener noreferrer'>ὀνόματι</a> (the name) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίου</a> (of the Lord) <a href='https://biblehub.com/greek/2424.htm' target='_blank' rel='noopener noreferrer'>Ἰησοῦ</a> (Jesus), <a href='https://biblehub.com/greek/2168.htm' target='_blank' rel='noopener noreferrer'>εὐχαριστοῦντες</a> (giving thanks) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεῷ</a> (to God) <a href='https://biblehub.com/greek/3962.htm' target='_blank' rel='noopener noreferrer'>Πατρὶ</a> (the Father) δι’ (through) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτοῦ</a> (Him)."
+  kjvRef="KJV (3:17)"
+  kjvText="And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:18)"
+  ivText="Wives, submit yourselves unto your own husbands, as it is fit in the Lord."
+  origRef="Greek (3:18)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Αἱ</a> (‑) <a href='https://biblehub.com/greek/1135.htm' target='_blank' rel='noopener noreferrer'>γυναῖκες</a> (Wives), <a href='https://biblehub.com/greek/5293.htm' target='_blank' rel='noopener noreferrer'>ὑποτάσσεσθε</a> (submit yourselves) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (to the) <a href='https://biblehub.com/greek/435.htm' target='_blank' rel='noopener noreferrer'>ἀνδράσιν</a> (husbands), <a href='https://biblehub.com/greek/5613.htm' target='_blank' rel='noopener noreferrer'>ὡς</a> (as) <a href='https://biblehub.com/greek/433.htm' target='_blank' rel='noopener noreferrer'>ἀνῆκεν</a> (is fitting) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίῳ</a> (the Lord)."
+  kjvRef="KJV (3:18)"
+  kjvText="Wives, submit yourselves unto your own husbands, as it is fit in the Lord."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:19)"
+  ivText="Husbands, love your wives and be not bitter against them."
+  origRef="Greek (3:19)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Οἱ</a> (‑) <a href='https://biblehub.com/greek/435.htm' target='_blank' rel='noopener noreferrer'>ἄνδρες</a> (Husbands), <a href='https://biblehub.com/greek/25.htm' target='_blank' rel='noopener noreferrer'>ἀγαπᾶτε</a> (love) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰς</a> (the) <a href='https://biblehub.com/greek/1135.htm' target='_blank' rel='noopener noreferrer'>γυναῖκας</a> (wives), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>μὴ</a> (not) <a href='https://biblehub.com/greek/4087.htm' target='_blank' rel='noopener noreferrer'>πικραίνεσθε</a> (be harsh) <a href='https://biblehub.com/greek/4314.htm' target='_blank' rel='noopener noreferrer'>πρὸς</a> (toward) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτάς</a> (them)."
+  kjvRef="KJV (3:19)"
+  kjvText="Husbands, love your wives, and be not bitter against them."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:20)"
+  ivText="Children, obey your parents in all things; for this is well pleasing unto the Lord."
+  origRef="Greek (3:20)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Τὰ</a> (‑) <a href='https://biblehub.com/greek/5043.htm' target='_blank' rel='noopener noreferrer'>τέκνα</a> (Children), <a href='https://biblehub.com/greek/5219.htm' target='_blank' rel='noopener noreferrer'>ὑπακούετε</a> (obey) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/1118.htm' target='_blank' rel='noopener noreferrer'>γονεῦσιν</a> (parents) <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all things); <a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>τοῦτο</a> (this) <a href='https://biblehub.com/greek/1063.htm' target='_blank' rel='noopener noreferrer'>γὰρ</a> (for) <a href='https://biblehub.com/greek/2101.htm' target='_blank' rel='noopener noreferrer'>εὐάρεστόν</a> (pleasing) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίῳ</a> (the Lord)."
+  kjvRef="KJV (3:20)"
+  kjvText="Children, obey your parents in all things: for this is well pleasing unto the Lord."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:21)"
+  ivText="Fathers, provoke not your children to anger, lest they be discouraged."
+  origRef="Greek (3:21)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Οἱ</a> (‑) <a href='https://biblehub.com/greek/3962.htm' target='_blank' rel='noopener noreferrer'>πατέρες</a> (Fathers), <a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>μὴ</a> (not) <a href='https://biblehub.com/greek/2042.htm' target='_blank' rel='noopener noreferrer'>ἐρεθίζετε</a> (do provoke) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the) <a href='https://biblehub.com/greek/5043.htm' target='_blank' rel='noopener noreferrer'>τέκνα</a> (children) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you), <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>μὴ</a> (not) <a href='https://biblehub.com/greek/120.htm' target='_blank' rel='noopener noreferrer'>ἀθυμῶσιν</a> (they might become discouraged)."
+  kjvRef="KJV (3:21)"
+  kjvText="Fathers, provoke not your children to anger, lest they be discouraged."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:22)"
+  ivText="Servants, obey in all things your masters according to the flesh--not with <b>eye-service</b>, as <b>men-pleasers</b>, but in singleness of heart, fearing God;"
+  origRef="Greek (3:22)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Οἱ</a> (‑) <a href='https://biblehub.com/greek/1401.htm' target='_blank' rel='noopener noreferrer'>δοῦλοι</a> (Slaves), <a href='https://biblehub.com/greek/5219.htm' target='_blank' rel='noopener noreferrer'>ὑπακούετε</a> (obey) <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all things) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (the) <a href='https://biblehub.com/greek/2596.htm' target='_blank' rel='noopener noreferrer'>κατὰ</a> (according to) <a href='https://biblehub.com/greek/4561.htm' target='_blank' rel='noopener noreferrer'>σάρκα</a> (flesh) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>κυρίοις</a> (masters), <a href='https://biblehub.com/greek/3361.htm' target='_blank' rel='noopener noreferrer'>μὴ</a> (not) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (with) <a href='https://biblehub.com/greek/3787.htm' target='_blank' rel='noopener noreferrer'>ὀφθαλμοδουλίαις</a> (eye‑services) <a href='https://biblehub.com/greek/5613.htm' target='_blank' rel='noopener noreferrer'>ὡς</a> (as) <a href='https://biblehub.com/greek/441.htm' target='_blank' rel='noopener noreferrer'>ἀνθρωπάρεσκοι</a> (men‑pleasers), ἀλλ’ (but) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/572.htm' target='_blank' rel='noopener noreferrer'>ἁπλότητι</a> (sincerity) <a href='https://biblehub.com/greek/2588.htm' target='_blank' rel='noopener noreferrer'>καρδίας</a> (of heart), <a href='https://biblehub.com/greek/5399.htm' target='_blank' rel='noopener noreferrer'>φοβούμενοι</a> (fearing) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (the) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κύριον</a> (Lord)."
+  kjvRef="KJV (3:22)"
+  kjvText="Servants, obey in all things your masters according to the flesh; not with <b>eyeservice</b>, as <b>menpleasers</b>; but in singleness of heart, fearing God:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:23)"
+  ivText="And whatsoever ye do, do it heartily, as to the Lord and not unto men,"
+  origRef="Greek (3:23)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>Ὃ</a> (Whatever) <a href='https://biblehub.com/greek/1437.htm' target='_blank' rel='noopener noreferrer'>ἐὰν</a> (if) <a href='https://biblehub.com/greek/4160.htm' target='_blank' rel='noopener noreferrer'>ποιῆτε</a> (you might do), <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (from) <a href='https://biblehub.com/greek/5590.htm' target='_blank' rel='noopener noreferrer'>ψυχῆς</a> (the soul) <a href='https://biblehub.com/greek/2038.htm' target='_blank' rel='noopener noreferrer'>ἐργάζεσθε</a> (work), <a href='https://biblehub.com/greek/5613.htm' target='_blank' rel='noopener noreferrer'>ὡς</a> (as) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (to the) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίῳ</a> (Lord) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐκ</a> (not) <a href='https://biblehub.com/greek/444.htm' target='_blank' rel='noopener noreferrer'>ἀνθρώποις</a> (to men),"
+  kjvRef="KJV (3:23)"
+  kjvText="And whatsoever ye do, do it heartily, as to the Lord, and not unto men;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:24)"
+  ivText="Knowing that of the Lord ye shall receive the reward of the inheritance; for ye serve the Lord Christ."
+  origRef="Greek (3:24)"
+  origText="<a href='https://biblehub.com/greek/1492.htm' target='_blank' rel='noopener noreferrer'>εἰδότες</a> (knowing) <a href='https://biblehub.com/greek/3754.htm' target='_blank' rel='noopener noreferrer'>ὅτι</a> (that) <a href='https://biblehub.com/greek/575.htm' target='_blank' rel='noopener noreferrer'>ἀπὸ</a> (from) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίου</a> (the Lord) <a href='https://biblehub.com/greek/618.htm' target='_blank' rel='noopener noreferrer'>ἀπολήμψεσθε</a> (you will receive) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/469.htm' target='_blank' rel='noopener noreferrer'>ἀνταπόδοσιν</a> (reward) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῆς</a> (of the) <a href='https://biblehub.com/greek/2817.htm' target='_blank' rel='noopener noreferrer'>κληρονομίας</a> (inheritance). <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (The) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίῳ</a> (Lord) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστῷ</a> (Christ) <a href='https://biblehub.com/greek/1398.htm' target='_blank' rel='noopener noreferrer'>δουλεύετε</a> (you serve)."
+  kjvRef="KJV (3:24)"
+  kjvText="Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (3:25)"
+  ivText="But he that doeth wrong shall receive for the wrong which he hath done; and there is no respect of persons."
+  origRef="Greek (3:25)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (The one) <a href='https://biblehub.com/greek/1063.htm' target='_blank' rel='noopener noreferrer'>γὰρ</a> (for) <a href='https://biblehub.com/greek/91.htm' target='_blank' rel='noopener noreferrer'>ἀδικῶν</a> (doing wrong) <a href='https://biblehub.com/greek/2865.htm' target='_blank' rel='noopener noreferrer'>κομίσεται</a> (will be repaid for) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὃ</a> (what) <a href='https://biblehub.com/greek/91.htm' target='_blank' rel='noopener noreferrer'>ἠδίκησεν</a> (he has done wrong), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3756.htm' target='_blank' rel='noopener noreferrer'>οὐκ</a> (not) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἔστιν</a> (there is) <a href='https://biblehub.com/greek/4382.htm' target='_blank' rel='noopener noreferrer'>προσωπολημψία</a> (partiality)."
+  kjvRef="KJV (3:25)"
+  kjvText="But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:1)"
+  ivText="Masters, give unto your servants that which is just and equal, knowing that ye also have a Master in heaven."
+  origRef="Greek (4:1)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Οἱ</a> (‑) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>κύριοι</a> (Masters), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (that which) <a href='https://biblehub.com/greek/1342.htm' target='_blank' rel='noopener noreferrer'>δίκαιον</a> (is righteous) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (that which) <a href='https://biblehub.com/greek/2471.htm' target='_blank' rel='noopener noreferrer'>ἰσότητα</a> (is equal), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῖς</a> (to the) <a href='https://biblehub.com/greek/1401.htm' target='_blank' rel='noopener noreferrer'>δούλοις</a> (slaves) <a href='https://biblehub.com/greek/3930.htm' target='_blank' rel='noopener noreferrer'>παρέχεσθε</a> (give), <a href='https://biblehub.com/greek/1492.htm' target='_blank' rel='noopener noreferrer'>εἰδότες</a> (knowing) <a href='https://biblehub.com/greek/3754.htm' target='_blank' rel='noopener noreferrer'>ὅτι</a> (that) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμεῖς</a> (you) <a href='https://biblehub.com/greek/2192.htm' target='_blank' rel='noopener noreferrer'>ἔχετε</a> (have) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κύριον</a> (a Master) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3772.htm' target='_blank' rel='noopener noreferrer'>οὐρανῷ</a> (heaven)."
+  kjvRef="KJV (4:1)"
+  kjvText="Masters, give unto your servants that which is just and equal; knowing that ye also have a Master in heaven."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:2)"
+  ivText="Continue in prayer and watch in the same with thanksgiving,"
+  origRef="Greek (4:2)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Τῇ</a> (‑) <a href='https://biblehub.com/greek/4335.htm' target='_blank' rel='noopener noreferrer'>προσευχῇ</a> (In prayer) <a href='https://biblehub.com/greek/4342.htm' target='_blank' rel='noopener noreferrer'>προσκαρτερεῖτε</a> (continue steadfastly), <a href='https://biblehub.com/greek/1127.htm' target='_blank' rel='noopener noreferrer'>γρηγοροῦντες</a> (watching) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῇ</a> (it) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (with) <a href='https://biblehub.com/greek/2169.htm' target='_blank' rel='noopener noreferrer'>εὐχαριστίᾳ</a> (thanksgiving),"
+  kjvRef="KJV (4:2)"
+  kjvText="Continue in prayer, and watch in the same with thanksgiving;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:3)"
+  ivText="Withal praying also for us, that God would open unto us a door of utterance to speak the mystery of Christ, for which I am also in bonds,"
+  origRef="Greek (4:3)"
+  origText="<a href='https://biblehub.com/greek/4336.htm' target='_blank' rel='noopener noreferrer'>προσευχόμενοι</a> (praying) <a href='https://biblehub.com/greek/260.htm' target='_blank' rel='noopener noreferrer'>ἅμα</a> (at the same time) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4012.htm' target='_blank' rel='noopener noreferrer'>περὶ</a> (for) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῶν</a> (us), <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεὸς</a> (God) <a href='https://biblehub.com/greek/455.htm' target='_blank' rel='noopener noreferrer'>ἀνοίξῃ</a> (may open) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῖν</a> (to us) <a href='https://biblehub.com/greek/2374.htm' target='_blank' rel='noopener noreferrer'>θύραν</a> (a door) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (for the) <a href='https://biblehub.com/greek/3056.htm' target='_blank' rel='noopener noreferrer'>λόγου</a> (word), <a href='https://biblehub.com/greek/2980.htm' target='_blank' rel='noopener noreferrer'>λαλῆσαι</a> (to declare) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸ</a> (the) <a href='https://biblehub.com/greek/3466.htm' target='_blank' rel='noopener noreferrer'>μυστήριον</a> (mystery) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ), δι’ (on account of) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὃ</a> (which) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/1210.htm' target='_blank' rel='noopener noreferrer'>δέδεμαι</a> (I have been bound),"
+  kjvRef="KJV (4:3)"
+  kjvText="Withal praying also for us, that God would open unto us a door of utterance, to speak the mystery of Christ, for which I am also in bonds:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:4)"
+  ivText="That I may make it manifest, as I ought to speak."
+  origRef="Greek (4:4)"
+  origText="<a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (so that) <a href='https://biblehub.com/greek/5319.htm' target='_blank' rel='noopener noreferrer'>φανερώσω</a> (I should make clear) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὸ</a> (it), <a href='https://biblehub.com/greek/5613.htm' target='_blank' rel='noopener noreferrer'>ὡς</a> (as) <a href='https://biblehub.com/greek/1163.htm' target='_blank' rel='noopener noreferrer'>δεῖ</a> (it behooves) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>με</a> (me) <a href='https://biblehub.com/greek/2980.htm' target='_blank' rel='noopener noreferrer'>λαλῆσαι</a> (to speak)."
+  kjvRef="KJV (4:4)"
+  kjvText="That I may make it manifest, as I ought to speak."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:5)"
+  ivText="Walk in wisdom toward them that are without, redeeming the time."
+  origRef="Greek (4:5)"
+  origText="<a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>Ἐν</a> (In) <a href='https://biblehub.com/greek/4678.htm' target='_blank' rel='noopener noreferrer'>σοφίᾳ</a> (wisdom) <a href='https://biblehub.com/greek/4043.htm' target='_blank' rel='noopener noreferrer'>περιπατεῖτε</a> (walk) <a href='https://biblehub.com/greek/4314.htm' target='_blank' rel='noopener noreferrer'>πρὸς</a> (toward) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοὺς</a> (those) <a href='https://biblehub.com/greek/1854.htm' target='_blank' rel='noopener noreferrer'>ἔξω</a> (outside), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὸν</a> (the) <a href='https://biblehub.com/greek/2540.htm' target='_blank' rel='noopener noreferrer'>καιρὸν</a> (time) <a href='https://biblehub.com/greek/1805.htm' target='_blank' rel='noopener noreferrer'>ἐξαγοραζόμενοι</a> (redeeming)."
+  kjvRef="KJV (4:5)"
+  kjvText="Walk in wisdom toward them that are without, redeeming the time."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:6)"
+  ivText="Let your speech be always with grace, seasoned with salt, that ye may know how ye ought to answer every man."
+  origRef="Greek (4:6)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/3056.htm' target='_blank' rel='noopener noreferrer'>λόγος</a> (Let the speech) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you) <a href='https://biblehub.com/greek/3842.htm' target='_blank' rel='noopener noreferrer'>πάντοτε</a> (be always) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/5485.htm' target='_blank' rel='noopener noreferrer'>χάριτι</a> (grace), <a href='https://biblehub.com/greek/217.htm' target='_blank' rel='noopener noreferrer'>ἅλατι</a> (with salt) <a href='https://biblehub.com/greek/741.htm' target='_blank' rel='noopener noreferrer'>ἠρτυμένος</a> (having been seasoned), <a href='https://biblehub.com/greek/1492.htm' target='_blank' rel='noopener noreferrer'>εἰδέναι</a> (to know) <a href='https://biblehub.com/greek/4459.htm' target='_blank' rel='noopener noreferrer'>πῶς</a> (how) <a href='https://biblehub.com/greek/1163.htm' target='_blank' rel='noopener noreferrer'>δεῖ</a> (it behooves) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/1520.htm' target='_blank' rel='noopener noreferrer'>ἑνὶ</a> (one) <a href='https://biblehub.com/greek/1538.htm' target='_blank' rel='noopener noreferrer'>ἑκάστῳ</a> (each) <a href='https://biblehub.com/greek/611.htm' target='_blank' rel='noopener noreferrer'>ἀποκρίνεσθαι</a> (to answer)."
+  kjvRef="KJV (4:6)"
+  kjvText="Let your speech be always with grace, seasoned with salt, that ye may know how ye ought to answer every man."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:7)"
+  ivText="All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister, and fellow servant in the Lord,"
+  origRef="Greek (4:7)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Τὰ</a> (The things) κατ’ (concerning) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἐμὲ</a> (me) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (all) <a href='https://biblehub.com/greek/1107.htm' target='_blank' rel='noopener noreferrer'>γνωρίσει</a> (will make known) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (to you) <a href='https://biblehub.com/greek/5190.htm' target='_blank' rel='noopener noreferrer'>Τυχικὸς</a> (Tychicus), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (the) <a href='https://biblehub.com/greek/27.htm' target='_blank' rel='noopener noreferrer'>ἀγαπητὸς</a> (beloved) <a href='https://biblehub.com/greek/80.htm' target='_blank' rel='noopener noreferrer'>ἀδελφὸς</a> (brother) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/4103.htm' target='_blank' rel='noopener noreferrer'>πιστὸς</a> (faithful) <a href='https://biblehub.com/greek/1249.htm' target='_blank' rel='noopener noreferrer'>διάκονος</a> (servant) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/4889.htm' target='_blank' rel='noopener noreferrer'>σύνδουλος</a> (fellow bond‑servant) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίῳ</a> (the Lord),"
+  kjvRef="KJV (4:7)"
+  kjvText="All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister and fellow servant in the Lord:"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:8)"
+  ivText="Whom I have sent unto you for the same purpose, that he might know your estate and comfort your hearts,"
+  origRef="Greek (4:8)"
+  origText="<a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὃν</a> (whom) <a href='https://biblehub.com/greek/3992.htm' target='_blank' rel='noopener noreferrer'>ἔπεμψα</a> (I sent) <a href='https://biblehub.com/greek/4314.htm' target='_blank' rel='noopener noreferrer'>πρὸς</a> (to) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (for) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὸ</a> (this very) <a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>τοῦτο</a> (purpose), <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/1097.htm' target='_blank' rel='noopener noreferrer'>γνῶτε</a> (you might know) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (the things) <a href='https://biblehub.com/greek/4012.htm' target='_blank' rel='noopener noreferrer'>περὶ</a> (concerning) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>ἡμῶν</a> (us), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3870.htm' target='_blank' rel='noopener noreferrer'>παρακαλέσῃ</a> (he may encourage) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰς</a> (the) <a href='https://biblehub.com/greek/2588.htm' target='_blank' rel='noopener noreferrer'>καρδίας</a> (hearts) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (of you),"
+  kjvRef="KJV (4:8)"
+  kjvText="Whom I have sent unto you for the same purpose, that he might know your estate, and comfort your hearts;"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:9)"
+  ivText="With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here."
+  origRef="Greek (4:9)"
+  origText="<a href='https://biblehub.com/greek/4862.htm' target='_blank' rel='noopener noreferrer'>σὺν</a> (with) <a href='https://biblehub.com/greek/3682.htm' target='_blank' rel='noopener noreferrer'>Ὀνησίμῳ</a> (Onesimus), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῷ</a> (the) <a href='https://biblehub.com/greek/4103.htm' target='_blank' rel='noopener noreferrer'>πιστῷ</a> (faithful) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/27.htm' target='_blank' rel='noopener noreferrer'>ἀγαπητῷ</a> (beloved) <a href='https://biblehub.com/greek/80.htm' target='_blank' rel='noopener noreferrer'>ἀδελφῷ</a> (brother), <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ὅς</a> (who) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ἐστιν</a> (is) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐξ</a> (one of) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you). <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>πάντα</a> (All things) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (to you) <a href='https://biblehub.com/greek/1107.htm' target='_blank' rel='noopener noreferrer'>γνωρίσουσιν</a> (they will make known) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὰ</a> (‑) <a href='https://biblehub.com/greek/5602.htm' target='_blank' rel='noopener noreferrer'>ὧδε</a> (here)."
+  kjvRef="KJV (4:9)"
+  kjvText="With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:10)"
+  ivText="Aristarchus, my fellow prisoner, saluteth you, and Marcus, sister's son to Barnabas (touching whom ye received commandments; if he come unto you, receive him),"
+  origRef="Greek (4:10)"
+  origText="<a href='https://biblehub.com/greek/782.htm' target='_blank' rel='noopener noreferrer'>Ἀσπάζεται</a> (Greets) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you), <a href='https://biblehub.com/greek/708.htm' target='_blank' rel='noopener noreferrer'>Ἀρίσταρχος</a> (Aristarchus) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (the) <a href='https://biblehub.com/greek/4869.htm' target='_blank' rel='noopener noreferrer'>συναιχμάλωτός</a> (fellow prisoner) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>μου</a> (of me), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3138.htm' target='_blank' rel='noopener noreferrer'>Μᾶρκος</a> (Mark), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (the) <a href='https://biblehub.com/greek/431.htm' target='_blank' rel='noopener noreferrer'>ἀνεψιὸς</a> (cousin) <a href='https://biblehub.com/greek/921.htm' target='_blank' rel='noopener noreferrer'>Βαρνάβα</a> (of Barnabas), <a href='https://biblehub.com/greek/4012.htm' target='_blank' rel='noopener noreferrer'>περὶ</a> (concerning) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>οὗ</a> (whom) <a href='https://biblehub.com/greek/2983.htm' target='_blank' rel='noopener noreferrer'>ἐλάβετε</a> (you have received) <a href='https://biblehub.com/greek/1785.htm' target='_blank' rel='noopener noreferrer'>ἐντολάς</a> (instructions) — <a href='https://biblehub.com/greek/1437.htm' target='_blank' rel='noopener noreferrer'>ἐὰν</a> (if) <a href='https://biblehub.com/greek/2064.htm' target='_blank' rel='noopener noreferrer'>ἔλθῃ</a> (he comes) <a href='https://biblehub.com/greek/4314.htm' target='_blank' rel='noopener noreferrer'>πρὸς</a> (to) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you), <a href='https://biblehub.com/greek/1209.htm' target='_blank' rel='noopener noreferrer'>δέξασθε</a> (welcome) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτόν</a> (him) —"
+  kjvRef="KJV (4:10)"
+  kjvText="Aristarchus my fellow prisoner saluteth you, and Marcus, sister's son to Barnabas, (touching whom ye received commandments: if he come unto you, receive him;)"
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:11)"
+  ivText="And Jesus, which is called Justus, who are of the circumcision. These only are my fellow workers <b>in</b> the kingdom of God, which have been a comfort unto me."
+  origRef="Greek (4:11)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and also) <a href='https://biblehub.com/greek/2424.htm' target='_blank' rel='noopener noreferrer'>Ἰησοῦς</a> (Jesus) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/3004.htm' target='_blank' rel='noopener noreferrer'>λεγόμενος</a> (called) <a href='https://biblehub.com/greek/2459.htm' target='_blank' rel='noopener noreferrer'>Ἰοῦστος</a> (Justus), <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>οἱ</a> (‑) <a href='https://biblehub.com/greek/1510.htm' target='_blank' rel='noopener noreferrer'>ὄντες</a> (being) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (among) <a href='https://biblehub.com/greek/4061.htm' target='_blank' rel='noopener noreferrer'>περιτομῆς</a> (the circumcision) <a href='https://biblehub.com/greek/3778.htm' target='_blank' rel='noopener noreferrer'>οὗτοι</a> (these) <a href='https://biblehub.com/greek/3441.htm' target='_blank' rel='noopener noreferrer'>μόνοι</a> (only) <a href='https://biblehub.com/greek/4904.htm' target='_blank' rel='noopener noreferrer'>συνεργοὶ</a> (fellow workers) <a href='https://biblehub.com/greek/1519.htm' target='_blank' rel='noopener noreferrer'>εἰς</a> (for) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/932.htm' target='_blank' rel='noopener noreferrer'>βασιλείαν</a> (kingdom) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God), <a href='https://biblehub.com/greek/3748.htm' target='_blank' rel='noopener noreferrer'>οἵτινες</a> (who) <a href='https://biblehub.com/greek/1096.htm' target='_blank' rel='noopener noreferrer'>ἐγενήθησάν</a> (have been) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>μοι</a> (to me) <a href='https://biblehub.com/greek/3931.htm' target='_blank' rel='noopener noreferrer'>παρηγορία</a> (a comfort)."
+  kjvRef="KJV (4:11)"
+  kjvText="And Jesus, which is called Justus, who are of the circumcision. These only are my fellow workers <b>unto</b> the kingdom of God, which have been a comfort unto me."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:12)"
+  ivText="Epaphras, who is one of you, a servant of Christ, saluteth you, always laboring fervently for you in prayers, that ye may stand perfect and complete in all the will of God."
+  origRef="Greek (4:12)"
+  origText="<a href='https://biblehub.com/greek/782.htm' target='_blank' rel='noopener noreferrer'>Ἀσπάζεται</a> (Greets) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you), <a href='https://biblehub.com/greek/1889.htm' target='_blank' rel='noopener noreferrer'>Ἐπαφρᾶς</a> (Epaphras) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (who is) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐξ</a> (one of) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you), <a href='https://biblehub.com/greek/1401.htm' target='_blank' rel='noopener noreferrer'>δοῦλος</a> (a servant) <a href='https://biblehub.com/greek/5547.htm' target='_blank' rel='noopener noreferrer'>Χριστοῦ</a> (of Christ) <a href='https://biblehub.com/greek/2424.htm' target='_blank' rel='noopener noreferrer'>Ἰησοῦ</a> (Jesus), <a href='https://biblehub.com/greek/3842.htm' target='_blank' rel='noopener noreferrer'>πάντοτε</a> (always) <a href='https://biblehub.com/greek/75.htm' target='_blank' rel='noopener noreferrer'>ἀγωνιζόμενος</a> (struggling) <a href='https://biblehub.com/greek/5228.htm' target='_blank' rel='noopener noreferrer'>ὑπὲρ</a> (for) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ταῖς</a> (the) <a href='https://biblehub.com/greek/4335.htm' target='_blank' rel='noopener noreferrer'>προσευχαῖς</a> (prayers), <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (so that) <a href='https://biblehub.com/greek/2476.htm' target='_blank' rel='noopener noreferrer'>σταθῆτε</a> (you may stand) <a href='https://biblehub.com/greek/5046.htm' target='_blank' rel='noopener noreferrer'>τέλειοι</a> (mature) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/4135.htm' target='_blank' rel='noopener noreferrer'>πεπληροφορημένοι</a> (fully assured) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3956.htm' target='_blank' rel='noopener noreferrer'>παντὶ</a> (all) <a href='https://biblehub.com/greek/2307.htm' target='_blank' rel='noopener noreferrer'>θελήματι</a> (the will) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοῦ</a> (‑) <a href='https://biblehub.com/greek/2316.htm' target='_blank' rel='noopener noreferrer'>Θεοῦ</a> (of God)."
+  kjvRef="KJV (4:12)"
+  kjvText="Epaphras, who is one of you, a servant of Christ, saluteth you, always laboring fervently for you in prayers, that ye may stand perfect and complete in all the will of God."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:13)"
+  ivText="For I bear him record, that he hath a great zeal for you, and them that are in Laodicea, and them in Hierapolis."
+  origRef="Greek (4:13)"
+  origText="<a href='https://biblehub.com/greek/3140.htm' target='_blank' rel='noopener noreferrer'>μαρτυρῶ</a> (I bear witness) <a href='https://biblehub.com/greek/1063.htm' target='_blank' rel='noopener noreferrer'>γὰρ</a> (for) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῷ</a> (to him) <a href='https://biblehub.com/greek/3754.htm' target='_blank' rel='noopener noreferrer'>ὅτι</a> (that) <a href='https://biblehub.com/greek/2192.htm' target='_blank' rel='noopener noreferrer'>ἔχει</a> (he has) <a href='https://biblehub.com/greek/4183.htm' target='_blank' rel='noopener noreferrer'>πολὺν</a> (great) <a href='https://biblehub.com/greek/4192.htm' target='_blank' rel='noopener noreferrer'>πόνον</a> (concern) <a href='https://biblehub.com/greek/5228.htm' target='_blank' rel='noopener noreferrer'>ὑπὲρ</a> (for) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (those) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2993.htm' target='_blank' rel='noopener noreferrer'>Λαοδικείᾳ</a> (Laodicea) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (them) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) Ἱερα‿ (Hiera) <a href='https://biblehub.com/greek/4172.htm' target='_blank' rel='noopener noreferrer'>πόλει</a> (polis)."
+  kjvRef="KJV (4:13)"
+  kjvText="For I bear him record, that he hath a great zeal for you, and them that are in Laodicea, and them in Hierapolis."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:14)"
+  ivText="Luke, the beloved physician, and Demas greet you."
+  origRef="Greek (4:14)"
+  origText="<a href='https://biblehub.com/greek/782.htm' target='_blank' rel='noopener noreferrer'>Ἀσπάζεται</a> (Greets) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμᾶς</a> (you), <a href='https://biblehub.com/greek/3065.htm' target='_blank' rel='noopener noreferrer'>Λουκᾶς</a> (Luke) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (the) <a href='https://biblehub.com/greek/2395.htm' target='_blank' rel='noopener noreferrer'>ἰατρὸς</a> (physician) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ὁ</a> (‑) <a href='https://biblehub.com/greek/27.htm' target='_blank' rel='noopener noreferrer'>ἀγαπητὸς</a> (beloved), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and also) <a href='https://biblehub.com/greek/1214.htm' target='_blank' rel='noopener noreferrer'>Δημᾶς</a> (Demas)."
+  kjvRef="KJV (4:14)"
+  kjvText="Luke, the beloved physician, and Demas, greet you."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:15)"
+  ivText="Salute the brethren which are in Laodicea, and Nymphas, and the church which is in his house."
+  origRef="Greek (4:15)"
+  origText="<a href='https://biblehub.com/greek/782.htm' target='_blank' rel='noopener noreferrer'>Ἀσπάσασθε</a> (Greet) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τοὺς</a> (the) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2993.htm' target='_blank' rel='noopener noreferrer'>Λαοδικείᾳ</a> (Laodicea) <a href='https://biblehub.com/greek/80.htm' target='_blank' rel='noopener noreferrer'>ἀδελφοὺς</a> (brothers), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and also) <a href='https://biblehub.com/greek/3564.htm' target='_blank' rel='noopener noreferrer'>Νύμφαν</a> (Nympha), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) κατ’ (in) <a href='https://biblehub.com/greek/3624.htm' target='_blank' rel='noopener noreferrer'>οἶκον</a> (house) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτῆς</a> (of her) <a href='https://biblehub.com/greek/1577.htm' target='_blank' rel='noopener noreferrer'>ἐκκλησίαν</a> (church)."
+  kjvRef="KJV (4:15)"
+  kjvText="Salute the brethren which are in Laodicea, and Nymphas, and the church which is in his house."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:16)"
+  ivText="And when this epistle is read among you, cause that it be read also in the church of the Laodiceans, and that ye likewise read the epistle from Laodicea,"
+  origRef="Greek (4:16)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>Καὶ</a> (And) <a href='https://biblehub.com/greek/3752.htm' target='_blank' rel='noopener noreferrer'>ὅταν</a> (when) <a href='https://biblehub.com/greek/314.htm' target='_blank' rel='noopener noreferrer'>ἀναγνωσθῇ</a> (shall be read) παρ’ (among) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῖν</a> (you) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>ἡ</a> (the) <a href='https://biblehub.com/greek/1992.htm' target='_blank' rel='noopener noreferrer'>ἐπιστολή</a> (letter), <a href='https://biblehub.com/greek/4160.htm' target='_blank' rel='noopener noreferrer'>ποιήσατε</a> (cause) <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (the) <a href='https://biblehub.com/greek/2994.htm' target='_blank' rel='noopener noreferrer'>Λαοδικέων</a> (of the Laodiceans) <a href='https://biblehub.com/greek/1577.htm' target='_blank' rel='noopener noreferrer'>ἐκκλησίᾳ</a> (church) <a href='https://biblehub.com/greek/314.htm' target='_blank' rel='noopener noreferrer'>ἀναγνωσθῇ</a> (it may be read), <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (and) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the one) <a href='https://biblehub.com/greek/1537.htm' target='_blank' rel='noopener noreferrer'>ἐκ</a> (from) <a href='https://biblehub.com/greek/2993.htm' target='_blank' rel='noopener noreferrer'>Λαοδικείας</a> (Laodicea) <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>καὶ</a> (also) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμεῖς</a> (you) <a href='https://biblehub.com/greek/314.htm' target='_blank' rel='noopener noreferrer'>ἀναγνῶτε</a> (may read)."
+  kjvRef="KJV (4:16)"
+  kjvText="And when this epistle is read among you, cause that it be read also in the church of the Laodiceans; and that ye likewise read the epistle from Laodicea."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:17)"
+  ivText="And say to Archippus, Take heed to the ministry which thou hast received in the Lord, that thou fulfill it."
+  origRef="Greek (4:17)"
+  origText="<a href='https://biblehub.com/greek/2532.htm' target='_blank' rel='noopener noreferrer'>Καὶ</a> (And) <a href='https://biblehub.com/greek/2036.htm' target='_blank' rel='noopener noreferrer'>εἴπατε</a> (say) <a href='https://biblehub.com/greek/751.htm' target='_blank' rel='noopener noreferrer'>Ἀρχίππῳ</a> (to Archippus), “<a href='https://biblehub.com/greek/991.htm' target='_blank' rel='noopener noreferrer'>Βλέπε</a> (Take heed to) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τὴν</a> (the) <a href='https://biblehub.com/greek/1248.htm' target='_blank' rel='noopener noreferrer'>διακονίαν</a> (ministry) <a href='https://biblehub.com/greek/3739.htm' target='_blank' rel='noopener noreferrer'>ἣν</a> (that) <a href='https://biblehub.com/greek/3880.htm' target='_blank' rel='noopener noreferrer'>παρέλαβες</a> (you have received) <a href='https://biblehub.com/greek/1722.htm' target='_blank' rel='noopener noreferrer'>ἐν</a> (in) <a href='https://biblehub.com/greek/2962.htm' target='_blank' rel='noopener noreferrer'>Κυρίῳ</a> (the Lord), <a href='https://biblehub.com/greek/2443.htm' target='_blank' rel='noopener noreferrer'>ἵνα</a> (that) <a href='https://biblehub.com/greek/846.htm' target='_blank' rel='noopener noreferrer'>αὐτὴν</a> (it) <a href='https://biblehub.com/greek/4137.htm' target='_blank' rel='noopener noreferrer'>πληροῖς</a> (you may fulfill).”"
+  kjvRef="KJV (4:17)"
+  kjvText="And say to Archippus, Take heed to the ministry which thou hast received in the Lord, that thou fulfill it."
+/>
+<VerseRow
+  isOt={false}
+  ivRef="Inspired Version (4:18)"
+  ivText="The salutation by the hand of me, Paul. Remember my bonds. Grace be with you. Amen."
+  origRef="Greek (4:18)"
+  origText="<a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Ὁ</a> (The) <a href='https://biblehub.com/greek/783.htm' target='_blank' rel='noopener noreferrer'>ἀσπασμὸς</a> (greeting) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῇ</a> (is in the) <a href='https://biblehub.com/greek/1699.htm' target='_blank' rel='noopener noreferrer'>ἐμῇ</a> (own) <a href='https://biblehub.com/greek/5495.htm' target='_blank' rel='noopener noreferrer'>χειρὶ</a> (hand) — <a href='https://biblehub.com/greek/3972.htm' target='_blank' rel='noopener noreferrer'>Παύλου</a> (Paul). <a href='https://biblehub.com/greek/3421.htm' target='_blank' rel='noopener noreferrer'>Μνημονεύετέ</a> (Remember) <a href='https://biblehub.com/greek/1473.htm' target='_blank' rel='noopener noreferrer'>μου</a> (my) <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>τῶν</a> (‑) <a href='https://biblehub.com/greek/1199.htm' target='_blank' rel='noopener noreferrer'>δεσμῶν</a> (chains). <a href='https://biblehub.com/greek/3588.htm' target='_blank' rel='noopener noreferrer'>Ἡ</a> (‑) <a href='https://biblehub.com/greek/5485.htm' target='_blank' rel='noopener noreferrer'>χάρις</a> (Grace be) μεθ’ (with) <a href='https://biblehub.com/greek/4771.htm' target='_blank' rel='noopener noreferrer'>ὑμῶν</a> (you)."
+  kjvRef="KJV (4:18)"
+  kjvText="The salutation by the hand of me Paul. Remember my bonds. Grace be with you. Amen."
+/>
+</div>
